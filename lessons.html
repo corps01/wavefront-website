@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WaveFront lessons and pricing — ISR Self-Rescue programs for infants and toddlers."
+    />
+    <title>Lessons & Pricing | WaveFront</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              blue: {
+                50:  "#e0f7ff",
+                100: "#bae6fd",
+                300: "#38bdf8",
+                400: "#0ea5e9",
+                700: "#0284c7",
+                800: "#0369a1",
+                900: "#0c4a6e",
+                950: "#082f49",
+              },
+              surface: {
+                DEFAULT: "#e8f6fe",
+                low:    "#dcf0fc",
+                mid:    "#cae6f7",
+                high:   "#b8d9f0",
+                border: "#94c4e8",
+              },
+              ink: {
+                DEFAULT: "#15232f",
+                light:   "#3d4f63",
+                faint:   "#5c6e82",
+                muted:   "#8a9bb0",
+              },
+              warm: {
+                DEFAULT: "#fb9aab",
+                dim:     "#f4899d",
+                ink:     "#7a1d35",
+                mid:     "#8a2d45",
+              },
+              gold: {
+                DEFAULT: "#ffd84d",
+                dim:     "#f5c82e",
+                ink:     "#6b4e00",
+                mid:     "#7a5e10",
+                dark:    "#5a3f00",
+              },
+            },
+            borderRadius: {
+              DEFAULT: "1rem",
+              lg: "2rem",
+              xl: "3rem",
+              full: "9999px",
+            },
+            fontFamily: {
+              headline: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+              body:     ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-surface text-ink font-body selection:bg-blue-300 selection:text-blue-900">
+    <a class="skip-link" href="#main" data-i18n="a11y.skipToContent">Skip to content</a>
+
+    <div class="wavefront-root">
+      <nav
+        class="fixed top-0 z-50 w-full rounded-b-[3rem] bg-white/80 shadow-[0_8px_32px_rgba(39,98,124,0.08)] backdrop-blur-md"
+        data-i18n="a11y.navPrimary"
+        data-i18n-attr="aria-label"
+        aria-label="Primary"
+      >
+        <div
+          class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-8"
+        >
+          <a
+            href="index.html#home"
+            class="flex items-center gap-2 md:gap-3"
+            data-i18n="brand.name"
+            data-i18n-attr="aria-label"
+            aria-label="WaveFront"
+          >
+            <img
+              src="assets/images/WF_Star.png"
+              alt=""
+              width="64"
+              height="64"
+              class="h-16 w-auto shrink-0 object-contain"
+              decoding="async"
+            />
+            <img
+              src="assets/images/WF_Logo.png"
+              alt=""
+              width="160"
+              height="40"
+              class="h-8 w-auto max-h-10 object-contain sm:h-10"
+              decoding="async"
+            />
+          </a>
+
+          <div
+            class="hidden items-center gap-9 text-base font-medium tracking-wide md:flex"
+          >
+            <a
+              class="border-b-2 border-blue-300 pb-1 text-blue-900 transition-colors hover:text-blue-700"
+              href="lessons.html"
+              data-i18n="nav.lessons"
+              >Lessons</a
+            >
+            <a
+              class="text-ink-light transition-colors hover:text-blue-700"
+              href="about.html"
+              data-i18n="nav.about"
+              >About</a
+            >
+            <a
+              class="text-ink-light transition-colors hover:text-blue-700"
+              href="#faq"
+              data-i18n="nav.faq"
+              >FAQ</a
+            >
+            <a
+              class="text-ink-light transition-colors hover:text-blue-700"
+              href="contact.html"
+              data-i18n="nav.contact"
+              >Contact</a
+            >
+          </div>
+
+          <div class="flex items-center gap-2 sm:gap-3">
+            <div
+              class="flex items-center gap-0.5 rounded-full border border-surface-border p-0.5 text-xs text-ink-light"
+              role="group"
+              data-i18n="a11y.languageToggle"
+              data-i18n-attr="aria-label"
+              aria-label="Language"
+            >
+              <button
+                type="button"
+                data-locale="en"
+                class="rounded-full px-2 py-1 transition-colors hover:bg-surface-low"
+                aria-pressed="true"
+              >
+                EN
+              </button>
+              <button
+                type="button"
+                data-locale="es"
+                class="rounded-full px-2 py-1 transition-colors hover:bg-surface-low"
+                aria-pressed="false"
+              >
+                ES
+              </button>
+            </div>
+            <a
+              href="contact.html"
+              class="hidden rounded-full bg-blue-300 px-6 py-3 font-semibold text-blue-900 shadow-lg shadow-blue-700/20 transition-transform duration-200 hover:scale-105 active:scale-95 sm:inline-flex"
+              data-i18n="nav.bookNow"
+            >
+              Book Now
+            </a>
+            <button
+              type="button"
+              class="inline-flex rounded-full border border-surface-border p-2 text-ink md:hidden"
+              aria-expanded="false"
+              aria-controls="mobile-nav"
+              data-nav-toggle
+            >
+              <span class="material-symbols-outlined" aria-hidden="true"
+                >menu</span
+              >
+              <span class="sr-only" data-i18n="a11y.openMenu">Open menu</span>
+            </button>
+          </div>
+        </div>
+
+        <div
+          id="mobile-nav"
+          class="nav-panel border-t border-surface-mid bg-white/95 px-6 py-4 md:hidden"
+          hidden
+          data-nav-panel
+        >
+          <div class="flex flex-col gap-4 text-base font-medium">
+            <a
+              class="text-blue-900"
+              href="lessons.html"
+              data-i18n="nav.lessons"
+              >Lessons</a
+            >
+            <a class="text-ink-light" href="about.html" data-i18n="nav.about"
+              >About</a
+            >
+            <a class="text-ink-light" href="#faq" data-i18n="nav.faq">FAQ</a>
+            <a
+              class="text-ink-light"
+              href="contact.html"
+              data-i18n="nav.contact"
+              >Contact</a
+            >
+            <a
+              href="contact.html"
+              class="mt-2 inline-flex justify-center rounded-full bg-blue-300 px-8 py-3 font-semibold text-blue-900 shadow-lg shadow-blue-700/20"
+              data-i18n="nav.bookNow"
+            >
+              Book Now
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <main id="main" class="pt-28">
+        <!-- Hero -->
+        <section class="relative overflow-hidden bg-surface px-6 py-16">
+          <div class="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
+            <div class="z-10 space-y-6">
+              <span
+                class="inline-block rounded-full bg-blue-300 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-blue-900"
+                data-i18n="lessonsPage.hero.badge"
+              >
+                Swim with Confidence
+              </span>
+              <h1 class="font-headline text-5xl font-extrabold leading-tight tracking-tight text-blue-700 md:text-6xl">
+                <span data-i18n="lessonsPage.hero.titleLine1">Gentle Waves,</span>
+                <br />
+                <span data-i18n="lessonsPage.hero.titleLine2">Lifelong Skills.</span>
+              </h1>
+              <p class="max-w-md text-lg leading-relaxed text-ink-light" data-i18n="lessonsPage.hero.lead">
+                Our ISR Self-Rescue programs are designed to nurture water confidence in a safe, loving environment.
+              </p>
+            </div>
+            <div class="relative">
+              <div class="absolute -top-10 -right-10 -z-10 h-64 w-64 bg-blue-400/30 organic-blob"></div>
+              <div class="absolute -bottom-10 -left-10 -z-10 h-48 w-48 bg-warm/40 organic-blob"></div>
+              <img
+                data-i18n="lessonsPage.hero.imgAlt"
+                data-i18n-attr="alt"
+                alt="Toddler smiling in a bright pool"
+                class="w-full rotate-2 rounded-xl object-cover shadow-xl transition-transform duration-500 hover:rotate-0"
+                src="assets/images/59fe74df-fb68-47c5-b3e0-3020968a472e.jpg"
+                width="800"
+                height="600"
+                loading="eager"
+                decoding="async"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- Core Programs -->
+        <section class="bg-surface-low px-6 py-24">
+          <div class="mx-auto max-w-7xl">
+            <div class="mb-16 text-center">
+              <h2 class="mb-4 font-headline text-4xl font-bold tracking-tight text-blue-700" data-i18n="lessonsPage.core.heading">
+                Core Programs
+              </h2>
+              <p class="mx-auto max-w-xl text-ink-light" data-i18n="lessonsPage.core.lead">
+                Foundational skills that stay with your child for a lifetime.
+              </p>
+            </div>
+
+            <div class="grid gap-10 md:grid-cols-2">
+              <!-- Infant card -->
+              <article
+                class="flex flex-col items-center rounded-2xl border border-surface-border/10 bg-white p-8 text-center shadow-[0_8px_40px_rgba(39,98,124,0.08)] transition-transform duration-300 hover:-translate-y-1 md:p-10"
+              >
+                <h3
+                  class="mb-3 max-w-md font-headline text-2xl font-extrabold uppercase tracking-[0.12em] text-blue-300 md:text-3xl"
+                  data-i18n="lessonsPage.core.infant.title"
+                >
+                  ISR Self-Rescue® Infant
+                </h3>
+                <p class="mb-1 text-xs font-bold uppercase tracking-wide text-ink" data-i18n="lessonsPage.core.infant.ageRange">Children 6 months – 12 months</p>
+                <p class="mb-8 text-xs font-bold uppercase tracking-wide text-ink-light" data-i18n="lessonsPage.core.infant.duration">
+                  Duration: 6 – 7 weeks
+                </p>
+                <div class="relative mb-8 aspect-video w-full max-w-lg overflow-hidden rounded-xl bg-blue-900/10 shadow-inner">
+                  <iframe
+                    class="absolute inset-0 h-full w-full"
+                    data-i18n="lessonsPage.core.infant.videoEmbed"
+                    data-i18n-attr="src"
+                    src="https://www.youtube-nocookie.com/embed/jNQXAC9IVRw"
+                    title="ISR Self-Rescue Infant program video"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="mb-10 max-w-md text-sm leading-relaxed text-ink md:text-base" data-i18n="lessonsPage.core.infant.description">
+                  Children learn the ISR Self-Rescue skill of rolling onto their backs to float, rest, and breathe. They learn to maintain this position until help arrives. This is the initial ISR course for infants—one-on-one lessons tailored to your baby’s development.
+                </p>
+                <div class="mt-auto flex w-full max-w-md flex-wrap justify-center gap-4">
+                  <a
+                    href="#pricing"
+                    class="min-w-[140px] flex-1 rounded-full bg-blue-300 px-6 py-3 text-center text-sm font-bold uppercase tracking-wide text-blue-900 shadow-sm transition-all hover:bg-blue-400"
+                    data-i18n="lessonsPage.core.viewPricing"
+                  >
+                    View pricing
+                  </a>
+                  <a
+                    href="index.html#contact"
+                    class="min-w-[140px] flex-1 rounded-full bg-blue-300 px-6 py-3 text-center text-sm font-bold uppercase tracking-wide text-blue-900 shadow-sm transition-all hover:bg-blue-400"
+                    data-i18n="lessonsPage.core.viewSchedule"
+                  >
+                    View schedule
+                  </a>
+                </div>
+              </article>
+
+              <!-- Toddler card -->
+              <article
+                class="flex flex-col items-center rounded-2xl border border-surface-border/10 bg-white p-8 text-center shadow-[0_8px_40px_rgba(39,98,124,0.08)] transition-transform duration-300 hover:-translate-y-1 md:p-10"
+              >
+                <h3
+                  class="mb-3 max-w-md font-headline text-2xl font-extrabold uppercase tracking-[0.12em] text-blue-300 md:text-3xl"
+                  data-i18n="lessonsPage.core.toddler.title"
+                >
+                  ISR Self-Rescue® Toddler
+                </h3>
+                <p class="mb-1 text-xs font-bold uppercase tracking-wide text-ink" data-i18n="lessonsPage.core.toddler.ageRange">Children 1 year – 6 years</p>
+                <p class="mb-8 text-xs font-bold uppercase tracking-wide text-ink-light" data-i18n="lessonsPage.core.toddler.duration">
+                  Duration: 2 – 4 weeks
+                </p>
+                <div class="relative mb-8 aspect-video w-full max-w-lg overflow-hidden rounded-xl bg-blue-900/10 shadow-inner">
+                  <iframe
+                    class="absolute inset-0 h-full w-full"
+                    data-i18n="lessonsPage.core.toddler.videoEmbed"
+                    data-i18n-attr="src"
+                    src="https://www.youtube-nocookie.com/embed/jNQXAC9IVRw"
+                    title="ISR Self-Rescue Toddler program video"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="mb-10 max-w-md text-sm leading-relaxed text-ink md:text-base" data-i18n="lessonsPage.core.toddler.description">
+                  Building on solid fundamentals, toddlers learn the Swim-Float-Swim sequence, how to reach the pool edge or steps safely, and how to perform skills in clothing for real-world readiness—always with focused, one-on-one instruction.
+                </p>
+                <div class="mt-auto flex w-full max-w-md flex-wrap justify-center gap-4">
+                  <a
+                    href="#pricing"
+                    class="min-w-[140px] flex-1 rounded-full bg-blue-300 px-6 py-3 text-center text-sm font-bold uppercase tracking-wide text-blue-900 shadow-sm transition-all hover:bg-blue-400"
+                    data-i18n="lessonsPage.core.viewPricing"
+                  >
+                    View pricing
+                  </a>
+                  <a
+                    href="index.html#contact"
+                    class="min-w-[140px] flex-1 rounded-full bg-blue-300 px-6 py-3 text-center text-sm font-bold uppercase tracking-wide text-blue-900 shadow-sm transition-all hover:bg-blue-400"
+                    data-i18n="lessonsPage.core.viewSchedule"
+                  >
+                    View schedule
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Continuing Education -->
+        <section id="continuing" class="bg-surface px-6 py-24">
+          <div class="mx-auto max-w-7xl">
+            <div class="mb-16 flex flex-col justify-between gap-6 md:flex-row md:items-end">
+              <div>
+                <h2 class="mb-4 font-headline text-4xl font-bold text-blue-700" data-i18n="lessonsPage.continuing.heading">
+                  Continuing Education
+                </h2>
+                <p class="text-ink-light" data-i18n="lessonsPage.continuing.lead">
+                  Polishing skills and building endurance through playful practice.
+                </p>
+              </div>
+              <div class="hidden h-1 w-32 rounded-full bg-gold md:block" aria-hidden="true"></div>
+            </div>
+
+            <div class="grid gap-8 md:grid-cols-3">
+              <a
+                href="https://www.webaccomplice.app/scheduler_app/initiate_waitlist/cv833/0/1"
+                class="flex flex-col rounded-xl bg-white p-8 text-left text-inherit no-underline transition-colors hover:bg-gold/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-labelledby="continuing-refresher-title"
+              >
+                <span class="material-symbols-outlined mb-4 text-4xl text-gold-mid" data-weight="fill" aria-hidden="true">history</span>
+                <h3 class="mb-3 text-xl font-bold" id="continuing-refresher-title" data-i18n="lessonsPage.continuing.refresher.title">Refresher</h3>
+                <p class="text-sm leading-relaxed text-ink-light" data-i18n="lessonsPage.continuing.refresher.body">
+                  2–3 week course to sharpen skills after a break from the water.
+                </p>
+              </a>
+              <a
+                href="https://www.webaccomplice.app/scheduler_app/initiate_waitlist/cv833/0/1"
+                class="flex flex-col rounded-xl bg-white p-8 text-left text-inherit no-underline transition-colors hover:bg-gold/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-labelledby="continuing-maintenance-title"
+              >
+                <span class="material-symbols-outlined mb-4 text-4xl text-gold-mid" data-weight="fill" aria-hidden="true">verified_user</span>
+                <h3 class="mb-3 text-xl font-bold" id="continuing-maintenance-title" data-i18n="lessonsPage.continuing.maintenance.title">Maintenance</h3>
+                <p class="text-sm leading-relaxed text-ink-light" data-i18n="lessonsPage.continuing.maintenance.body">
+                  Ongoing weekly lessons to keep muscle memory fresh and confidence high.
+                </p>
+              </a>
+              <a
+                href="https://www.webaccomplice.app/scheduler_app/initiate_waitlist/cv833/0/1"
+                class="flex flex-col rounded-xl bg-white p-8 text-left text-inherit no-underline transition-colors hover:bg-gold/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-labelledby="continuing-strokes-title"
+              >
+                <span class="material-symbols-outlined mb-4 text-4xl text-gold-mid" data-weight="fill" aria-hidden="true">pool</span>
+                <h3 class="mb-3 text-xl font-bold" id="continuing-strokes-title" data-i18n="lessonsPage.continuing.strokes.title">Strokes & Form</h3>
+                <p class="text-sm leading-relaxed text-ink-light" data-i18n="lessonsPage.continuing.strokes.body">
+                  Introduction to formal swimming strokes and technical efficiency.
+                </p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section
+          id="testimonials"
+          class="relative bg-surface-low py-24"
+          data-i18n="a11y.testimonialsSection"
+          data-i18n-attr="aria-label"
+          aria-label="Testimonials"
+        >
+          <div class="mx-auto max-w-7xl px-6 md:px-8">
+            <h2
+              class="mb-16 text-center font-headline text-4xl font-bold text-blue-900"
+              data-i18n="testimonials.heading"
+            >
+              What parents are saying
+            </h2>
+            <div class="columns-1 gap-6 space-y-6 md:columns-2 lg:columns-3">
+              <figure
+                class="break-inside-avoid rounded-xl border-l-4 border-blue-700 bg-surface p-8 shadow-sm"
+              >
+                <blockquote
+                  class="mb-6 italic text-ink-light"
+                  data-i18n="testimonials.sarah.quote"
+                >
+                  "My daughter was so afraid of water. Cynthia's patience
+                  changed everything. Now she's like a little mermaid!"
+                </blockquote>
+                <figcaption class="flex items-center gap-4">
+                  <span
+                    class="h-10 w-10 rounded-full bg-warm"
+                    aria-hidden="true"
+                  ></span>
+                  <div>
+                    <p
+                      class="text-sm font-bold"
+                      data-i18n="testimonials.sarah.name"
+                    >
+                      Sarah J.
+                    </p>
+                    <p
+                      class="text-xs text-ink-light"
+                      data-i18n="testimonials.sarah.role"
+                    >
+                      Mom to Mia, 2 yrs
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure
+                class="break-inside-avoid rounded-xl border-l-4 border-blue-800 bg-blue-300/10 p-8 shadow-sm"
+              >
+                <blockquote
+                  class="mb-6 italic text-ink-light"
+                  data-i18n="testimonials.marcus.quote"
+                >
+                  "The one-on-one attention is what sold me—focused,
+                  professional care without a crowded public pool."
+                </blockquote>
+                <figcaption class="flex items-center gap-4">
+                  <span
+                    class="h-10 w-10 rounded-full bg-blue-300"
+                    aria-hidden="true"
+                  ></span>
+                  <div>
+                    <p
+                      class="text-sm font-bold"
+                      data-i18n="testimonials.marcus.name"
+                    >
+                      Marcus R.
+                    </p>
+                    <p
+                      class="text-xs text-ink-light"
+                      data-i18n="testimonials.marcus.role"
+                    >
+                      Dad to Leo, 18 mo
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure
+                class="break-inside-avoid rounded-xl border-l-4 border-gold-mid bg-gold/20 p-8 shadow-sm"
+              >
+                <blockquote
+                  class="mb-6 italic text-ink-light"
+                  data-i18n="testimonials.emily.quote"
+                >
+                  "I never thought survival training could feel so warm. Cynthia
+                  is a baby whisperer."
+                </blockquote>
+                <figcaption class="flex items-center gap-4">
+                  <span
+                    class="h-10 w-10 rounded-full bg-gold"
+                    aria-hidden="true"
+                  ></span>
+                  <div>
+                    <p
+                      class="text-sm font-bold"
+                      data-i18n="testimonials.emily.name"
+                    >
+                      Emily C.
+                    </p>
+                    <p
+                      class="text-xs text-ink-light"
+                      data-i18n="testimonials.emily.role"
+                    >
+                      Mom to Toby, 10 mo
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure
+                class="break-inside-avoid rounded-xl border-l-4 border-warm-mid bg-warm/10 p-8 shadow-sm"
+              >
+                <blockquote
+                  class="mb-6 italic text-ink-light"
+                  data-i18n="testimonials.laura.quote"
+                >
+                  "Worth every penny. The peace of mind in our backyard pool is
+                  priceless."
+                </blockquote>
+                <figcaption class="flex items-center gap-4">
+                  <span
+                    class="h-10 w-10 rounded-full bg-warm-dim"
+                    aria-hidden="true"
+                  ></span>
+                  <div>
+                    <p
+                      class="text-sm font-bold"
+                      data-i18n="testimonials.laura.name"
+                    >
+                      Laura W.
+                    </p>
+                    <p
+                      class="text-xs text-ink-light"
+                      data-i18n="testimonials.laura.role"
+                    >
+                      Mom to Jack, 3 yrs
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure
+                class="break-inside-avoid rounded-xl border-l-4 border-blue-800 bg-blue-300/10 p-8 shadow-sm"
+              >
+                <blockquote
+                  class="mb-6 italic text-ink-light"
+                  data-i18n="testimonials.james.quote"
+                >
+                  "We tried group lessons first—ISR here was night and day. My
+                  son actually learned to float."
+                </blockquote>
+                <figcaption class="flex items-center gap-4">
+                  <span
+                    class="h-10 w-10 rounded-full bg-blue-300"
+                    aria-hidden="true"
+                  ></span>
+                  <div>
+                    <p
+                      class="text-sm font-bold"
+                      data-i18n="testimonials.james.name"
+                    >
+                      James T.
+                    </p>
+                    <p
+                      class="text-xs text-ink-light"
+                      data-i18n="testimonials.james.role"
+                    >
+                      Dad to Noah, 20 mo
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure
+                class="break-inside-avoid rounded-xl border-l-4 border-gold-mid bg-gold/20 p-8 shadow-sm"
+              >
+                <blockquote
+                  class="mb-6 italic text-ink-light"
+                  data-i18n="testimonials.priya.quote"
+                >
+                  "Cynthia explained every step so clearly. I felt calm the
+                  whole time, and my baby did too."
+                </blockquote>
+                <figcaption class="flex items-center gap-4">
+                  <span
+                    class="h-10 w-10 rounded-full bg-gold"
+                    aria-hidden="true"
+                  ></span>
+                  <div>
+                    <p
+                      class="text-sm font-bold"
+                      data-i18n="testimonials.priya.name"
+                    >
+                      Priya K.
+                    </p>
+                    <p
+                      class="text-xs text-ink-light"
+                      data-i18n="testimonials.priya.role"
+                    >
+                      Mom to Aria, 12 mo
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="bg-white px-6 py-24">
+          <div class="mx-auto max-w-3xl">
+            <div class="mb-16 text-center">
+              <h2 class="mb-4 font-headline text-4xl font-bold text-blue-700" data-i18n="lessonsPage.faq.heading">Common Questions</h2>
+              <p class="text-ink-light" data-i18n="lessonsPage.faq.lead">Everything you need to know before your first splash.</p>
+            </div>
+            <div class="space-y-4">
+              <details class="group rounded-lg bg-surface-low transition-colors open:bg-surface-mid">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 font-bold">
+                  <span data-i18n="lessonsPage.faq.q1.q">Why is the program 5 days a week?</span>
+                  <span class="material-symbols-outlined text-blue-700 transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span>
+                </summary>
+                <p class="px-6 pb-6 text-sm leading-relaxed text-ink-light" data-i18n="lessonsPage.faq.q1.a">
+                  Consistency is key for infant muscle memory. Short, daily exposures help build skills faster and safer than longer sessions once a week.
+                </p>
+              </details>
+              <details class="group rounded-lg bg-surface-low transition-colors open:bg-surface-mid">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 font-bold">
+                  <span data-i18n="lessonsPage.faq.q2.q">How long are the actual lessons?</span>
+                  <span class="material-symbols-outlined text-blue-700 transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span>
+                </summary>
+                <p class="px-6 pb-6 text-sm leading-relaxed text-ink-light" data-i18n="lessonsPage.faq.q2.a">
+                  Lessons are 10 minutes long. This is the optimal window for focused learning in young children without physical or mental fatigue.
+                </p>
+              </details>
+              <details class="group rounded-lg bg-surface-low transition-colors open:bg-surface-mid">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 font-bold">
+                  <span data-i18n="lessonsPage.faq.q3.q">What if my child cries?</span>
+                  <span class="material-symbols-outlined text-blue-700 transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span>
+                </summary>
+                <p class="px-6 pb-6 text-sm leading-relaxed text-ink-light" data-i18n="lessonsPage.faq.q3.a">
+                  Crying is a natural form of communication. Our instructor is trained to nurture and build trust, turning tears into triumphant smiles over time.
+                </p>
+              </details>
+            </div>
+          </div>
+        </section>
+
+        <!-- Pricing details -->
+        <section id="pricing" class="bg-blue-700 px-6 py-16 text-white md:py-24" aria-labelledby="pricing-details-heading">
+          <div class="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2 lg:gap-16">
+            <div>
+              <p
+                class="mb-3 text-xs font-bold uppercase tracking-widest text-blue-100"
+                data-i18n="lessonsPage.pricingDetails.kicker"
+              >
+                For planning
+              </p>
+              <h2
+                id="pricing-details-heading"
+                class="mb-6 font-headline text-3xl font-bold tracking-tight text-white md:text-4xl"
+                data-i18n="lessonsPage.pricingDetails.heading"
+              >
+                Pricing details
+              </h2>
+              <div class="mb-8 h-1 w-16 rounded-full bg-blue-300/80" aria-hidden="true"></div>
+              <ul class="space-y-8 text-base leading-relaxed text-blue-50">
+                <li class="flex gap-4">
+                  <span class="material-symbols-outlined mt-0.5 shrink-0 text-2xl text-blue-200" aria-hidden="true">waves</span>
+                  <span data-i18n="lessonsPage.pricingDetails.p1">
+                    Tuition for the core ISR program (typically six to seven weeks of short, daily lessons) is $895 total. A 50% non-refundable deposit ($447) reserves your lesson block; the remaining balance is due on the first day of lessons.
+                  </span>
+                </li>
+                <li class="flex gap-4">
+                  <span class="material-symbols-outlined mt-0.5 shrink-0 text-2xl text-blue-200" aria-hidden="true">waves</span>
+                  <span data-i18n="lessonsPage.pricingDetails.p2">
+                    Refresher tuition is $440. A $150 non-refundable deposit is due when you register, with the $290 balance due on the first day of the refresher.
+                  </span>
+                </li>
+                <li class="flex gap-4">
+                  <span class="material-symbols-outlined mt-0.5 shrink-0 text-2xl text-blue-200" aria-hidden="true">waves</span>
+                  <span data-i18n="lessonsPage.pricingDetails.p3">
+                    Scholarships and payment plans may be available on request—we never want cost alone to stand between your family and water safety.
+                  </span>
+                </li>
+                <li class="flex gap-4">
+                  <span class="material-symbols-outlined mt-0.5 shrink-0 text-2xl text-blue-200" aria-hidden="true">waves</span>
+                  <span data-i18n="lessonsPage.pricingDetails.p4">
+                    ISR national registration: a separate non-refundable fee paid directly to Infant Swimming Resource before lessons begin. It is $105 per child for the first calendar year and $40 each following year. This covers ISR’s required health and aquatic review and official lesson approval.
+                  </span>
+                </li>
+              </ul>
+              <a
+                href="https://www.webaccomplice.app/scheduler_app/initiate_waitlist/cv833/0/1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-8 inline-block rounded-full bg-white px-8 py-3 font-bold text-blue-700 shadow-lg transition-transform hover:scale-105 hover:shadow-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                data-i18n="nav.bookNow"
+              >Book Now</a>
+            </div>
+            <div>
+              <div class="overflow-hidden rounded-xl border-8 border-white bg-white shadow-2xl">
+                <img
+                  data-i18n="lessonsPage.pricingDetails.imgAlt"
+                  data-i18n-attr="alt"
+                  alt="ISR instructor in a yellow swim shirt with a baby by the pool"
+                  class="aspect-[3/4] w-full object-cover object-center md:aspect-[4/5]"
+                  src="assets/images/image.png"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <canvas id="wave-canvas" aria-hidden="true"></canvas>
+      <footer class="w-full">
+        <div style="background-color: #15a9ea">
+        <div
+          class="mx-auto flex max-w-7xl flex-col items-center gap-3 px-6 py-5 text-center"
+        >
+          <a
+            href="index.html#home"
+            class="inline-block transition-opacity hover:opacity-90"
+            data-i18n="brand.name"
+            data-i18n-attr="aria-label"
+            aria-label="WaveFront"
+          >
+            <img
+              src="assets/images/WFlogoblue.png"
+              alt=""
+              width="1300"
+              height="360"
+              class="h-18 w-auto max-w-[320px] object-contain brightness-0 invert"
+              decoding="async"
+            />
+          </a>
+          <nav
+            class="flex flex-wrap justify-center gap-6"
+            data-i18n="a11y.footerNav"
+            data-i18n-attr="aria-label"
+            aria-label="Footer"
+          >
+            <a
+              class="text-sm text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60"
+              href="#"
+              data-i18n="footer.privacy"
+              >Privacy</a
+            >
+            <a
+              class="text-sm text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60"
+              href="#"
+              data-i18n="footer.terms"
+              >Terms</a
+            >
+            <a
+              class="text-sm text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60"
+              href="#"
+              data-i18n="footer.safety"
+              >Safety</a
+            >
+          </nav>
+          <div class="mt-1 flex gap-4">
+            <a
+              class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-blue-700 shadow-sm transition-transform hover:scale-110"
+              href="#"
+              data-i18n="a11y.website"
+              data-i18n-attr="aria-label"
+              aria-label="Website"
+            >
+              <span class="material-symbols-outlined text-base" aria-hidden="true"
+                >public</span
+              >
+            </a>
+            <a
+              class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-blue-700 shadow-sm transition-transform hover:scale-110"
+              href="mailto:hello@wavefront.example"
+              data-i18n="a11y.email"
+              data-i18n-attr="aria-label"
+              aria-label="Email"
+            >
+              <span class="material-symbols-outlined text-base" aria-hidden="true"
+                >mail</span
+              >
+            </a>
+            <a
+              class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-blue-700 shadow-sm transition-transform hover:scale-110"
+              href="contact.html"
+              data-i18n="a11y.location"
+              data-i18n-attr="aria-label"
+              aria-label="Location"
+            >
+              <span class="material-symbols-outlined text-base" aria-hidden="true"
+                >location_on</span
+              >
+            </a>
+            <a
+              class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-blue-700 shadow-sm transition-transform hover:scale-110"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a
+              class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-blue-700 shadow-sm transition-transform hover:scale-110"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+              </svg>
+            </a>
+          </div>
+          <div
+            class="mt-3 w-full max-w-3xl border-t border-white/20 pt-3 text-center"
+          >
+            <p
+              class="text-sm font-semibold tracking-wide text-white"
+              data-i18n="footer.locationLine"
+            >
+              Location: Mid Ohio
+            </p>
+            <p
+              class="mt-1 text-xs leading-relaxed text-white/70"
+              data-i18n="footer.legalNotice"
+            >
+              © Copyright 2026 WAVE FRONT SOLUTIONS LLC | All Rights Reserved |
+              All images are copyright material of Infant Swimming Resource,
+              LLC and/or Cynthia Vazquez | Website by Doubleshot Media
+            </p>
+          </div>
+        </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/waves.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+  </body>
+</html>

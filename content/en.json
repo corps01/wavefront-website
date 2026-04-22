@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "WaveFront | Nurturing Confidence",
+    "description": "WaveFront — personalized infant survival swim and toddler water confidence in a calm, nurturing environment."
+  },
+  "brand": {
+    "name": "WaveFront"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "navPrimary": "Primary",
+    "openMenu": "Open menu",
+    "footerNav": "Footer",
+    "testimonialsSection": "Testimonials",
+    "website": "Website",
+    "email": "Email",
+    "location": "Location",
+    "languageToggle": "Language"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "lessons": "Lessons",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "titleLine1": "Making waves",
+    "titleLine2": "together.",
+    "lead": "Life-saving swim skills for the moments you can't control.",
+    "ctaLessons": "Explore lessons",
+    "ctaStory": "Get started today",
+    "imgAlt": "Infant enjoying calm water in a bright pool"
+  },
+  "mission": {
+    "heading": "Our mission",
+    "card1": {
+      "title": "Safety first",
+      "body": "We teach survival skills first so every little one feels secure and capable in the water."
+    },
+    "card2": {
+      "title": "Nurturing approach",
+      "body": "Gentle techniques tailored to each child's pace, building confidence that lasts."
+    },
+    "card3": {
+      "title": "Community focused",
+      "body": "A small, personal setting where families feel known -- not lost in a crowded pool deck."
+    }
+  },
+  "lessons": {
+    "heading": "Lessons",
+    "body": "Infant survival swim and toddler water-confidence sessions, scheduled in focused blocks. Full schedule and age groups are coming soon -- use contact below to ask about availability."
+  },
+  "about": {
+    "imgAlt": "Cynthia holding a baby poolside",
+    "headingLine1": "The Mission",
+    "headingLine2": "(Why it Matters)",
+    "p1": "Drowning is silent. It happens faster than you think. Most accidents don't look like what you imagine. No splashing. No screaming. Just seconds. And it doesn't only happen in deep water or crowded pools. It happens where kids feel safest — at home, in everyday moments, when barriers fail. That's why supervision alone isn't enough. That's why fences aren't enough.",
+    "p2": "Survival skills aren't optional — they're essential.",
+    "cta": "Get in touch"
+  },
+  "faq": {
+    "heading": "FAQ",
+    "body": "Answers to common questions about lessons, what to bring, and how booking works will live here."
+  },
+  "testimonials": {
+    "heading": "What parents are saying",
+    "sarah": {
+      "quote": "\"My daughter was so afraid of water. Cynthia's patience changed everything. Now she's like a little mermaid!\"",
+      "name": "Sarah J.",
+      "role": "Mom to Mia, 2 yrs"
+    },
+    "marcus": {
+      "quote": "\"The one-on-one attention is what sold me -- focused, professional care without a crowded public pool.\"",
+      "name": "Marcus R.",
+      "role": "Dad to Leo, 18 mo"
+    },
+    "emily": {
+      "quote": "\"I never thought survival training could feel so warm. Cynthia is a baby whisperer.\"",
+      "name": "Emily C.",
+      "role": "Mom to Toby, 10 mo"
+    },
+    "laura": {
+      "quote": "\"Worth every penny. The peace of mind in our backyard pool is priceless.\"",
+      "name": "Laura W.",
+      "role": "Mom to Jack, 3 yrs"
+    },
+    "james": {
+      "quote": "\"We tried group lessons first -- ISR here was night and day. My son actually learned to float.\"",
+      "name": "James T.",
+      "role": "Dad to Noah, 20 mo"
+    },
+    "priya": {
+      "quote": "\"Cynthia explained every step so clearly. I felt calm the whole time, and my baby did too.\"",
+      "name": "Priya K.",
+      "role": "Mom to Aria, 12 mo"
+    }
+  },
+  "contact": {
+    "heading": "Start my child's journey",
+    "lead": "Ready for the next step? Tell me about your child and what you're hoping for in the water. I'll reply personally with availability and next steps -- spots are limited each season.",
+    "emailCta": "Send a message",
+    "waitlist": "Join the waitlist"
+  },
+  "footer": {
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "safety": "Safety",
+    "locationLine": "Location: Mid Ohio",
+    "legalNotice": "© Copyright 2026 WAVE FRONT SOLUTIONS LLC | All Rights Reserved | All images are copyright material of Infant Swimming Resource, LLC and/or Cynthia Vazquez | Website by Doubleshot Media"
+  },
+  "lessonsPage": {
+    "hero": {
+      "badge": "Swim with Confidence",
+      "titleLine1": "Gentle Waves,",
+      "titleLine2": "Lifelong Skills.",
+      "lead": "Our ISR Self-Rescue programs are designed to nurture water confidence in a safe, loving environment.",
+      "imgAlt": "Toddler smiling in a bright pool"
+    },
+    "core": {
+      "heading": "Core Programs",
+      "lead": "Foundational skills that stay with your child for a lifetime.",
+      "perWeek": "/ week",
+      "enroll": "Enroll Now",
+      "viewPricing": "View pricing",
+      "viewSchedule": "View schedule",
+      "infant": {
+        "title": "ISR Self-Rescue® Infant",
+        "ageRange": "Children 6 months – 12 months",
+        "duration": "Duration: 6 – 7 weeks",
+        "description": "Children learn the ISR Self-Rescue skill of rolling onto their backs to float, rest, and breathe. They learn to maintain this position until help arrives. This is the initial ISR course for infants—one-on-one lessons tailored to your baby’s development.",
+        "videoEmbed": "https://www.youtube-nocookie.com/embed/jNQXAC9IVRw",
+        "price": "$125"
+      },
+      "toddler": {
+        "title": "ISR Self-Rescue® Toddler",
+        "ageRange": "Children 1 year – 6 years",
+        "duration": "Duration: 2 – 4 weeks",
+        "description": "Building on solid fundamentals, toddlers learn the Swim-Float-Swim sequence, how to reach the pool edge or steps safely, and how to perform skills in clothing for real-world readiness—always with focused, one-on-one instruction.",
+        "videoEmbed": "https://www.youtube-nocookie.com/embed/jNQXAC9IVRw",
+        "price": "$135"
+      }
+    },
+    "continuing": {
+      "heading": "Continuing Education",
+      "lead": "Polishing skills and building endurance through playful practice.",
+      "refresher": {
+        "title": "Refresher",
+        "body": "2–3 week course to sharpen skills after a break from the water.",
+        "price": "$110/week"
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "body": "Ongoing weekly lessons to keep muscle memory fresh and confidence high.",
+        "price": "$45/session"
+      },
+      "strokes": {
+        "title": "Strokes & Form",
+        "body": "Introduction to formal swimming strokes and technical efficiency.",
+        "price": "$150/week"
+      }
+    },
+    "faq": {
+      "heading": "Common Questions",
+      "lead": "Everything you need to know before your first splash.",
+      "q1": {
+        "q": "Why is the program 5 days a week?",
+        "a": "Consistency is key for infant muscle memory. Short, daily exposures help build skills faster and safer than longer sessions once a week."
+      },
+      "q2": {
+        "q": "How long are the actual lessons?",
+        "a": "Lessons are 10 minutes long. This is the optimal window for focused learning in young children without physical or mental fatigue."
+      },
+      "q3": {
+        "q": "What if my child cries?",
+        "a": "Crying is a natural form of communication. Our instructor is trained to nurture and build trust, turning tears into triumphant smiles over time."
+      }
+    },
+    "pricingDetails": {
+      "kicker": "For planning",
+      "heading": "Pricing details",
+      "imgAlt": "ISR instructor in a yellow swim shirt with a baby by the pool",
+      "p1": "Tuition for the core ISR program (typically six to seven weeks of short, daily lessons) is $895 total. A 50% non-refundable deposit ($447) reserves your lesson block; the remaining balance is due on the first day of lessons.",
+      "p2": "Refresher tuition is $440. A $150 non-refundable deposit is due when you register, with the $290 balance due on the first day of the refresher.",
+      "p3": "Scholarships and payment plans may be available on request—we never want cost alone to stand between your family and water safety.",
+      "p4": "ISR national registration: a separate non-refundable fee paid directly to Infant Swimming Resource before lessons begin. It is $105 per child for the first calendar year and $40 each following year. This covers ISR’s required health and aquatic review and official lesson approval."
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "imgAlt": "Miss Cynthia, lead instructor",
+      "badge": "Lead Instructor",
+      "heading": "Cynthia, ISR Certified",
+      "lead": "WaveFront teaches the official ISR Self-Rescue program. Cynthia is a certified ISR instructor with extensive one-on-one experience rooted in the Infant Swimming Resource methodology—not a generic swim school.",
+      "verifyCta": "Verify Official ISR Credentials"
+    },
+    "isrOrg": {
+      "kicker": "Infant Swimming Resource",
+      "heading": "What ISR is",
+      "body": "ISR (Infant Swimming Resource) is an international organization dedicated to aquatic self-rescue for infants and young children. The ISR Self-Rescue program combines behavioral science with pediatric health guidance so lessons match how babies learn. Only licensed ISR instructors may teach this curriculum; it is not a traditional group swim class.",
+      "point1Title": "One global standard",
+      "point1Text": "ISR publishes a single, evidence-informed protocol used by instructors across the country and abroad.",
+      "point2Title": "Deep instructor training",
+      "point2Text": "Certified instructors complete intensive in-water training, exams, and ongoing renewal to keep their license active.",
+      "point3Title": "Skills for real emergencies",
+      "point3Text": "The focus is survival: floating, breath control, and recovery when a child reaches the water alone.",
+      "footnote": "WaveFront is an independent provider of the official ISR Self-Rescue program."
+    },
+    "certs": {
+      "heading": "Credentials & Certifications",
+      "lead": "ISR sets the national bar for self-rescue instruction. Here is how Cynthia stays aligned with the organization—plus the pediatric safety training families expect.",
+      "verified": "Verified 2024",
+      "isr": {
+        "title": "Certified ISR Instructor",
+        "detail": "Active License #ISR-2012-98"
+      },
+      "cpr": {
+        "title": "Pediatric CPR & First Aid",
+        "detail": "American Red Cross Certified"
+      },
+      "wsi": {
+        "title": "WSI Instructor Badge",
+        "detail": "Water Safety Instruction Expert"
+      }
+    },
+    "docs": {
+      "isr": "Official ISR License",
+      "cpr": "ARC Pediatric CPR",
+      "insurance": "Insurance Certificate",
+      "background": "State Background Clear"
+    },
+    "verify": {
+      "heading": "Official Verification",
+      "body": "Confirm WaveFront's connection to ISR and verify instructor credentials on the Infant Swimming Resource's national registry.",
+      "cta": "Visit Official ISR Page"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "heading": "Contact"
+    },
+    "cards": {
+      "call": {
+        "title": "Book Online",
+        "value": "Schedule your session"
+      },
+      "email": {
+        "title": "Email Me",
+        "value": "hello@wavefront.example"
+      }
+    },
+    "location": {
+      "body": "Lessons are held at private residences in Mid Ohio.",
+      "cta": "View schedule to learn the location for specific sessions."
+    }
+  }
+}

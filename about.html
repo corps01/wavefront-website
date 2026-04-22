@@ -1,0 +1,786 @@
+<!doctype html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Meet Cynthia — WaveFront's certified ISR instructor. Credentials, certifications, and official verification."
+    />
+    <title>About Cynthia | WaveFront</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              blue: {
+                50: "#e0f7ff",
+                100: "#bae6fd",
+                300: "#38bdf8",
+                400: "#0ea5e9",
+                700: "#0284c7",
+                800: "#0369a1",
+                900: "#0c4a6e",
+                950: "#082f49",
+              },
+              surface: {
+                DEFAULT: "#e8f6fe",
+                low: "#dcf0fc",
+                mid: "#cae6f7",
+                high: "#b8d9f0",
+                border: "#94c4e8",
+              },
+              ink: {
+                DEFAULT: "#15232f",
+                light: "#3d4f63",
+                faint: "#5c6e82",
+                muted: "#8a9bb0",
+              },
+              warm: {
+                DEFAULT: "#fb9aab",
+                dim: "#f4899d",
+                ink: "#7a1d35",
+                mid: "#8a2d45",
+              },
+              gold: {
+                DEFAULT: "#ffd84d",
+                dim: "#f5c82e",
+                ink: "#6b4e00",
+                mid: "#7a5e10",
+                dark: "#5a3f00",
+              },
+            },
+            borderRadius: {
+              DEFAULT: "1rem",
+              lg: "2rem",
+              xl: "3rem",
+              full: "9999px",
+            },
+            fontFamily: {
+              headline: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+              body: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-surface text-ink font-body selection:bg-blue-300 selection:text-blue-900"
+  >
+    <a class="skip-link" href="#main" data-i18n="a11y.skipToContent"
+      >Skip to content</a
+    >
+
+    <div class="wavefront-root">
+      <nav
+        class="fixed top-0 z-50 w-full rounded-b-[3rem] bg-white/80 shadow-[0_8px_32px_rgba(39,98,124,0.08)] backdrop-blur-md"
+        data-i18n="a11y.navPrimary"
+        data-i18n-attr="aria-label"
+        aria-label="Primary"
+      >
+        <div
+          class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-8"
+        >
+          <a
+            href="index.html#home"
+            class="flex items-center gap-2 md:gap-3"
+            data-i18n="brand.name"
+            data-i18n-attr="aria-label"
+            aria-label="WaveFront"
+          >
+            <img
+              src="assets/images/WF_Star.png"
+              alt=""
+              width="64"
+              height="64"
+              class="h-16 w-auto shrink-0 object-contain"
+              decoding="async"
+            />
+            <img
+              src="assets/images/WF_Logo.png"
+              alt=""
+              width="160"
+              height="40"
+              class="h-8 w-auto max-h-10 object-contain sm:h-10"
+              decoding="async"
+            />
+          </a>
+
+          <div
+            class="hidden items-center gap-9 text-base font-medium tracking-wide md:flex"
+          >
+            <a
+              class="text-ink-light transition-colors hover:text-blue-700"
+              href="lessons.html"
+              data-i18n="nav.lessons"
+              >Lessons</a
+            >
+            <a
+              class="border-b-2 border-blue-300 pb-1 text-blue-900 transition-colors hover:text-blue-700"
+              href="about.html"
+              data-i18n="nav.about"
+              >About</a
+            >
+            <a
+              class="text-ink-light transition-colors hover:text-blue-700"
+              href="lessons.html#faq"
+              data-i18n="nav.faq"
+              >FAQ</a
+            >
+            <a
+              class="text-ink-light transition-colors hover:text-blue-700"
+              href="contact.html"
+              data-i18n="nav.contact"
+              >Contact</a
+            >
+          </div>
+
+          <div class="flex items-center gap-2 sm:gap-3">
+            <div
+              class="flex items-center gap-0.5 rounded-full border border-surface-border p-0.5 text-xs text-ink-light"
+              role="group"
+              data-i18n="a11y.languageToggle"
+              data-i18n-attr="aria-label"
+              aria-label="Language"
+            >
+              <button
+                type="button"
+                data-locale="en"
+                class="rounded-full px-2 py-1 transition-colors hover:bg-surface-low"
+                aria-pressed="true"
+              >
+                EN
+              </button>
+              <button
+                type="button"
+                data-locale="es"
+                class="rounded-full px-2 py-1 transition-colors hover:bg-surface-low"
+                aria-pressed="false"
+              >
+                ES
+              </button>
+            </div>
+            <a
+              href="contact.html"
+              class="hidden rounded-full bg-blue-300 px-6 py-3 font-semibold text-blue-900 shadow-lg shadow-blue-700/20 transition-transform duration-200 hover:scale-105 active:scale-95 sm:inline-flex"
+              data-i18n="nav.bookNow"
+            >
+              Book Now
+            </a>
+            <button
+              type="button"
+              class="inline-flex rounded-full border border-surface-border p-2 text-ink md:hidden"
+              aria-expanded="false"
+              aria-controls="mobile-nav"
+              data-nav-toggle
+            >
+              <span class="material-symbols-outlined" aria-hidden="true"
+                >menu</span
+              >
+              <span class="sr-only" data-i18n="a11y.openMenu">Open menu</span>
+            </button>
+          </div>
+        </div>
+
+        <div
+          id="mobile-nav"
+          class="nav-panel border-t border-surface-mid bg-white/95 px-6 py-4 md:hidden"
+          hidden
+          data-nav-panel
+        >
+          <div class="flex flex-col gap-4 text-base font-medium">
+            <a
+              class="text-ink-light"
+              href="lessons.html"
+              data-i18n="nav.lessons"
+              >Lessons</a
+            >
+            <a
+              class="text-blue-900"
+              href="about.html"
+              data-i18n="nav.about"
+              >About</a
+            >
+            <a
+              class="text-ink-light"
+              href="lessons.html#faq"
+              data-i18n="nav.faq"
+              >FAQ</a
+            >
+            <a
+              class="text-ink-light"
+              href="contact.html"
+              data-i18n="nav.contact"
+              >Contact</a
+            >
+            <a
+              href="contact.html"
+              class="mt-2 inline-flex justify-center rounded-full bg-blue-300 px-8 py-3 font-semibold text-blue-900 shadow-lg shadow-blue-700/20"
+              data-i18n="nav.bookNow"
+            >
+              Book Now
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <main id="main" class="bg-surface pt-28 pb-24">
+        <!-- Hero -->
+        <section class="mx-auto mb-20 max-w-7xl px-6 md:px-8">
+          <div class="grid items-center gap-12 lg:grid-cols-2">
+            <div class="relative mx-auto max-w-md">
+              <div
+                class="absolute -inset-4 -z-10 bg-blue-300/20 organic-blob"
+              ></div>
+              <div
+                class="overflow-hidden rounded-xl border-8 border-white shadow-2xl"
+              >
+                <img
+                  data-i18n="aboutPage.hero.imgAlt"
+                  data-i18n-attr="alt"
+                  alt="Miss Cynthia, lead instructor"
+                  class="h-full w-full rotate-2 object-cover transition-transform duration-500 hover:rotate-0"
+                  src="assets/images/image.png"
+                  width="800"
+                  height="800"
+                  loading="eager"
+                  decoding="async"
+                />
+              </div>
+            </div>
+            <div class="space-y-6">
+              <span
+                class="inline-flex items-center gap-2 rounded-full bg-blue-300 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-blue-900"
+                data-i18n="aboutPage.hero.badge"
+              >
+                Lead Instructor
+              </span>
+              <h1
+                class="font-headline text-4xl font-extrabold tracking-tight text-blue-900 md:text-5xl"
+                data-i18n="aboutPage.hero.heading"
+              >
+                Cynthia, ISR Certified
+              </h1>
+              <p
+                class="text-xl leading-relaxed text-ink-light"
+                data-i18n="aboutPage.hero.lead"
+              >
+                WaveFront teaches the official ISR Self-Rescue program. Cynthia
+                is a certified ISR instructor with extensive one-on-one
+                experience rooted in the Infant Swimming Resource
+                methodology—not a generic swim school.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ISR organization -->
+        <section
+          class="border-t border-surface-mid bg-surface-low/80 py-16 md:py-20"
+          aria-labelledby="isr-org-heading"
+        >
+          <div class="mx-auto max-w-7xl px-6 md:px-8">
+            <div class="mx-auto max-w-3xl text-center">
+              <p
+                class="mb-3 text-xs font-bold uppercase tracking-widest text-blue-700"
+                data-i18n="aboutPage.isrOrg.kicker"
+              >
+                Infant Swimming Resource
+              </p>
+              <h2
+                id="isr-org-heading"
+                class="mb-6 font-headline text-3xl font-bold text-blue-900 md:text-4xl"
+                data-i18n="aboutPage.isrOrg.heading"
+              >
+                What ISR is
+              </h2>
+              <p
+                class="text-lg leading-relaxed text-ink-light"
+                data-i18n="aboutPage.isrOrg.body"
+              >
+                ISR (Infant Swimming Resource) is an international organization
+                dedicated to aquatic self-rescue for infants and young children.
+                The ISR Self-Rescue program combines behavioral science with
+                pediatric health guidance so lessons match how babies learn.
+                Only licensed ISR instructors may teach this curriculum; it is
+                not a traditional group swim class.
+              </p>
+            </div>
+            <div class="mt-12 grid gap-6 md:grid-cols-3">
+              <div
+                class="rounded-2xl border border-surface-border bg-white p-6 text-center shadow-sm"
+              >
+                <div class="mb-4 flex justify-center">
+                  <span
+                    class="material-symbols-outlined text-4xl text-blue-700"
+                    aria-hidden="true"
+                    >public</span
+                  >
+                </div>
+                <h3
+                  class="mb-2 font-headline text-lg font-bold text-blue-900"
+                  data-i18n="aboutPage.isrOrg.point1Title"
+                >
+                  One global standard
+                </h3>
+                <p
+                  class="text-sm leading-relaxed text-ink-light"
+                  data-i18n="aboutPage.isrOrg.point1Text"
+                >
+                  ISR publishes a single, evidence-informed protocol used by
+                  instructors across the country and abroad.
+                </p>
+              </div>
+              <div
+                class="rounded-2xl border border-surface-border bg-white p-6 text-center shadow-sm"
+              >
+                <div class="mb-4 flex justify-center">
+                  <span
+                    class="material-symbols-outlined text-4xl text-blue-700"
+                    aria-hidden="true"
+                    >school</span
+                  >
+                </div>
+                <h3
+                  class="mb-2 font-headline text-lg font-bold text-blue-900"
+                  data-i18n="aboutPage.isrOrg.point2Title"
+                >
+                  Deep instructor training
+                </h3>
+                <p
+                  class="text-sm leading-relaxed text-ink-light"
+                  data-i18n="aboutPage.isrOrg.point2Text"
+                >
+                  Certified instructors complete intensive in-water training,
+                  exams, and ongoing renewal to keep their license active.
+                </p>
+              </div>
+              <div
+                class="rounded-2xl border border-surface-border bg-white p-6 text-center shadow-sm"
+              >
+                <div class="mb-4 flex justify-center">
+                  <span
+                    class="material-symbols-outlined text-4xl text-blue-700"
+                    aria-hidden="true"
+                    >pool</span
+                  >
+                </div>
+                <h3
+                  class="mb-2 font-headline text-lg font-bold text-blue-900"
+                  data-i18n="aboutPage.isrOrg.point3Title"
+                >
+                  Skills for real emergencies
+                </h3>
+                <p
+                  class="text-sm leading-relaxed text-ink-light"
+                  data-i18n="aboutPage.isrOrg.point3Text"
+                >
+                  The focus is survival: floating, breath control, and recovery
+                  when a child reaches the water alone.
+                </p>
+              </div>
+            </div>
+            <p
+              class="mt-10 text-center text-sm text-ink-light"
+              data-i18n="aboutPage.isrOrg.footnote"
+            >
+              WaveFront is an independent provider of the official ISR
+              Self-Rescue program.
+            </p>
+          </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="bg-surface-low py-24">
+          <div class="mx-auto max-w-7xl px-6 md:px-8">
+            <div class="mb-16 text-center">
+              <h2
+                class="mb-4 font-headline text-3xl font-bold text-blue-900"
+                data-i18n="aboutPage.certs.heading"
+              >
+                Credentials & Certifications
+              </h2>
+              <p
+                class="mx-auto max-w-2xl text-ink-light"
+                data-i18n="aboutPage.certs.lead"
+              >
+                ISR sets the national bar for self-rescue instruction. Here is
+                how Cynthia stays aligned with the organization—plus the
+                pediatric safety training families expect.
+              </p>
+            </div>
+
+            <div class="grid gap-8 md:grid-cols-3">
+              <article
+                class="rounded-xl border border-surface-border/10 bg-white p-8 shadow-sm transition-transform duration-300 hover:-translate-y-2"
+              >
+                <div
+                  class="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-300/30"
+                >
+                  <span
+                    class="material-symbols-outlined text-3xl text-blue-700"
+                    style="font-variation-settings: &quot;FILL&quot; 1"
+                    aria-hidden="true"
+                    >military_tech</span
+                  >
+                </div>
+                <h3
+                  class="mb-1 text-lg font-bold"
+                  data-i18n="aboutPage.certs.isr.title"
+                >
+                  Certified ISR Instructor
+                </h3>
+                <p
+                  class="mb-4 text-sm text-ink-light"
+                  data-i18n="aboutPage.certs.isr.detail"
+                >
+                  Active License #ISR-2012-98
+                </p>
+                <span
+                  class="inline-block rounded-full bg-blue-100 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-blue-800"
+                  data-i18n="aboutPage.certs.verified"
+                  >Verified 2024</span
+                >
+              </article>
+              <article
+                class="rounded-xl border border-surface-border/10 bg-white p-8 shadow-sm transition-transform duration-300 hover:-translate-y-2"
+              >
+                <div
+                  class="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-warm/40"
+                >
+                  <span
+                    class="material-symbols-outlined text-3xl text-warm-mid"
+                    style="font-variation-settings: &quot;FILL&quot; 1"
+                    aria-hidden="true"
+                    >health_and_safety</span
+                  >
+                </div>
+                <h3
+                  class="mb-1 text-lg font-bold"
+                  data-i18n="aboutPage.certs.cpr.title"
+                >
+                  Pediatric CPR & First Aid
+                </h3>
+                <p
+                  class="mb-4 text-sm text-ink-light"
+                  data-i18n="aboutPage.certs.cpr.detail"
+                >
+                  American Red Cross Certified
+                </p>
+                <span
+                  class="inline-block rounded-full bg-blue-100 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-blue-800"
+                  data-i18n="aboutPage.certs.verified"
+                  >Verified 2024</span
+                >
+              </article>
+              <article
+                class="rounded-xl border border-surface-border/10 bg-white p-8 shadow-sm transition-transform duration-300 hover:-translate-y-2"
+              >
+                <div
+                  class="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-gold/40"
+                >
+                  <span
+                    class="material-symbols-outlined text-3xl text-gold-mid"
+                    style="font-variation-settings: &quot;FILL&quot; 1"
+                    aria-hidden="true"
+                    >water_drop</span
+                  >
+                </div>
+                <h3
+                  class="mb-1 text-lg font-bold"
+                  data-i18n="aboutPage.certs.wsi.title"
+                >
+                  WSI Instructor Badge
+                </h3>
+                <p
+                  class="mb-4 text-sm text-ink-light"
+                  data-i18n="aboutPage.certs.wsi.detail"
+                >
+                  Water Safety Instruction Expert
+                </p>
+                <span
+                  class="inline-block rounded-full bg-blue-100 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-blue-800"
+                  data-i18n="aboutPage.certs.verified"
+                  >Verified 2024</span
+                >
+              </article>
+            </div>
+
+            <!-- Document placeholders -->
+            <div class="mt-16 grid grid-cols-2 gap-4 opacity-60 md:grid-cols-4">
+              <div
+                class="flex aspect-[1/1.4] items-center justify-center rounded-xl border-2 border-dashed border-surface-border bg-white p-4"
+              >
+                <div class="text-center">
+                  <span
+                    class="material-symbols-outlined mb-2 text-3xl text-ink-muted"
+                    aria-hidden="true"
+                    >description</span
+                  >
+                  <p
+                    class="text-[10px] font-bold uppercase text-ink-muted"
+                    data-i18n="aboutPage.docs.isr"
+                  >
+                    Official ISR License
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex aspect-[1/1.4] items-center justify-center rounded-xl border-2 border-dashed border-surface-border bg-white p-4"
+              >
+                <div class="text-center">
+                  <span
+                    class="material-symbols-outlined mb-2 text-3xl text-ink-muted"
+                    aria-hidden="true"
+                    >description</span
+                  >
+                  <p
+                    class="text-[10px] font-bold uppercase text-ink-muted"
+                    data-i18n="aboutPage.docs.cpr"
+                  >
+                    ARC Pediatric CPR
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex aspect-[1/1.4] items-center justify-center rounded-xl border-2 border-dashed border-surface-border bg-white p-4"
+              >
+                <div class="text-center">
+                  <span
+                    class="material-symbols-outlined mb-2 text-3xl text-ink-muted"
+                    aria-hidden="true"
+                    >description</span
+                  >
+                  <p
+                    class="text-[10px] font-bold uppercase text-ink-muted"
+                    data-i18n="aboutPage.docs.insurance"
+                  >
+                    Insurance Certificate
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex aspect-[1/1.4] items-center justify-center rounded-xl border-2 border-dashed border-surface-border bg-white p-4"
+              >
+                <div class="text-center">
+                  <span
+                    class="material-symbols-outlined mb-2 text-3xl text-ink-muted"
+                    aria-hidden="true"
+                    >description</span
+                  >
+                  <p
+                    class="text-[10px] font-bold uppercase text-ink-muted"
+                    data-i18n="aboutPage.docs.background"
+                  >
+                    State Background Clear
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Official Verification CTA -->
+        <section class="bg-surface px-6 py-20 md:px-8">
+          <div class="mx-auto max-w-4xl">
+            <div
+              class="relative overflow-hidden rounded-xl bg-gradient-to-br from-blue-700 to-blue-800 p-12 text-center shadow-xl md:p-16"
+            >
+              <div
+                class="pointer-events-none absolute inset-0 opacity-10"
+                aria-hidden="true"
+              >
+                <svg
+                  class="h-full w-full"
+                  viewBox="0 0 400 400"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 100 Q 100 50 200 100 T 400 100"
+                    fill="none"
+                    stroke="white"
+                    stroke-width="2"
+                  ></path>
+                  <path
+                    d="M0 200 Q 100 150 200 200 T 400 200"
+                    fill="none"
+                    stroke="white"
+                    stroke-width="2"
+                  ></path>
+                  <path
+                    d="M0 300 Q 100 250 200 300 T 400 300"
+                    fill="none"
+                    stroke="white"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+              </div>
+              <div class="relative z-10 space-y-6">
+                <h3
+                  class="font-headline text-3xl font-bold text-blue-50"
+                  data-i18n="aboutPage.verify.heading"
+                >
+                  Official Verification
+                </h3>
+                <p
+                  class="mx-auto max-w-xl text-lg text-blue-300"
+                  data-i18n="aboutPage.verify.body"
+                >
+                  WaveFront is a proud provider of the ISR Self-Rescue program.
+                  You can verify Cynthia's standing directly on the national
+                  registry.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <canvas id="wave-canvas" aria-hidden="true"></canvas>
+      <footer class="w-full">
+        <div style="background-color: #15a9ea">
+        <div
+          class="mx-auto flex max-w-7xl flex-col items-center gap-3 px-6 py-5 text-center"
+        >
+          <a
+            href="index.html#home"
+            class="inline-block transition-opacity hover:opacity-90"
+            data-i18n="brand.name"
+            data-i18n-attr="aria-label"
+            aria-label="WaveFront"
+          >
+            <img
+              src="assets/images/WFlogoblue.png"
+              alt=""
+              width="1300"
+              height="360"
+              class="h-18 w-auto max-w-[320px] object-contain brightness-0 invert"
+              decoding="async"
+            />
+          </a>
+          <nav
+            class="flex flex-wrap justify-center gap-6"
+            data-i18n="a11y.footerNav"
+            data-i18n-attr="aria-label"
+            aria-label="Footer"
+          >
+            <a
+              class="text-sm text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60"
+              href="#"
+              data-i18n="footer.privacy"
+              >Privacy</a
+            >
+            <a
+              class="text-sm text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60"
+              href="#"
+              data-i18n="footer.terms"
+              >Terms</a
+            >
+            <a
+              class="text-sm text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60"
+              href="#"
+              data-i18n="footer.safety"
+              >Safety</a
+            >
+          </nav>
+          <div class="mt-1 flex gap-4">
+            <a
+              class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-blue-700 shadow-sm transition-transform hover:scale-110"
+              href="#"
+              data-i18n="a11y.website"
+              data-i18n-attr="aria-label"
+              aria-label="Website"
+            >
+              <span class="material-symbols-outlined text-base" aria-hidden="true"
+                >public</span
+              >
+            </a>
+            <a
+              class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-blue-700 shadow-sm transition-transform hover:scale-110"
+              href="mailto:hello@wavefront.example"
+              data-i18n="a11y.email"
+              data-i18n-attr="aria-label"
+              aria-label="Email"
+            >
+              <span class="material-symbols-outlined text-base" aria-hidden="true"
+                >mail</span
+              >
+            </a>
+            <a
+              class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-blue-700 shadow-sm transition-transform hover:scale-110"
+              href="contact.html"
+              data-i18n="a11y.location"
+              data-i18n-attr="aria-label"
+              aria-label="Location"
+            >
+              <span class="material-symbols-outlined text-base" aria-hidden="true"
+                >location_on</span
+              >
+            </a>
+            <a
+              class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-blue-700 shadow-sm transition-transform hover:scale-110"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a
+              class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-blue-700 shadow-sm transition-transform hover:scale-110"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+              </svg>
+            </a>
+          </div>
+          <div
+            class="mt-3 w-full max-w-3xl border-t border-white/20 pt-3 text-center"
+          >
+            <p
+              class="text-sm font-semibold tracking-wide text-white"
+              data-i18n="footer.locationLine"
+            >
+              Location: Mid Ohio
+            </p>
+            <p
+              class="mt-1 text-xs leading-relaxed text-white/70"
+              data-i18n="footer.legalNotice"
+            >
+              © Copyright 2026 WAVE FRONT SOLUTIONS LLC | All Rights Reserved |
+              All images are copyright material of Infant Swimming Resource,
+              LLC and/or Cynthia Vazquez | Website by Doubleshot Media
+            </p>
+          </div>
+        </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/waves.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+  </body>
+</html>

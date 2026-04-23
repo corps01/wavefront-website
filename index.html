@@ -258,9 +258,12 @@
             </a>
           </div>
 
-          <div
-            class="absolute bottom-0 left-0 h-16 w-full bg-surface-low wavy-separator"
-          ></div>
+          <canvas
+            id="hero-wave-canvas"
+            class="absolute bottom-0 left-0 w-full pointer-events-none"
+            style="height:100px"
+            aria-hidden="true"
+          ></canvas>
         </header>
 
         <section id="mission" class="bg-surface-low py-24">
@@ -467,7 +470,7 @@
                   availability and next steps -- spots are limited each season.
                 </p>
                 <div class="flex flex-col justify-center gap-4 sm:flex-row">
-                  <a class="inline-flex justify-center rounded-full bg-white px-12 py-5 text-lg font-bold text-blue-700 shadow-xl shadow-black/10 transition-transform hover:scale-105" href="mailto:hello@wavefronswim.com" target="_blank" rel="noopener noreferrer" i18n="contact.emailCta">
+                  <a class="inline-flex justify-center rounded-full bg-white px-12 py-5 text-lg font-bold text-blue-700 shadow-xl shadow-black/10 transition-transform hover:scale-105" href="mailto:Cynthia.vazquez@infantswim.com" target="_blank" rel="noopener noreferrer" i18n="contact.emailCta">
                     Send a message
                   </a>
                   <a class="inline-flex justify-center rounded-full border-2 border-white/20 bg-blue-300 px-12 py-5 text-lg font-bold text-blue-900 transition-all hover:bg-blue-100" href="https://www.webaccomplice.app/scheduler_app/initiate_waitlist/cv833/0/1" target="_blank" rel="noopener noreferrer" i18n="contact.waitlist">
@@ -518,11 +521,7 @@
                 </p>
                 <p class="text-sm text-white/90">Mid Ohio</p>
                 <p class="pt-2">
-                  <a class="text-sm font-medium text-white underline-offset-4 hover:underline" href="tel:+15551234567" target="_blank" rel="noopener noreferrer">(555) 123-4567</a
-                  >
-                </p>
-                <p>
-                  <a class="text-sm font-medium text-white underline-offset-4 hover:underline" href="mailto:hello@wavefronswim.com" target="_blank" rel="noopener noreferrer">hello@wavefronswim.com</a
+                  <a class="text-sm font-medium text-white underline-offset-4 hover:underline" href="mailto:Cynthia.vazquez@infantswim.com" target="_blank" rel="noopener noreferrer">Cynthia.vazquez@infantswim.com</a
                   >
                 </p>
               </div>
@@ -588,6 +587,7 @@
       </footer>
     </div>
 
+    <script src="js/hero-wave.js" defer></script>
     <script src="js/waves.js" defer></script>
     <script src="js/main.js" defer></script>
     <script src="js/i18n.js" defer></script>

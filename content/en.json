@@ -44,8 +44,8 @@
       "body": "Gentle techniques tailored to each child's pace, building confidence that lasts."
     },
     "card3": {
-      "title": "Community focused",
-      "body": "A small, personal setting where families feel known -- not lost in a crowded pool deck."
+      "title": "Family-Centered",
+      "body": "An intimate, focused setting where families are truly seen and listened to - not overlooked in a busy pool deck."
     }
   },
   "lessons": {
@@ -120,24 +120,24 @@
     },
     "core": {
       "heading": "Core Programs",
-      "lead": "Foundational skills that stay with your child for a lifetime.",
+      "lead": "Essential water safety skills designed to build confidence and stay with your child for a lifetime.",
       "perWeek": "/ week",
       "enroll": "Enroll Now",
       "viewPricing": "View pricing",
       "viewSchedule": "View schedule",
       "infant": {
         "title": "ISR Self-Rescue® Infant",
-        "ageRange": "Children 6 months – 12 months",
+        "ageRange": "CHILDREN 6 MONTHS TO 18 MONTHS OLD",
         "duration": "Duration: 6 – 7 weeks",
-        "description": "Children learn the ISR Self-Rescue skill of rolling onto their backs to float, rest, and breathe. They learn to maintain this position until help arrives. This is the initial ISR course for infants—one-on-one lessons tailored to your baby’s development.",
+        "description": "Infants learn the essential self-rescue skill of rolling onto their back to float, rest, and breathe. They are taught to stay calm and maintain this position independently until help arrives—giving them a critical layer of safety in the water.",
         "videoEmbed": "https://www.youtube-nocookie.com/embed/jNQXAC9IVRw",
         "price": "$125"
       },
       "toddler": {
-        "title": "ISR Self-Rescue® Toddler",
-        "ageRange": "Children 1 year – 6 years",
+        "title": "Self-Rescue® Toddler",
+        "ageRange": "CHILDREN 18 MONTHS TO 8 YEARS OLD",
         "duration": "Duration: 2 – 4 weeks",
-        "description": "Building on solid fundamentals, toddlers learn the Swim-Float-Swim sequence, how to reach the pool edge or steps safely, and how to perform skills in clothing for real-world readiness—always with focused, one-on-one instruction.",
+        "description": "Children learn the swim-float-swim sequence, for reaching safety.\nThey swim with their face in the water, roll onto their back to rest and breathe.\nThey continue swimming until they reach the wall, steps, or edge.",
         "videoEmbed": "https://www.youtube-nocookie.com/embed/jNQXAC9IVRw",
         "price": "$135"
       }
@@ -181,10 +181,10 @@
       "kicker": "For planning",
       "heading": "Pricing details",
       "imgAlt": "ISR instructor in a yellow swim shirt with a baby by the pool",
-      "p1": "Tuition for the core ISR program (typically six to seven weeks of short, daily lessons) is $895 total. A 50% non-refundable deposit ($447) reserves your lesson block; the remaining balance is due on the first day of lessons.",
-      "p2": "Refresher tuition is $440. A $150 non-refundable deposit is due when you register, with the $290 balance due on the first day of the refresher.",
-      "p3": "Scholarships and payment plans may be available on request—we never want cost alone to stand between your family and water safety.",
-      "p4": "ISR national registration: a separate non-refundable fee paid directly to Infant Swimming Resource before lessons begin. It is $105 per child for the first calendar year and $40 each following year. This covers ISR’s required health and aquatic review and official lesson approval."
+      "p1": "Tuition for the core ISR program (typically 6–7 weeks of short, daily lessons) is $750 total. A 50% non-refundable deposit ($375) is required to reserve your lesson block. The remaining balance is due one day before the first day of lessons.",
+      "p2": "Refresher tuition is $125 per week. A $125 non-refundable deposit is required at registration. The remaining balance is due one day before the first day of lessons. Maintenance lessons are $25 per class and are paid in full at the time of registration.",
+      "p3": "ISR national registration: a separate non-refundable fee paid directly to Infant Swimming Resource before lessons begin. It is $105 per child for the first calendar year and $40 each following year. This covers ISR's required health and aquatic review and official lesson approval.",
+      "p4": "Scholarships and payment plans may be available upon request—we never want cost alone to stand between your family and water safety."
     }
   },
   "aboutPage": {
@@ -247,7 +247,7 @@
       },
       "email": {
         "title": "Email Me",
-        "value": "hello@wavefront.example"
+        "value": "hello@wavefronswim.com"
       }
     },
     "location": {

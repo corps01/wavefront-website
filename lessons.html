@@ -116,7 +116,7 @@
           <div
             class="hidden items-center gap-8 font-medium text-sm tracking-wide md:flex"
           >
-            <a class="border-b-2 border-blue-300 pb-1 text-blue-900 transition-colors hover:text-blue-700" href="lessons.html" i18n="nav.lessons">Lessons</a
+            <a class="text-ink-light transition-colors hover:text-blue-700" href="lessons.html" i18n="nav.lessons">Lessons</a
             >
             <a class="text-ink-light transition-colors hover:text-blue-700" href="about.html" i18n="nav.about">About</a
             >
@@ -174,7 +174,7 @@
           data-nav-panel
         >
           <div class="flex flex-col gap-4 text-base font-medium">
-            <a class="text-blue-900" href="lessons.html" i18n="nav.lessons">Lessons</a
+            <a class="text-ink-light" href="lessons.html" i18n="nav.lessons">Lessons</a
             >
             <a class="text-ink-light" href="about.html" i18n="nav.about">About</a
             >
@@ -238,15 +238,11 @@
               <p class="mx-auto max-w-xl text-ink-light" data-i18n="lessonsPage.core.lead">
                 Essential water safety skills designed to build confidence and stay with your child for a lifetime.
               </p>
-              <div class="mx-auto mt-5 max-w-xl rounded-2xl border border-surface-border/40 bg-white/70 px-5 py-4 text-left">
+              <div class="mx-auto mt-5 max-w-xl rounded-2xl border border-surface-border/40 bg-white/70 px-5 py-4 text-justify hyphens-auto">
                 <p class="text-sm font-medium leading-relaxed text-ink md:text-base">
                   ISR lessons are one-on-one and tailored to your child’s skill
-                  and comfort level.
-                </p>
-                <p class="mt-3 text-sm leading-relaxed text-ink-light md:text-base">
-                  6–7 week session<br />
-                  4 days per week (Monday–Thursday)<br />
-                  10 minutes per day
+                  and comfort level. 6–7 week session, 4 days per week
+                  (Monday–Thursday), 10 minutes per day.
                 </p>
               </div>
             </div>
@@ -260,21 +256,25 @@
                   class="mb-3 max-w-md font-headline text-2xl font-extrabold uppercase tracking-[0.12em] text-blue-300 md:text-3xl"
                   data-i18n="lessonsPage.core.infant.title"
                 >
-                  ISR Self-Rescue® Infant
+                  Self-Rescue® Infant
                 </h3>
                 <p class="mb-1 text-xs font-bold uppercase tracking-wide text-ink" data-i18n="lessonsPage.core.infant.ageRange">CHILDREN 6 MONTHS TO 18 MONTHS OLD</p>
                 <p class="mb-8 text-xs font-bold uppercase tracking-wide text-ink-light" data-i18n="lessonsPage.core.infant.duration">
                   Duration: 6 – 7 weeks
                 </p>
-                <div class="relative mb-8 aspect-video w-full max-w-lg overflow-hidden rounded-xl bg-blue-900/10 shadow-inner">
-                  <iframe
-                    class="absolute inset-0 h-full w-full"
-                    src="https://vimeo.com/916116436?fl=pl&fe=vl"
-                    title="ISR Self-Rescue Infant program video"
-                    loading="lazy"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+                <div class="relative mb-8 aspect-video w-full max-w-lg overflow-hidden rounded-xl bg-blue-950/20 shadow-inner">
+                  <video
+                    class="absolute inset-0 h-full w-full object-contain"
+                    controls
+                    playsinline
+                    preload="metadata"
+                    title="Self-Rescue Infant program video"
+                  >
+                    <source
+                      src="assets/images/3%20-%20ISRvideobankA.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <p class="mb-10 max-w-md text-sm leading-relaxed text-ink md:text-base" data-i18n="lessonsPage.core.infant.description">
                   Infants learn the essential self-rescue skill of rolling onto their back to float, rest, and breathe. They are taught to stay calm and maintain this position independently until help arrives—giving them a critical layer of safety in the water.
@@ -301,17 +301,21 @@
                 </h3>
                 <p class="mb-1 text-xs font-bold uppercase tracking-wide text-ink" data-i18n="lessonsPage.core.toddler.ageRange">CHILDREN 18 MONTHS TO 8 YEARS OLD</p>
                 <p class="mb-8 text-xs font-bold uppercase tracking-wide text-ink-light" data-i18n="lessonsPage.core.toddler.duration">
-                  Duration: 2 – 4 weeks
+                  Duration: 6 – 7 weeks
                 </p>
-                <div class="relative mb-8 aspect-video w-full max-w-lg overflow-hidden rounded-xl bg-blue-900/10 shadow-inner">
-                  <iframe
-                    class="absolute inset-0 h-full w-full"
-                    src="https://vimeo.com/916116436?fl=pl&fe=vl"
+                <div class="relative mb-8 aspect-video w-full max-w-lg overflow-hidden rounded-xl bg-blue-950/20 shadow-inner">
+                  <video
+                    class="absolute inset-0 h-full w-full object-contain"
+                    controls
+                    playsinline
+                    preload="metadata"
                     title="ISR Self-Rescue Toddler program video"
-                    loading="lazy"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+                  >
+                    <source
+                      src="assets/images/3%20-%20ISRvideobankC.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <p class="mb-10 max-w-md whitespace-pre-line text-sm leading-relaxed text-ink md:text-base" data-i18n="lessonsPage.core.toddler.description">
                   Children learn the swim-float-swim sequence, for reaching safety.
@@ -349,21 +353,30 @@
             <div class="grid gap-8 md:grid-cols-2">
               <a class="flex flex-col rounded-xl bg-white p-8 text-left text-inherit no-underline transition-colors hover:bg-gold/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700" href="https://www.webaccomplice.app/scheduler_app/initiate_waitlist/cv833/0/1" target="_blank" rel="noopener noreferrer" labelledby="continuing-refresher-title">
                 <span class="material-symbols-outlined mb-4 text-4xl text-gold-mid" data-weight="fill" aria-hidden="true">history</span>
-                <h3 class="mb-3 text-xl font-bold" id="continuing-refresher-title" data-i18n="lessonsPage.continuing.refresher.title">Refresher</h3>
+                <h3 class="mb-1 text-xl font-bold" id="continuing-refresher-title" data-i18n="lessonsPage.continuing.refresher.title">Refresher</h3>
+                <p class="mb-3 text-xs font-semibold uppercase tracking-wide text-blue-700" data-i18n="lessonsPage.continuing.subtitle">
+                  Previously taught children
+                </p>
                 <p class="text-sm leading-relaxed text-ink-light" data-i18n="lessonsPage.continuing.refresher.body">
                   2–3 week course to sharpen skills after a break from the water.
                 </p>
               </a>
               <a class="flex flex-col rounded-xl bg-white p-8 text-left text-inherit no-underline transition-colors hover:bg-gold/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700" href="https://www.webaccomplice.app/scheduler_app/initiate_waitlist/cv833/0/1" target="_blank" rel="noopener noreferrer" labelledby="continuing-maintenance-title">
                 <span class="material-symbols-outlined mb-4 text-4xl text-gold-mid" data-weight="fill" aria-hidden="true">verified_user</span>
-                <h3 class="mb-3 text-xl font-bold" id="continuing-maintenance-title" data-i18n="lessonsPage.continuing.maintenance.title">Maintenance</h3>
+                <h3 class="mb-1 text-xl font-bold" id="continuing-maintenance-title" data-i18n="lessonsPage.continuing.maintenance.title">Maintenance</h3>
+                <p class="mb-3 text-xs font-semibold uppercase tracking-wide text-blue-700" data-i18n="lessonsPage.continuing.subtitle">
+                  Previously taught children
+                </p>
                 <p class="text-sm leading-relaxed text-ink-light" data-i18n="lessonsPage.continuing.maintenance.body">
                   Ongoing weekly lessons to keep muscle memory fresh and confidence high.
                 </p>
               </a>
               <a class="flex flex-col rounded-xl bg-white p-8 text-left text-inherit no-underline transition-colors hover:bg-gold/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700 md:col-span-2 md:w-full md:max-w-xl md:justify-self-center" href="https://www.webaccomplice.app/scheduler_app/initiate_waitlist/cv833/0/1" target="_blank" rel="noopener noreferrer" labelledby="continuing-strokes-title">
                 <span class="material-symbols-outlined mb-4 text-4xl text-gold-mid" data-weight="fill" aria-hidden="true">pool</span>
-                <h3 class="mb-3 text-xl font-bold" id="continuing-strokes-title" data-i18n="lessonsPage.continuing.strokes.title">Strokes & Form</h3>
+                <h3 class="mb-1 text-xl font-bold" id="continuing-strokes-title" data-i18n="lessonsPage.continuing.strokes.title">Strokes & Form</h3>
+                <p class="mb-3 text-xs font-semibold uppercase tracking-wide text-blue-700" data-i18n="lessonsPage.continuing.subtitle">
+                  Previously taught children
+                </p>
                 <p class="text-sm leading-relaxed text-ink-light" data-i18n="lessonsPage.continuing.strokes.body">
                   Introduction to formal swimming strokes and technical efficiency.
                 </p>
@@ -656,9 +669,9 @@
               <img
                 src="assets/images/wf-04.jpg"
                 alt="ISR certified seal logo"
-                width="400"
-                height="320"
-                class="h-48 w-auto rounded-lg object-contain shadow-md md:h-56"
+                width="520"
+                height="416"
+                class="h-[15.6rem] w-[19.5rem] rounded-lg object-cover object-center shadow-md md:h-[18.2rem] md:w-[22.75rem]"
                 loading="lazy"
                 decoding="async"
               />
@@ -669,9 +682,9 @@
                 <img
                   src="assets/images/wf-03.png"
                   alt=""
-                  width="400"
-                  height="120"
-                  class="h-28 w-auto object-contain brightness-0 invert md:h-36 lg:h-40"
+                  width="676"
+                  height="203"
+                  class="h-[11.5rem] w-auto object-contain brightness-0 invert md:h-[14.75rem] lg:h-[16.5rem]"
                   decoding="async"
                 />
               </a>
@@ -685,7 +698,7 @@
                 </p>
                 <p class="text-sm text-white/90">Mid Ohio</p>
                 <p class="pt-2">
-                  <a class="text-sm font-medium text-white underline-offset-4 hover:underline" href="mailto:Cynthia.vazquez@infantswim.com" target="_blank" rel="noopener noreferrer">Cynthia.vazquez@infantswim.com</a
+                  <a class="text-sm font-medium text-white underline-offset-4 hover:underline" href="mailto:cynthia.vazquez@infantswim.com" target="_blank" rel="noopener noreferrer">cynthia.vazquez@infantswim.com</a
                   >
                 </p>
               </div>
@@ -724,11 +737,11 @@
 
             <div class="flex justify-center md:justify-start">
               <img
-                src="assets/images/wf-05.png"
-                alt="Instructor holding a child near the pool"
-                width="400"
-                height="500"
-                class="h-48 w-auto rounded-lg object-contain shadow-md md:h-56"
+                src="assets/images/wf-15.png"
+                alt="Cynthia Vazquez, ISR certified instructor"
+                width="520"
+                height="416"
+                class="h-[15.6rem] w-[19.5rem] rounded-lg object-cover object-center shadow-md md:h-[18.2rem] md:w-[22.75rem]"
                 loading="lazy"
                 decoding="async"
               />

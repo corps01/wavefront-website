@@ -94,3 +94,101 @@
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ── About: Water Safety star diagram ── */
+
+.water-safety-frame {
+  position: relative;
+  width: 100%;
+  max-width: 54rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.water-safety-star {
+  display: block;
+  width: 9.5rem;
+  height: auto;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 20px rgba(12, 74, 110, 0.12));
+}
+
+.water-safety-point {
+  position: relative;
+  width: 100%;
+  max-width: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .water-safety-frame {
+    min-height: 38rem;
+    padding-bottom: 2rem;
+  }
+
+  .water-safety-star {
+    position: absolute;
+    left: 50%;
+    top: calc(50% + 2.25rem);
+    width: 13.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .water-safety-point {
+    position: absolute;
+    z-index: 2;
+    width: min(100%, 15.75rem);
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .water-safety-point--top {
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .water-safety-point--tl {
+    left: 0;
+    top: 23%;
+    text-align: right;
+    padding-right: 0.25rem;
+  }
+
+  .water-safety-point--bl {
+    left: 0;
+    bottom: 12%;
+    text-align: right;
+    padding-right: 0.25rem;
+  }
+
+  .water-safety-point--tr {
+    right: 0;
+    top: 23%;
+    text-align: left;
+    padding-left: 0.25rem;
+  }
+
+  .water-safety-point--br {
+    right: 0;
+    bottom: 12%;
+    text-align: left;
+    padding-left: 0.25rem;
+  }
+}

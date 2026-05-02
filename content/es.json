@@ -126,25 +126,26 @@
       "viewPricing": "Ver precios",
       "viewSchedule": "Ver horarios",
       "infant": {
-        "title": "ISR Auto-Rescate® Bebé",
+        "title": "Auto-Rescate® Bebé",
         "ageRange": "Niños de 6 a 12 meses",
         "duration": "Duración: 6 – 7 semanas",
         "description": "Los niños aprenden la técnica ISR de girar sobre la espalda para flotar, descansar y respirar, y mantener esa posición hasta que llegue ayuda. Es el curso ISR inicial para bebés—clases individuales adaptadas al desarrollo de su pequeño.",
-        "videoEmbed": "https://www.youtube-nocookie.com/embed/jNQXAC9IVRw",
+        "videoEmbed": "assets/images/3%20-%20ISRvideobankA.mp4",
         "price": "$125"
       },
       "toddler": {
         "title": "ISR Auto-Rescate® Niño",
         "ageRange": "Niños de 1 a 6 años",
-        "duration": "Duración: 2 – 4 semanas",
+        "duration": "Duración: 6 – 7 semanas",
         "description": "Sobre bases sólidas, los niños aprenden la secuencia Nadar-Flotar-Nadar, cómo llegar al borde o las escaleras con seguridad y cómo practicar con ropa puesta para el mundo real—siempre con instrucción individual.",
-        "videoEmbed": "https://www.youtube-nocookie.com/embed/jNQXAC9IVRw",
+        "videoEmbed": "assets/images/3%20-%20ISRvideobankC.mp4",
         "price": "$135"
       }
     },
     "continuing": {
       "heading": "Educación continua",
       "lead": "Pulir habilidades y desarrollar resistencia a través de práctica lúdica.",
+      "subtitle": "Niños con enseñanza previa",
       "refresher": {
         "title": "Repaso",
         "body": "Curso de 2–3 semanas para reavivar habilidades tras una pausa del agua.",
@@ -190,17 +191,19 @@
   "aboutPage": {
     "hero": {
       "imgAlt": "Miss Cynthia, instructora principal",
-      "badge": "Instructora principal",
+      "badge": "Conoce a tu instructora",
       "heading": "Cynthia, Certificada ISR",
-      "lead": "WaveFront enseña el programa oficial ISR de auto-rescate. Cynthia es instructora certificada ISR con amplia experiencia en clases individuales basadas en la metodología del Infant Swimming Resource—no es una escuela de natación genérica.",
-      "verifyCta": "Verificar credenciales ISR"
+      "lead": "Soy de México y llevo ocho años construyendo mi vida en Ohio junto a mi familia. Mi camino hacia la natación de supervivencia no empezó como un negocio, sino como mamá.\n\nMi hijo Sebastián lo cambió todo.\n\nComo madre de un niño con necesidades especiales, entiendo el miedo y la responsabilidad de mantener seguro a tu hijo o hija. Cuando conocí la natación de supervivencia y vi cómo empodera a los niños — con o sin necesidades especiales — supe que era mucho más que nadar.\n\nSalva vidas.\n\nPor eso me convertí en instructora.\n\nEn WaveFront ofrezco un entorno personalizado y respetuoso donde los niños aprenden habilidades para salvarse a sí mismos — y las familias ganan algo invaluable: tranquilidad.\n\nPorque el ahogamiento es silencioso.\n\nY la prevención empieza con la preparación.",
+      "verifyCta": "Verificar credenciales ISR",
+      "introTitle": "Hola, soy Cynthia — Instructora certificada ISR"
     },
     "isrOrg": {
       "kicker": "Infant Swimming Resource",
-      "heading": "Qué es ISR",
-      "body": "ISR (Infant Swimming Resource) es una organización internacional dedicada al auto-rescate acuático en bebés y niños pequeños. El programa ISR de auto-rescate combina ciencia del comportamiento y criterios de salud pediátrica para que las clases respeten cómo aprenden los bebés. Solo las instructoras certificadas ISR pueden impartir este plan de estudios; no es una clase grupal de natación tradicional.",
-      "point1Title": "Un solo estándar global",
-      "point1Text": "ISR mantiene un protocolo basado en evidencia que siguen instructoras en muchos países.",
+      "heading": "¿Qué es ISR?",
+      "body": "ISR es el líder mundial en la industria que impulsó en 1966: clases de natación de supervivencia para bebés y niños pequeños. Nuestro equipo de instructoras ISR altamente capacitadas ofrece las clases de supervivencia en el agua más seguras y eficaces. Las lecciones ISR que reciben nuestros estudiantes hoy son el resultado de casi 60 años de investigación y experiencia para lograr resultados sin igual cada día en albercas de todo el mundo.\n\nHoy, nuestra misión, «Ni un niño más ahogado», es la base de todo lo que hacemos y la fuerza que impulsa a las personas de ISR, a las instructoras ISR independientes y a nuestras grandes alianzas corporativas. Creemos que prevenir con éxito la principal causa de muerte accidental en menores de 4 años en EE. UU. requerirá un grupo amplio de profesionales capaces y comprometidos cuyo único enfoque sea salvar vidas.\n\nHasta la fecha hemos impartido más de 19.000.000 de lecciones ISR de auto-rescate. ISR cree en varias capas de defensa contra accidentes acuáticos, como cercas, alarmas y supervisión activa de un adulto. Sin embargo, esas barreras pueden fallar, y las más de 4.000 muertes por ahogamiento al año son un testimonio sombrío de que faltaba un componente clave: el niño o la niña. La convicción central de ISR es que el niño es la parte más importante de una estrategia de prevención; más de 450.000 graduados ISR y cientos de historias documentadas demuestran que los niños pueden, y sí, salvarse a sí mismos. Son curiosos, capaces y encuentran formas de superar obstáculos como las cercas; en ISR canalizamos esa capacidad y les enseñamos habilidades para salvarse si llegan solos al agua.",
+      "learnMoreCta": "Más información sobre ISR",
+      "point1Title": "Listos antes de la primera clase",
+      "point1Text": "Cada niño o niña completa la revisión de salud y acuática exigida por ISR y obtiene la aprobación formal de lecciones antes de empezar—las habilidades se planean para esa persona, no para una lista genérica.",
       "point2Title": "Formación exigente",
       "point2Text": "Las instructoras certificadas completan entrenamiento intensivo en el agua, exámenes y renovación continua para conservar su licencia.",
       "point3Title": "Habilidades para emergencias reales",
@@ -210,30 +213,39 @@
     "certs": {
       "heading": "Credenciales y certificaciones",
       "lead": "ISR define el listón nacional para la instrucción en auto-rescate. Así es como Cynthia se mantiene alineada con la organización, más la capacitación en seguridad pediátrica que las familias esperan.",
-      "verified": "Verificado 2024",
+      "verified": "Verificado 2026",
       "isr": {
         "title": "Instructora certificada ISR",
-        "detail": "Licencia activa #ISR-2012-98"
+        "detail": "Licencia activa #ISR-2012-98\n\nLicencia activa 2026"
       },
       "cpr": {
         "title": "RCP Pediátrico y Primeros Auxilios",
         "detail": "Certificada por la Cruz Roja Americana"
-      },
-      "wsi": {
-        "title": "Insignia de Instructora WSI",
-        "detail": "Experta en Instrucción de Seguridad Acuática"
       }
     },
-    "docs": {
-      "isr": "Licencia ISR oficial",
-      "cpr": "RCP Pediátrico ARC",
-      "insurance": "Certificado de seguro",
-      "background": "Antecedentes estatales"
-    },
-    "verify": {
-      "heading": "Verificación oficial",
-      "body": "Confirme la relación de WaveFront con ISR y verifique credenciales de instructoras en el registro nacional del Infant Swimming Resource.",
-      "cta": "Visitar página oficial ISR"
+    "waterSafety": {
+      "heading": "Seguridad en el agua",
+      "intro": "No importa si su hijo o hija sabe nadar: nadie está a prueba de ahogamiento y nada sustituye la supervisión activa de un adulto. El ahogamiento sigue siendo la principal causa de muerte accidental en niños de 1 a 4 años. Por eso importan varias capas de protección… porque incluso la supervisión más atenta puede fallar.",
+      "supervision": {
+        "title": "Supervisión efectiva",
+        "body": "Su mejor defensa es usted. Ninguna habilidad acuática reemplaza una supervisión activa y enfocada. Si alguna vez no encuentra a su hijo o hija, mire primero el agua."
+      },
+      "fences": {
+        "title": "Cercas perimetrales",
+        "body": "Instale una cerca permanente de cuatro lados con puertas de autocierre y autobloqueo. Déjela retirada unos metros de la alberca (unos 90–150 cm) para mayor seguridad."
+      },
+      "locks": {
+        "title": "Cerraduras y alarmas",
+        "body": "Asegure cada acceso. Las puertas y ventanas hacia la alberca deben cerrarse con llave y, si es posible, contar con alarmas."
+      },
+      "cpr": {
+        "title": "RCP",
+        "body": "Prepárese para lo inesperado. Padres y cuidadores deben saber RCP para bebés, niños y adultos, y mantener esas habilidades al día."
+      },
+      "swim": {
+        "title": "Clases de natación de supervivencia",
+        "body": "Las habilidades de auto-rescate suman otra capa de protección y dan a su hijo o hija la capacidad de reaccionar en el agua cuando más importa."
+      }
     }
   },
   "contactPage": {

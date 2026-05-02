@@ -126,25 +126,26 @@
       "viewPricing": "View pricing",
       "viewSchedule": "View schedule",
       "infant": {
-        "title": "ISR Self-Rescue® Infant",
+        "title": "Self-Rescue® Infant",
         "ageRange": "CHILDREN 6 MONTHS TO 18 MONTHS OLD",
         "duration": "Duration: 6 – 7 weeks",
         "description": "Infants learn the essential self-rescue skill of rolling onto their back to float, rest, and breathe. They are taught to stay calm and maintain this position independently until help arrives—giving them a critical layer of safety in the water.",
-        "videoEmbed": "https://www.youtube-nocookie.com/embed/jNQXAC9IVRw",
+        "videoEmbed": "assets/images/3%20-%20ISRvideobankA.mp4",
         "price": "$125"
       },
       "toddler": {
         "title": "Self-Rescue® Toddler",
         "ageRange": "CHILDREN 18 MONTHS TO 8 YEARS OLD",
-        "duration": "Duration: 2 – 4 weeks",
+        "duration": "Duration: 6 – 7 weeks",
         "description": "Children learn the swim-float-swim sequence, for reaching safety.\nThey swim with their face in the water, roll onto their back to rest and breathe.\nThey continue swimming until they reach the wall, steps, or edge.",
-        "videoEmbed": "https://www.youtube-nocookie.com/embed/jNQXAC9IVRw",
+        "videoEmbed": "assets/images/3%20-%20ISRvideobankC.mp4",
         "price": "$135"
       }
     },
     "continuing": {
       "heading": "Continuing Education",
       "lead": "Polishing skills and building endurance through playful practice.",
+      "subtitle": "Previously taught children",
       "refresher": {
         "title": "Refresher",
         "body": "2–3 week course to sharpen skills after a break from the water.",
@@ -190,17 +191,19 @@
   "aboutPage": {
     "hero": {
       "imgAlt": "Miss Cynthia, lead instructor",
-      "badge": "Lead Instructor",
+      "badge": "Meet Your Instructor",
       "heading": "Cynthia, ISR Certified",
-      "lead": "WaveFront teaches the official ISR Self-Rescue program. Cynthia is a certified ISR instructor with extensive one-on-one experience rooted in the Infant Swimming Resource methodology—not a generic swim school.",
-      "verifyCta": "Verify Official ISR Credentials"
+      "lead": "I'm originally from Mexico and have been building my life in Ohio with my family for the past 8 years. My journey into survival swim didn't start as a business — it started as a mom.\n\nMy son, Sebastián, changed everything for me.\n\nAs a parent of a child with unique needs, I understand the fear and the responsibility of keeping your child safe. When I discovered survival swim and saw how it empowers children — with or without special needs — I knew this was more than swimming.\n\nIt was life-saving.\n\nThat's why I became an instructor.\n\nAt WaveFront, I create a personalized and respectful environment where children learn the skills to save themselves — and parents gain something priceless: peace of mind.\n\nBecause drowning is silent.\n\nAnd prevention starts with preparation.",
+      "verifyCta": "Verify Official ISR Credentials",
+      "introTitle": "Hi, I'm Cynthia — ISR Certified Instructor"
     },
     "isrOrg": {
       "kicker": "Infant Swimming Resource",
-      "heading": "What ISR is",
-      "body": "ISR (Infant Swimming Resource) is an international organization dedicated to aquatic self-rescue for infants and young children. The ISR Self-Rescue program combines behavioral science with pediatric health guidance so lessons match how babies learn. Only licensed ISR instructors may teach this curriculum; it is not a traditional group swim class.",
-      "point1Title": "One global standard",
-      "point1Text": "ISR publishes a single, evidence-informed protocol used by instructors across the country and abroad.",
+      "heading": "What is ISR?",
+      "body": "ISR is the global leader in the industry it pioneered in 1966: survival swimming lessons for infants and young children. Our team of highly-trained ISR Instructors provides the safest and most effective survival swimming lessons available. The ISR lessons our students receive today are a product of nearly 60 years of research and experience to achieve unparalleled results each day in pools around the world.\n\nToday, our mission, \"Not One More Child Drowns,\" is the foundation of everything we do and is the driving force behind ISR's employees, our independent ISR Instructors, and our major corporate partnerships. We believe the successful prevention of the leading cause of accidental death for children under the age of 4 in the U.S. will require a large group of caring and capable professionals whose sole focus is to save lives.\n\nTo date, we have delivered more than 19,000,000 ISR Self-Rescue Lessons. ISR believes in multiple layers of defense against aquatic accidents which include pool fences, alarms, and active adult supervision. However, traditional lines of defense break down, and the over 4,000 drowning deaths per year bear a grim testament to the fact that traditional approaches are missing a key component: the child. ISR's core conviction is that the child is the most important part of a drowning prevention strategy and our over 450,000 ISR graduates and hundreds of documented survival stories, are proof that children can, and do, save themselves. Children are curious, capable, and have an uncanny ability to overcome obstacles like pool fences; at ISR we take that ability and teach them skills to potentially save themselves if they find themselves in the water alone.",
+      "learnMoreCta": "Learn more about ISR",
+      "point1Title": "Ready before lesson one",
+      "point1Text": "Each child goes through ISR's required health and aquatic review and formal lesson approval before instruction starts—so skills are planned for the individual, not a generic class roster.",
       "point2Title": "Deep instructor training",
       "point2Text": "Certified instructors complete intensive in-water training, exams, and ongoing renewal to keep their license active.",
       "point3Title": "Skills for real emergencies",
@@ -210,30 +213,39 @@
     "certs": {
       "heading": "Credentials & Certifications",
       "lead": "ISR sets the national bar for self-rescue instruction. Here is how Cynthia stays aligned with the organization—plus the pediatric safety training families expect.",
-      "verified": "Verified 2024",
+      "verified": "Verified 2026",
       "isr": {
         "title": "Certified ISR Instructor",
-        "detail": "Active License #ISR-2012-98"
+        "detail": "Active License #ISR-2012-98\n\nactive License 2026"
       },
       "cpr": {
         "title": "Pediatric CPR & First Aid",
         "detail": "American Red Cross Certified"
-      },
-      "wsi": {
-        "title": "WSI Instructor Badge",
-        "detail": "Water Safety Instruction Expert"
       }
     },
-    "docs": {
-      "isr": "Official ISR License",
-      "cpr": "ARC Pediatric CPR",
-      "insurance": "Insurance Certificate",
-      "background": "State Background Clear"
-    },
-    "verify": {
-      "heading": "Official Verification",
-      "body": "Confirm WaveFront's connection to ISR and verify instructor credentials on the Infant Swimming Resource's national registry.",
-      "cta": "Visit Official ISR Page"
+    "waterSafety": {
+      "heading": "Water Safety",
+      "intro": "It doesn't matter if your child knows how to swim—no one is drown-proof, and nothing replaces active adult supervision. Drowning is still the leading cause of accidental death for children ages 1–4. That's why multiple layers of protection matter... because even the most attentive supervision can fail.",
+      "supervision": {
+        "title": "Effective Supervision",
+        "body": "Your strongest line of defense is you. No swim skill replaces active, focused supervision. If your child is ever missing—check the water first."
+      },
+      "fences": {
+        "title": "Pool Fences",
+        "body": "Add a permanent 4-sided fence with self-latching, self-locking gates. Keep it set back a few feet from the pool (about 3–5 ft) for added safety."
+      },
+      "locks": {
+        "title": "Locks & Alarms",
+        "body": "Secure every access point. Doors and windows leading to the pool should be locked and equipped with alarms."
+      },
+      "cpr": {
+        "title": "CPR",
+        "body": "Be ready for the unexpected. Parents and caregivers should know CPR for infants, children, and adults—and keep those skills up to date."
+      },
+      "swim": {
+        "title": "Survival Swim Lessons",
+        "body": "Self-rescue skills add another layer of protection, giving your child the ability to respond in the water when it matters most."
+      }
     }
   },
   "contactPage": {

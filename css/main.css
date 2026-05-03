@@ -38,6 +38,26 @@
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
 }
 
+/* ── FAQ accordion (grid height transition) ── */
+
+[data-faq-panel] {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s ease;
+}
+
+[data-faq-item].is-open [data-faq-panel] {
+  grid-template-rows: 1fr;
+}
+
+[data-faq-item] [data-faq-chevron] {
+  transition: transform 0.3s ease;
+}
+
+[data-faq-item].is-open [data-faq-chevron] {
+  transform: rotate(180deg);
+}
+
 /* ── Canvas wave layer ── */
 
 #wave-canvas {

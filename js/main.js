@@ -16,9 +16,25 @@
     setOpen(!open);
   });
 
-  panel.querySelectorAll('a[href^="#"]').forEach((link) => {
+  panel.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       if (window.matchMedia("(max-width: 767px)").matches) setOpen(false);
+    });
+  });
+})();
+
+/**
+ * FAQ accordion — question cards expand to reveal answers
+ */
+(function () {
+  document.querySelectorAll("[data-faq-item]").forEach((item) => {
+    const trigger = item.querySelector("[data-faq-trigger]");
+    if (!trigger) return;
+
+    trigger.addEventListener("click", () => {
+      const open = !item.classList.contains("is-open");
+      item.classList.toggle("is-open", open);
+      trigger.setAttribute("aria-expanded", open ? "true" : "false");
     });
   });
 })();

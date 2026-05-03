@@ -123,6 +123,8 @@
             >
             <a class="text-ink-light transition-colors hover:text-blue-700" href="about.html" i18n="nav.about">About</a
             >
+            <a class="text-ink-light transition-colors hover:text-blue-700" href="faq.html" i18n="nav.faq">FAQ</a
+            >
             <a class="text-ink-light transition-colors hover:text-blue-700" href="contact.html" i18n="nav.contact">Contact</a
             >
           </div>
@@ -181,6 +183,8 @@
             >
             <a class="text-ink-light" href="about.html" i18n="nav.about">About</a
             >
+            <a class="text-ink-light" href="faq.html" i18n="nav.faq">FAQ</a
+            >
             <a class="text-ink-light" href="contact.html" i18n="nav.contact">Contact</a
             >
             <a class="mt-2 inline-flex justify-center rounded-full bg-blue-300 px-8 py-3 font-semibold text-blue-900 shadow-lg shadow-blue-700/20" href="https://www.webaccomplice.app/scheduler_app/lesson_types/cv833" target="_blank" rel="noopener noreferrer" i18n="nav.bookNow">
@@ -193,19 +197,21 @@
       <main id="main" class="bg-surface pt-28 pb-24">
         <!-- Hero -->
         <section class="mx-auto mb-20 max-w-7xl px-6 md:px-8">
-          <div class="grid items-center gap-12 lg:grid-cols-2">
-            <div class="relative mx-auto max-w-md">
+          <div
+            class="grid items-start gap-10 lg:grid-cols-12 lg:gap-14 xl:gap-16"
+          >
+            <div class="relative w-full lg:col-span-7">
               <div
-                class="absolute -inset-4 -z-10 bg-blue-300/20 organic-blob"
+                class="absolute -inset-4 -z-10 bg-blue-300/20 organic-blob hidden sm:block"
               ></div>
               <div
-                class="overflow-hidden rounded-xl border-8 border-white shadow-2xl"
+                class="mx-auto max-w-lg overflow-hidden rounded-2xl border-8 border-white shadow-2xl sm:max-w-xl lg:mx-0 lg:max-w-none"
               >
                 <img
                   data-i18n="aboutPage.hero.imgAlt"
                   data-i18n-attr="alt"
                   alt="Cynthia Vazquez, ISR certified instructor"
-                  class="h-full w-full object-cover object-top transition-transform duration-500 hover:scale-105"
+                  class="aspect-[3/4] w-full object-cover object-top transition-transform duration-500 hover:scale-[1.02] sm:aspect-[4/5] lg:aspect-[3/4] lg:min-h-[min(78vh,44rem)]"
                   src="assets/images/wf-16.png"
                   width="800"
                   height="1000"
@@ -214,7 +220,7 @@
                 />
               </div>
             </div>
-            <div class="space-y-6">
+            <div class="mx-auto w-full max-w-xl space-y-5 lg:col-span-5 lg:max-w-none lg:space-y-6 lg:pt-1">
               <span
                 class="inline-flex items-center gap-2 rounded-full bg-blue-300 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-blue-900"
                 data-i18n="aboutPage.hero.badge"
@@ -222,19 +228,19 @@
                 Meet Your Instructor
               </span>
               <h1
-                class="font-headline text-4xl font-extrabold tracking-tight text-blue-900 md:text-5xl"
+                class="font-headline text-3xl font-extrabold tracking-tight text-blue-900 md:text-4xl lg:text-[2.35rem] lg:leading-tight"
                 data-i18n="aboutPage.hero.heading"
               >
                 Cynthia, ISR Certified
               </h1>
-              <h3
-                class="font-headline text-2xl font-bold tracking-tight text-blue-900 md:text-3xl"
+              <h2
+                class="font-headline text-lg font-semibold text-blue-800 md:text-xl"
                 data-i18n="aboutPage.hero.introTitle"
               >
                 Hi, I'm Cynthia — ISR Certified Instructor
-              </h3>
+              </h2>
               <p
-                class="text-justify text-xl leading-relaxed text-ink-light hyphens-auto whitespace-pre-line"
+                class="max-w-prose text-justify text-base leading-relaxed text-ink-light hyphens-auto whitespace-pre-line md:text-[1.05rem] md:leading-[1.7]"
                 data-i18n="aboutPage.hero.lead"
               >I'm originally from Mexico and have been building my life in Ohio with my family for the past 8 years. My journey into survival swim didn't start as a business — it started as a mom.
 
@@ -417,17 +423,11 @@ To date, we have delivered more than 19,000,000 ISR Self-Rescue Lessons. ISR bel
                   />
                 </div>
                 <h3
-                  class="mb-1 text-lg font-bold"
+                  class="mb-4 text-lg font-bold"
                   data-i18n="aboutPage.certs.isr.title"
                 >
                   Certified ISR Instructor
                 </h3>
-                <p
-                  class="mb-4 whitespace-pre-line text-sm text-ink-light"
-                  data-i18n="aboutPage.certs.isr.detail"
-                >Active License #ISR-2012-98
-
-active License 2026</p>
                 <span
                   class="inline-block rounded-full bg-blue-100 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-blue-800"
                   data-i18n="aboutPage.certs.verified"
@@ -508,13 +508,13 @@ active License 2026</p>
               class="water-safety-point water-safety-point--top p-5 lg:px-6"
             >
               <h3
-                class="mb-2 font-headline text-base font-bold text-orange-600 md:text-lg"
+                class="mb-2 font-headline text-base font-bold text-[#ffb500] md:text-lg"
                 data-i18n="aboutPage.waterSafety.supervision.title"
               >
                 Effective Supervision
               </h3>
               <p
-                class="text-sm leading-relaxed text-ink md:text-[0.9375rem]"
+                class="text-sm leading-relaxed text-blue-900 md:text-[0.9375rem]"
                 data-i18n="aboutPage.waterSafety.supervision.body"
               >
                 Your strongest line of defense is you.
@@ -525,13 +525,13 @@ active License 2026</p>
               class="water-safety-point water-safety-point--tl p-5 lg:px-5"
             >
               <h3
-                class="mb-2 font-headline text-base font-bold text-orange-600 md:text-lg"
+                class="mb-2 font-headline text-base font-bold text-[#ffb500] md:text-lg"
                 data-i18n="aboutPage.waterSafety.fences.title"
               >
                 Pool Fences
               </h3>
               <p
-                class="text-sm leading-relaxed text-ink md:text-[0.9375rem]"
+                class="text-sm leading-relaxed text-blue-900 md:text-[0.9375rem]"
                 data-i18n="aboutPage.waterSafety.fences.body"
               >
                 Add a permanent 4-sided fence with self-latching gates.
@@ -542,13 +542,13 @@ active License 2026</p>
               class="water-safety-point water-safety-point--bl p-5 lg:px-5"
             >
               <h3
-                class="mb-2 font-headline text-base font-bold text-orange-600 md:text-lg"
+                class="mb-2 font-headline text-base font-bold text-[#ffb500] md:text-lg"
                 data-i18n="aboutPage.waterSafety.locks.title"
               >
                 Locks &amp; Alarms
               </h3>
               <p
-                class="text-sm leading-relaxed text-ink md:text-[0.9375rem]"
+                class="text-sm leading-relaxed text-blue-900 md:text-[0.9375rem]"
                 data-i18n="aboutPage.waterSafety.locks.body"
               >
                 Secure every access point.
@@ -559,13 +559,13 @@ active License 2026</p>
               class="water-safety-point water-safety-point--tr p-5 lg:px-5"
             >
               <h3
-                class="mb-2 font-headline text-base font-bold text-orange-600 md:text-lg"
+                class="mb-2 font-headline text-base font-bold text-[#ffb500] md:text-lg"
                 data-i18n="aboutPage.waterSafety.cpr.title"
               >
                 CPR
               </h3>
               <p
-                class="text-sm leading-relaxed text-ink md:text-[0.9375rem]"
+                class="text-sm leading-relaxed text-blue-900 md:text-[0.9375rem]"
                 data-i18n="aboutPage.waterSafety.cpr.body"
               >
                 Be ready for the unexpected.
@@ -576,13 +576,13 @@ active License 2026</p>
               class="water-safety-point water-safety-point--br p-5 lg:px-5"
             >
               <h3
-                class="mb-2 font-headline text-base font-bold text-orange-600 md:text-lg"
+                class="mb-2 font-headline text-base font-bold text-[#ffb500] md:text-lg"
                 data-i18n="aboutPage.waterSafety.swim.title"
               >
                 Survival Swim Lessons
               </h3>
               <p
-                class="text-sm leading-relaxed text-ink md:text-[0.9375rem]"
+                class="text-sm leading-relaxed text-blue-900 md:text-[0.9375rem]"
                 data-i18n="aboutPage.waterSafety.swim.body"
               >
                 Self-rescue skills add another layer of protection.

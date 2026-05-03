@@ -424,6 +424,87 @@
           </div>
         </section>
 
+        <section
+          id="instagram"
+          class="border-t border-surface-border bg-surface-low py-20"
+          aria-labelledby="instagram-heading"
+        >
+          <div class="mx-auto max-w-4xl px-6 md:px-8">
+            <div class="mb-10 text-center">
+              <h2
+                id="instagram-heading"
+                class="mb-3 font-headline text-3xl font-bold text-blue-900 md:text-4xl"
+                data-i18n="instagram.heading"
+              >
+                Follow along on Instagram
+              </h2>
+              <p
+                class="mx-auto max-w-xl text-lg text-ink-light"
+                data-i18n="instagram.lead"
+              >
+                Recent photos and reels from the pool.
+              </p>
+            </div>
+
+            <div id="instagram-post-slot" class="mb-10 hidden"></div>
+
+            <a
+              class="mx-auto block max-w-lg overflow-hidden rounded-2xl border border-surface-border bg-white shadow-[0_16px_45px_rgba(39,98,124,0.12)] transition hover:border-blue-300 hover:shadow-lg"
+              href="https://www.instagram.com/isr_cynthia_vazquez/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="grid grid-cols-3 gap-0.5 p-1">
+                <div
+                  class="aspect-square rounded-tl-xl bg-gradient-to-br from-blue-200 to-blue-400"
+                  aria-hidden="true"
+                ></div>
+                <div
+                  class="aspect-square bg-gradient-to-br from-blue-300 to-blue-500"
+                  aria-hidden="true"
+                ></div>
+                <div
+                  class="aspect-square rounded-tr-xl bg-gradient-to-br from-surface-high to-blue-300"
+                  aria-hidden="true"
+                ></div>
+              </div>
+              <div
+                class="flex items-center justify-center gap-3 border-t border-surface-border px-5 py-4"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="h-6 w-6 shrink-0 text-blue-700"
+                  aria-hidden="true"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path
+                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                  />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+                <div class="text-left">
+                  <p class="font-headline font-bold text-blue-900">
+                    @isr_cynthia_vazquez
+                  </p>
+                  <p class="text-sm text-ink-light" data-i18n="instagram.followCta">
+                    Open in Instagram
+                  </p>
+                </div>
+                <span
+                  class="material-symbols-outlined ml-auto text-blue-600"
+                  aria-hidden="true"
+                  >open_in_new</span
+                >
+              </div>
+            </a>
+          </div>
+        </section>
+
         <section id="contact" class="bg-surface py-20 pb-32">
           <div class="mx-auto max-w-5xl px-6 md:px-8">
             <div
@@ -594,6 +675,8 @@
     <script src="js/hero-wave.js" defer></script>
     <script src="js/waves.js" defer></script>
     <script src="js/main.js" defer></script>
+    <script src="js/instagram-embed-config.js" defer></script>
+    <script src="js/instagram-embed.js" defer></script>
     <script src="js/i18n.js" defer></script>
   </body>
 </html>

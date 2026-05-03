@@ -129,14 +129,19 @@
 
 .water-safety-star {
   display: block;
-  width: 9.5rem;
+  width: 12.5rem;
   height: auto;
   margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.5rem;
   object-fit: contain;
-  filter: drop-shadow(0 10px 20px rgba(12, 74, 110, 0.12));
+  /* Layered depth + soft brand glow (follows non-rectangular star shape) */
+  filter: drop-shadow(0 1px 2px rgba(12, 74, 110, 0.18))
+    drop-shadow(0 6px 16px rgba(12, 74, 110, 0.14))
+    drop-shadow(0 14px 36px rgba(12, 74, 110, 0.1))
+    drop-shadow(0 0 28px rgba(21, 169, 234, 0.22))
+    drop-shadow(0 0 56px rgba(21, 169, 234, 0.08));
 }
 
 .water-safety-point {
@@ -151,7 +156,7 @@
 
 @media (min-width: 1024px) {
   .water-safety-frame {
-    min-height: 38rem;
+    min-height: 41rem;
     padding-bottom: 2rem;
   }
 
@@ -159,7 +164,7 @@
     position: absolute;
     left: 50%;
     top: calc(50% + 2.25rem);
-    width: 13.5rem;
+    width: 18rem;
     margin-top: 0;
     margin-bottom: 0;
     transform: translate(-50%, -50%);

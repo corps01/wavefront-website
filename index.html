@@ -237,8 +237,12 @@
               <p
                 class="max-w-lg text-lg font-light leading-snug tracking-wide text-white/90 [text-shadow:0_1px_2px_rgba(0,0,0,0.5),0_2px_16px_rgba(0,0,0,0.35)]"
               >
-                Proudly serving families here in
-                <span class="font-semibold">Mid Ohio</span>
+                <span data-i18n="hero.servingIntro"
+                  >Proudly serving families here in</span
+                >
+                <span class="font-semibold" data-i18n="hero.servingRegion"
+                  >Mid Ohio</span
+                >
               </p>
               <!-- desktop buttons (hidden on mobile) -->
               <div class="hidden md:flex md:flex-wrap md:justify-start md:gap-3">
@@ -429,7 +433,7 @@
           class="border-t border-surface-border bg-surface-low py-20"
           aria-labelledby="instagram-heading"
         >
-          <div class="mx-auto max-w-4xl px-6 md:px-8">
+          <div class="mx-auto max-w-7xl px-6 md:px-8">
             <div class="mb-10 text-center">
               <h2
                 id="instagram-heading"
@@ -446,62 +450,12 @@
               </p>
             </div>
 
-            <div id="instagram-post-slot" class="mb-10 hidden"></div>
-
-            <a
-              class="mx-auto block max-w-lg overflow-hidden rounded-2xl border border-surface-border bg-white shadow-[0_16px_45px_rgba(39,98,124,0.12)] transition hover:border-blue-300 hover:shadow-lg"
-              href="https://www.instagram.com/isr_cynthia_vazquez/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="grid grid-cols-3 gap-0.5 p-1">
-                <div
-                  class="aspect-square rounded-tl-xl bg-gradient-to-br from-blue-200 to-blue-400"
-                  aria-hidden="true"
-                ></div>
-                <div
-                  class="aspect-square bg-gradient-to-br from-blue-300 to-blue-500"
-                  aria-hidden="true"
-                ></div>
-                <div
-                  class="aspect-square rounded-tr-xl bg-gradient-to-br from-surface-high to-blue-300"
-                  aria-hidden="true"
-                ></div>
-              </div>
-              <div
-                class="flex items-center justify-center gap-3 border-t border-surface-border px-5 py-4"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="h-6 w-6 shrink-0 text-blue-700"
-                  aria-hidden="true"
-                >
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-                  <path
-                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
-                  />
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-                </svg>
-                <div class="text-left">
-                  <p class="font-headline font-bold text-blue-900">
-                    @isr_cynthia_vazquez
-                  </p>
-                  <p class="text-sm text-ink-light" data-i18n="instagram.followCta">
-                    Open in Instagram
-                  </p>
-                </div>
-                <span
-                  class="material-symbols-outlined ml-auto text-blue-600"
-                  aria-hidden="true"
-                  >open_in_new</span
-                >
-              </div>
-            </a>
+            <!-- Elfsight Instagram Feed | Untitled Instagram Feed -->
+            <script src="https://elfsightcdn.com/platform.js" async></script>
+            <div
+              class="elfsight-app-12c92513-f90c-4dda-bb76-6db7dd572764"
+              data-elfsight-app-lazy
+            ></div>
           </div>
         </section>
 
@@ -582,6 +536,8 @@
                 class="h-[15.6rem] w-[19.5rem] rounded-lg object-cover object-center shadow-md md:h-[18.2rem] md:w-[22.75rem]"
                 loading="lazy"
                 decoding="async"
+                data-i18n="footer.sealAlt"
+                data-i18n-attr="alt"
               />
             </div>
 
@@ -601,10 +557,10 @@
                 <p class="text-lg font-semibold tracking-wide">
                   Cynthia Vazquez
                 </p>
-                <p class="text-sm text-white/90">
+                <p class="text-sm text-white/90" data-i18n="footer.serviceTagline">
                   ISR Certified Infant Swim Lessons
                 </p>
-                <p class="text-sm text-white/90">Mid Ohio</p>
+                <p class="text-sm text-white/90" data-i18n="footer.areaLine">Mid Ohio</p>
                 <p class="pt-2">
                   <a class="text-sm font-medium text-white underline-offset-4 hover:underline" href="mailto:cynthia.vazquez@infantswim.com" target="_blank" rel="noopener noreferrer">cynthia.vazquez@infantswim.com</a
                   >
@@ -612,12 +568,12 @@
               </div>
 
               <div class="flex gap-3">
-                <a class="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white transition-transform hover:scale-110 hover:bg-white/25" href="https://www.facebook.com/isr.cynthia.vazquez/" target="_blank" rel="noopener noreferrer" label="Facebook">
+                <a class="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white transition-transform hover:scale-110 hover:bg-white/25" href="https://www.facebook.com/isr.cynthia.vazquez/" target="_blank" rel="noopener noreferrer" data-i18n="a11y.facebook" data-i18n-attr="aria-label" aria-label="Facebook">
                   <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4" aria-hidden="true">
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
                   </svg>
                 </a>
-                <a class="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white transition-transform hover:scale-110 hover:bg-white/25" href="https://www.instagram.com/isr_cynthia_vazquez/" target="_blank" rel="noopener noreferrer" label="Instagram">
+                <a class="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white transition-transform hover:scale-110 hover:bg-white/25" href="https://www.instagram.com/isr_cynthia_vazquez/" target="_blank" rel="noopener noreferrer" data-i18n="a11y.instagram" data-i18n-attr="aria-label" aria-label="Instagram">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" aria-hidden="true">
                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
                     <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
@@ -652,6 +608,8 @@
                 class="h-[15.6rem] w-[19.5rem] rounded-lg object-cover object-center shadow-md md:h-[18.2rem] md:w-[22.75rem]"
                 loading="lazy"
                 decoding="async"
+                data-i18n="footer.portraitAlt"
+                data-i18n-attr="alt"
               />
             </div>
           </div>
@@ -675,8 +633,6 @@
     <script src="js/hero-wave.js" defer></script>
     <script src="js/waves.js" defer></script>
     <script src="js/main.js" defer></script>
-    <script src="js/instagram-embed-config.js" defer></script>
-    <script src="js/instagram-embed.js" defer></script>
     <script src="js/i18n.js" defer></script>
   </body>
 </html>

@@ -272,18 +272,18 @@
             <div class="mb-8 text-center">
               <span
                 class="inline-block rounded-full bg-[#ffb500] px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-white"
+                data-i18n="contactPage.form.badge"
               >
                 Have a question?
               </span>
               <h2
                 class="mt-4 font-headline text-3xl font-extrabold tracking-tight text-blue-700 md:text-4xl"
+                data-i18n="contactPage.form.title"
               >
                 Send us a message
               </h2>
-              <p class="mx-auto mt-3 max-w-xl text-ink-light">
-                Choose the topic that best fits your question so we can route
-                it to the right person. Fields marked with
-                <span class="font-semibold text-warm-mid">*</span> are required.
+              <p class="mx-auto mt-3 max-w-xl text-ink-light" data-i18n="contactPage.form.lead">
+                Choose the topic that best fits your question so we can route it to the right person. Fields marked with * are required.
               </p>
             </div>
 
@@ -292,8 +292,8 @@
               data-fs-success
               class="mb-6 hidden rounded-2xl bg-blue-50 border border-blue-200 px-6 py-5 text-center"
             >
-              <p class="text-lg font-semibold text-blue-700">Message sent!</p>
-              <p class="mt-1 text-sm text-ink-light">Thanks for reaching out — Cynthia will get back to you shortly.</p>
+              <p class="text-lg font-semibold text-blue-700" data-i18n="contactPage.form.successTitle">Message sent!</p>
+              <p class="mt-1 text-sm text-ink-light" data-i18n="contactPage.form.successBody">Thanks for reaching out — Cynthia will get back to you shortly.</p>
             </div>
 
             <!-- Error banner (hidden until error) -->
@@ -311,7 +311,8 @@
                   for="topic"
                   class="mb-1.5 block text-sm font-semibold text-ink"
                 >
-                  Topic <span class="text-warm-mid">*</span>
+                  <span data-i18n="contactPage.form.topicLabel">Topic</span>
+                  <span class="text-warm-mid">*</span>
                 </label>
                 <select
                   id="topic"
@@ -320,12 +321,12 @@
                   data-fs-field
                   class="w-full rounded-full border border-surface-border bg-surface-low px-5 py-3 text-ink outline-none transition-colors focus:border-blue-400 focus:bg-white focus:ring-2 focus:ring-blue-300/40"
                 >
-                  <option value="">Select a topic...</option>
-                  <option value="Scheduling">Scheduling & availability</option>
-                  <option value="Pricing">Pricing & registration</option>
-                  <option value="Program">Program questions</option>
-                  <option value="Existing student">Existing student</option>
-                  <option value="Other">Other</option>
+                  <option value="" data-i18n="contactPage.form.topicPlaceholder">Select a topic...</option>
+                  <option value="Scheduling" data-i18n="contactPage.form.topicScheduling">Scheduling & availability</option>
+                  <option value="Pricing" data-i18n="contactPage.form.topicPricing">Pricing & registration</option>
+                  <option value="Program" data-i18n="contactPage.form.topicProgram">Program questions</option>
+                  <option value="Existing student" data-i18n="contactPage.form.topicExisting">Existing student</option>
+                  <option value="Other" data-i18n="contactPage.form.topicOther">Other</option>
                 </select>
                 <span data-fs-error="topic" class="mt-1 block text-xs text-warm-mid"></span>
               </div>
@@ -336,12 +337,15 @@
                     for="name"
                     class="mb-1.5 block text-sm font-semibold text-ink"
                   >
-                    Your full name <span class="text-warm-mid">*</span>
+                    <span data-i18n="contactPage.form.nameLabel">Your full name</span>
+                    <span class="text-warm-mid">*</span>
                   </label>
                   <input
                     type="text"
                     id="name"
                     name="name"
+                    data-i18n="contactPage.form.namePlaceholder"
+                    data-i18n-attr="placeholder"
                     placeholder="Your name"
                     required
                     data-fs-field
@@ -355,12 +359,15 @@
                     for="email"
                     class="mb-1.5 block text-sm font-semibold text-ink"
                   >
-                    Your email <span class="text-warm-mid">*</span>
+                    <span data-i18n="contactPage.form.emailLabel">Your email</span>
+                    <span class="text-warm-mid">*</span>
                   </label>
                   <input
                     type="email"
                     id="email"
                     name="email"
+                    data-i18n="contactPage.form.emailPlaceholder"
+                    data-i18n-attr="placeholder"
                     placeholder="name@example.com"
                     required
                     data-fs-field
@@ -375,6 +382,7 @@
                   <label
                     for="instructor"
                     class="mb-1.5 block text-sm font-semibold text-ink"
+                    data-i18n="contactPage.form.instructorLabel"
                   >
                     Your instructor's full name
                   </label>
@@ -382,6 +390,8 @@
                     type="text"
                     id="instructor"
                     name="instructor"
+                    data-i18n="contactPage.form.instructorPlaceholder"
+                    data-i18n-attr="placeholder"
                     placeholder="Instructor's name"
                     class="w-full rounded-full border border-surface-border bg-surface-low px-5 py-3 text-ink placeholder:text-ink-muted outline-none transition-colors focus:border-blue-400 focus:bg-white focus:ring-2 focus:ring-blue-300/40"
                   />
@@ -391,6 +401,7 @@
                   <label
                     for="child"
                     class="mb-1.5 block text-sm font-semibold text-ink"
+                    data-i18n="contactPage.form.childLabel"
                   >
                     Your child's full name (if applicable)
                   </label>
@@ -398,6 +409,8 @@
                     type="text"
                     id="child"
                     name="child"
+                    data-i18n="contactPage.form.childPlaceholder"
+                    data-i18n-attr="placeholder"
                     placeholder="Child's full name"
                     class="w-full rounded-full border border-surface-border bg-surface-low px-5 py-3 text-ink placeholder:text-ink-muted outline-none transition-colors focus:border-blue-400 focus:bg-white focus:ring-2 focus:ring-blue-300/40"
                   />
@@ -409,13 +422,17 @@
                   for="question"
                   class="mb-1.5 block text-sm font-semibold text-ink"
                 >
-                  Question / Explain the situation
+                  <span data-i18n="contactPage.form.questionLabel"
+                    >Question / Explain the situation</span
+                  >
                   <span class="text-warm-mid">*</span>
                 </label>
                 <textarea
                   id="question"
                   name="question"
                   rows="6"
+                  data-i18n="contactPage.form.questionPlaceholder"
+                  data-i18n-attr="placeholder"
                   placeholder="Share your question or situation..."
                   required
                   data-fs-field
@@ -428,6 +445,7 @@
                 <button
                   type="reset"
                   class="inline-flex items-center justify-center rounded-full border border-surface-border bg-white px-6 py-3 text-sm font-semibold text-ink-light transition-colors hover:bg-surface-low focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700"
+                  data-i18n="contactPage.form.clear"
                 >
                   Clear
                 </button>
@@ -435,6 +453,7 @@
                   type="submit"
                   data-fs-submit-btn
                   class="inline-flex items-center justify-center rounded-full bg-blue-300 px-8 py-3 text-sm font-bold uppercase tracking-wide text-blue-900 shadow-lg shadow-blue-700/20 transition-transform hover:scale-105 active:scale-95 disabled:opacity-60 disabled:cursor-not-allowed disabled:scale-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700"
+                  data-i18n="contactPage.form.send"
                 >
                   Send message
                 </button>
@@ -482,6 +501,8 @@
                 class="h-[15.6rem] w-[19.5rem] rounded-lg object-cover object-center shadow-md md:h-[18.2rem] md:w-[22.75rem]"
                 loading="lazy"
                 decoding="async"
+                data-i18n="footer.sealAlt"
+                data-i18n-attr="alt"
               />
             </div>
 
@@ -501,10 +522,10 @@
                 <p class="text-lg font-semibold tracking-wide">
                   Cynthia Vazquez
                 </p>
-                <p class="text-sm text-white/90">
+                <p class="text-sm text-white/90" data-i18n="footer.serviceTagline">
                   ISR Certified Infant Swim Lessons
                 </p>
-                <p class="text-sm text-white/90">Mid Ohio</p>
+                <p class="text-sm text-white/90" data-i18n="footer.areaLine">Mid Ohio</p>
                 <p class="pt-2">
                   <a class="text-sm font-medium text-white underline-offset-4 hover:underline" href="mailto:cynthia.vazquez@infantswim.com" target="_blank" rel="noopener noreferrer">cynthia.vazquez@infantswim.com</a
                   >
@@ -512,12 +533,12 @@
               </div>
 
               <div class="flex gap-3">
-                <a class="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white transition-transform hover:scale-110 hover:bg-white/25" href="https://www.facebook.com/isr.cynthia.vazquez/" target="_blank" rel="noopener noreferrer" label="Facebook">
+                <a class="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white transition-transform hover:scale-110 hover:bg-white/25" href="https://www.facebook.com/isr.cynthia.vazquez/" target="_blank" rel="noopener noreferrer" data-i18n="a11y.facebook" data-i18n-attr="aria-label" aria-label="Facebook">
                   <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4" aria-hidden="true">
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
                   </svg>
                 </a>
-                <a class="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white transition-transform hover:scale-110 hover:bg-white/25" href="https://www.instagram.com/isr_cynthia_vazquez/" target="_blank" rel="noopener noreferrer" label="Instagram">
+                <a class="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white transition-transform hover:scale-110 hover:bg-white/25" href="https://www.instagram.com/isr_cynthia_vazquez/" target="_blank" rel="noopener noreferrer" data-i18n="a11y.instagram" data-i18n-attr="aria-label" aria-label="Instagram">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" aria-hidden="true">
                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
                     <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
@@ -552,6 +573,8 @@
                 class="h-[15.6rem] w-[19.5rem] rounded-lg object-cover object-center shadow-md md:h-[18.2rem] md:w-[22.75rem]"
                 loading="lazy"
                 decoding="async"
+                data-i18n="footer.portraitAlt"
+                data-i18n-attr="alt"
               />
             </div>
           </div>

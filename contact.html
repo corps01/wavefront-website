@@ -219,7 +219,7 @@
 
         <section class="relative z-20 px-6 pb-10 md:px-8">
           <div class="mx-auto -mt-14 grid max-w-5xl gap-6 md:grid-cols-2 lg:-mt-20">
-            <a class="group rounded-2xl bg-white p-10 text-center shadow-[0_16px_45px_rgba(39,98,124,0.14)] transition-transform duration-200 hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700" href="https://www.webaccomplice.app/scheduler_app/initiate_waitlist/cv833/0/1" target="_blank" rel="noopener noreferrer" labelledby="contact-call-title">
+            <a class="group rounded-2xl bg-white p-10 text-center shadow-[0_16px_45px_rgba(39,98,124,0.14)] transition-transform duration-200 hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700" href="https://www.webaccomplice.app/scheduler_app/lesson_types/cv833/" target="_blank" rel="noopener noreferrer" labelledby="contact-call-title">
               <span
                 class="material-symbols-outlined mb-4 text-5xl text-blue-300 transition-transform group-hover:scale-110"
                 data-weight="fill"
@@ -304,6 +304,8 @@
 
             <form
               id="contact-form"
+              action="https://formspree.io/f/xeevvobo"
+              method="POST"
               class="space-y-5"
             >
               <div class="form-group">
@@ -380,38 +382,40 @@
               <div class="grid gap-5 md:grid-cols-2">
                 <div class="form-group">
                   <label
-                    for="instructor"
+                    for="child"
                     class="mb-1.5 block text-sm font-semibold text-ink"
-                    data-i18n="contactPage.form.instructorLabel"
+                    data-i18n="contactPage.form.childLabel"
                   >
-                    Your instructor's full name
+                    Child full name
                   </label>
                   <input
                     type="text"
-                    id="instructor"
-                    name="instructor"
-                    data-i18n="contactPage.form.instructorPlaceholder"
+                    id="child"
+                    name="child"
+                    data-fs-field
+                    data-i18n="contactPage.form.childPlaceholder"
                     data-i18n-attr="placeholder"
-                    placeholder="Instructor's name"
+                    placeholder="Child's full name"
                     class="w-full rounded-full border border-surface-border bg-surface-low px-5 py-3 text-ink placeholder:text-ink-muted outline-none transition-colors focus:border-blue-400 focus:bg-white focus:ring-2 focus:ring-blue-300/40"
                   />
                 </div>
 
                 <div class="form-group">
                   <label
-                    for="child"
+                    for="child-age"
                     class="mb-1.5 block text-sm font-semibold text-ink"
-                    data-i18n="contactPage.form.childLabel"
+                    data-i18n="contactPage.form.childAgeLabel"
                   >
-                    Your child's full name (if applicable)
+                    Age
                   </label>
                   <input
                     type="text"
-                    id="child"
-                    name="child"
-                    data-i18n="contactPage.form.childPlaceholder"
+                    id="child-age"
+                    name="child_age"
+                    data-fs-field
+                    data-i18n="contactPage.form.childAgePlaceholder"
                     data-i18n-attr="placeholder"
-                    placeholder="Child's full name"
+                    placeholder="e.g. 18 months"
                     class="w-full rounded-full border border-surface-border bg-surface-low px-5 py-3 text-ink placeholder:text-ink-muted outline-none transition-colors focus:border-blue-400 focus:bg-white focus:ring-2 focus:ring-blue-300/40"
                   />
                 </div>
@@ -459,11 +463,6 @@
                 </button>
               </div>
             </form>
-
-            <script>
-              window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-              formspree('initForm', { formElement: '#contact-form', formId: 'xeevvobo' });
-            </script>
           </div>
         </section>
 
@@ -599,5 +598,18 @@
     <script src="js/main.js" defer></script>
     <script src="js/i18n.js" defer></script>
     <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+    <script defer>
+      window.formspree =
+        window.formspree ||
+        function () {
+          (formspree.q = formspree.q || []).push(arguments);
+        };
+      document.addEventListener("DOMContentLoaded", function () {
+        formspree("initForm", {
+          formElement: "#contact-form",
+          formId: "xeevvobo",
+        });
+      });
+    </script>
   </body>
 </html>

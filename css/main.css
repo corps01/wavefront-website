@@ -73,6 +73,40 @@
   z-index: 1;
 }
 
+/* ── Justified body copy (site-wide) ── */
+
+.wavefront-root main p,
+.wavefront-root main blockquote,
+.wavefront-root main li,
+.wavefront-root main span.block {
+  text-align: justify;
+  hyphens: auto;
+}
+
+.wavefront-root footer p.text-xs {
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* Keep form controls, buttons, and nav labels left-aligned */
+.wavefront-root main label,
+.wavefront-root main input,
+.wavefront-root main select,
+.wavefront-root main textarea,
+.wavefront-root main button,
+.wavefront-root main option {
+  text-align: left;
+  hyphens: manual;
+}
+
+.wavefront-root main [data-faq-trigger] {
+  text-align: left;
+}
+
+.wavefront-root main [data-faq-trigger] .font-headline {
+  text-align: justify;
+}
+
 /* ── Accessibility ── */
 
 .skip-link {
@@ -151,7 +185,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1rem;
-  text-align: left;
+  text-align: justify;
 }
 
 @media (min-width: 1024px) {
@@ -186,34 +220,34 @@
     left: 50%;
     top: 0;
     transform: translateX(-50%);
-    text-align: center;
+    text-align: justify;
   }
 
   .water-safety-point--tl {
     left: 0;
     top: 23%;
-    text-align: right;
+    text-align: justify;
     padding-right: 0.25rem;
   }
 
   .water-safety-point--bl {
     left: 0;
     bottom: 12%;
-    text-align: right;
+    text-align: justify;
     padding-right: 0.25rem;
   }
 
   .water-safety-point--tr {
     right: 0;
     top: 23%;
-    text-align: left;
+    text-align: justify;
     padding-left: 0.25rem;
   }
 
   .water-safety-point--br {
     right: 0;
     bottom: 12%;
-    text-align: left;
+    text-align: justify;
     padding-left: 0.25rem;
   }
 }

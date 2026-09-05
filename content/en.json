@@ -15,7 +15,9 @@
     "website": "Website",
     "email": "Email",
     "location": "Location",
-    "languageToggle": "Language"
+    "languageToggle": "Language",
+    "facebook": "Facebook",
+    "instagram": "Instagram"
   },
   "nav": {
     "home": "Home",
@@ -31,7 +33,9 @@
     "lead": "Life-saving swim skills for the moments you can't control.",
     "ctaLessons": "Explore lessons",
     "ctaStory": "Get started today",
-    "imgAlt": "Infant enjoying calm water in a bright pool"
+    "imgAlt": "Infant enjoying calm water in a bright pool",
+    "servingIntro": "Proudly serving families here in",
+    "servingRegion": "Mid Ohio"
   },
   "mission": {
     "heading": "Our mission",
@@ -103,12 +107,22 @@
     "emailCta": "Send a message",
     "waitlist": "Join the waitlist"
   },
+  "instagram": {
+    "heading": "Follow along on Instagram",
+    "lead": "Recent photos and reels from the pool.",
+    "followCta": "Open in Instagram",
+    "iframeTitle": "ISR Cynthia Vazquez on Instagram"
+  },
   "footer": {
     "privacy": "Privacy",
     "terms": "Terms",
     "safety": "Safety",
     "locationLine": "Location: Mid Ohio",
-    "legalNotice": "© Copyright 2026 WAVE FRONT SOLUTIONS LLC | All Rights Reserved | All images are copyright material of Infant Swimming Resource, LLC and/or Cynthia Vazquez | Website by Doubleshot Media"
+    "serviceTagline": "ISR Certified Infant Swim Lessons",
+    "areaLine": "Mid Ohio",
+    "sealAlt": "ISR certified seal logo",
+    "portraitAlt": "Cynthia Vazquez, ISR certified instructor",
+    "legalNotice": "© Copyright 2026 WAVE FRONT SOLUTIONS LLC | All Rights Reserved | All images are copyright material of Infant Swimming Resource, LLC and/or Cynthia Vazquez | Created by TuPagi"
   },
   "lessonsPage": {
     "hero": {
@@ -149,18 +163,19 @@
       "refresher": {
         "title": "Refresher",
         "body": "2–3 week course to sharpen skills after a break from the water.",
-        "price": "$110/week"
+        "price": "$125/week"
       },
       "maintenance": {
         "title": "Maintenance",
         "body": "Ongoing weekly lessons to keep muscle memory fresh and confidence high.",
-        "price": "$45/session"
+        "price": "$25/class"
       },
       "strokes": {
         "title": "Strokes & Form",
         "body": "Introduction to formal swimming strokes and technical efficiency.",
         "price": "$150/week"
-      }
+      },
+      "comingSoon": "Coming soon"
     },
     "faq": {
       "heading": "Common Questions",
@@ -193,9 +208,9 @@
       "imgAlt": "Miss Cynthia, lead instructor",
       "badge": "Meet Your Instructor",
       "heading": "Cynthia, ISR Certified",
+      "introTitle": "Hi, I'm Cynthia — ISR Certified Instructor",
       "lead": "I'm originally from Mexico and have been building my life in Ohio with my family for the past 8 years. My journey into survival swim didn't start as a business — it started as a mom.\n\nMy son, Sebastián, changed everything for me.\n\nAs a parent of a child with unique needs, I understand the fear and the responsibility of keeping your child safe. When I discovered survival swim and saw how it empowers children — with or without special needs — I knew this was more than swimming.\n\nIt was life-saving.\n\nThat's why I became an instructor.\n\nAt WaveFront, I create a personalized and respectful environment where children learn the skills to save themselves — and parents gain something priceless: peace of mind.\n\nBecause drowning is silent.\n\nAnd prevention starts with preparation.",
-      "verifyCta": "Verify Official ISR Credentials",
-      "introTitle": "Hi, I'm Cynthia — ISR Certified Instructor"
+      "verifyCta": "Verify Official ISR Credentials"
     },
     "isrOrg": {
       "kicker": "Infant Swimming Resource",
@@ -247,9 +262,46 @@
       }
     }
   },
+  "faqPage": {
+    "meta": {
+      "title": "FAQ | WaveFront",
+      "description": "Answers about Infant Swimming Resource (ISR), WaveFront lessons, safety, maintenance lessons, and what to expect."
+    },
+    "hero": {
+      "heading": "Frequently Asked Questions",
+      "lead": "Clear answers about ISR, lessons, safety, and what to expect from the program.",
+      "imgAlt": "ISR-certified instructor supporting a young child during a one-on-one lesson in the pool."
+    }
+  },
   "contactPage": {
     "hero": {
       "heading": "Contact"
+    },
+    "form": {
+      "badge": "Have a question?",
+      "title": "Send us a message",
+      "lead": "Choose the topic that best fits your question so we can route it to the right person. Fields marked with * are required.",
+      "successTitle": "Message sent!",
+      "successBody": "Thanks for reaching out — Cynthia will get back to you shortly.",
+      "topicLabel": "Topic",
+      "topicPlaceholder": "Select a topic...",
+      "topicScheduling": "Scheduling & availability",
+      "topicPricing": "Pricing & registration",
+      "topicProgram": "Program questions",
+      "topicExisting": "Existing student",
+      "topicOther": "Other",
+      "nameLabel": "Your full name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Your email",
+      "emailPlaceholder": "name@example.com",
+      "childLabel": "Child full name",
+      "childPlaceholder": "Child's full name",
+      "childAgeLabel": "Age",
+      "childAgePlaceholder": "e.g. 18 months",
+      "questionLabel": "Question / Explain the situation",
+      "questionPlaceholder": "Share your question or situation...",
+      "clear": "Clear",
+      "send": "Send message"
     },
     "cards": {
       "call": {

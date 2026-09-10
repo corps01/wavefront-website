@@ -125,16 +125,22 @@
     "legalNotice": "© Copyright 2026 WAVE FRONT SOLUTIONS LLC | All Rights Reserved | All images are copyright material of Infant Swimming Resource, LLC and/or Cynthia Vazquez | Created by TuPagi"
   },
   "lessonsPage": {
+    "meta": {
+      "title": "Lessons & Pricing | WaveFront",
+      "description": "WaveFront lessons and pricing — ISR Self-Rescue programs for infants and toddlers."
+    },
     "hero": {
       "badge": "Swim with Confidence",
       "titleLine1": "Gentle Waves,",
       "titleLine2": "Lifelong Skills.",
       "lead": "Our ISR Self-Rescue programs are designed to nurture water confidence in a safe, loving environment.",
+      "tagline": "Water safety starts now—not later.",
       "imgAlt": "Toddler smiling in a bright pool"
     },
     "core": {
       "heading": "Core Programs",
       "lead": "Essential water safety skills designed to build confidence and stay with your child for a lifetime.",
+      "scheduleNote": "ISR lessons are one-on-one and tailored to your child's skill and comfort level. 6–7 week session, 4 days per week (Monday–Thursday), 10 minutes per day.",
       "perWeek": "/ week",
       "enroll": "Enroll Now",
       "viewPricing": "View pricing",
@@ -144,6 +150,7 @@
         "ageRange": "CHILDREN 6 MONTHS TO 18 MONTHS OLD",
         "duration": "Duration: 6 – 7 weeks",
         "description": "Infants learn the essential self-rescue skill of rolling onto their back to float, rest, and breathe. They are taught to stay calm and maintain this position independently until help arrives—giving them a critical layer of safety in the water.",
+        "videoTitle": "Self-Rescue Infant program video",
         "videoEmbed": "assets/images/baby%20wavefront.mp4",
         "price": "$125"
       },
@@ -152,6 +159,7 @@
         "ageRange": "CHILDREN 18 MONTHS TO 8 YEARS OLD",
         "duration": "Duration: 6 – 7 weeks",
         "description": "Children learn the swim-float-swim sequence, for reaching safety.\nThey swim with their face in the water, roll onto their back to rest and breathe.\nThey continue swimming until they reach the wall, steps, or edge.",
+        "videoTitle": "ISR Self-Rescue Toddler program video",
         "videoEmbed": "assets/images/todler%20wavefront.mp4",
         "price": "$135"
       }
@@ -204,6 +212,10 @@
     }
   },
   "aboutPage": {
+    "meta": {
+      "title": "About Cynthia | WaveFront",
+      "description": "Meet Cynthia — WaveFront's certified ISR instructor. Credentials, certifications, and official verification."
+    },
     "hero": {
       "imgAlt": "Miss Cynthia, lead instructor",
       "badge": "Meet Your Instructor",
@@ -274,6 +286,10 @@
     }
   },
   "contactPage": {
+    "meta": {
+      "title": "Contact | WaveFront",
+      "description": "Get in touch with WaveFront for infant ISR Self-Rescue lessons and scheduling."
+    },
     "hero": {
       "heading": "Contact"
     },

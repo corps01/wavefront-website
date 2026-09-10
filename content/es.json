@@ -103,8 +103,8 @@
   },
   "contact": {
     "heading": "Empieza esta aventura con tu hijo",
-    "lead": "¿Listos para dar el siguiente paso? Cuéntame un poco sobre tu peque y qué te gustaría que lograra en el agua. Te voy a responder personalmente con los horarios y lo que sigue (recuerda que los lugares vuelan cada temporada).",
-    "emailCta": "Enviar mensajito",
+    "lead": "¿Listos para dar el siguiente paso? Cuéntame un poco sobre tu peque y qué te gustaría que lograra en el agua. Te voy a responder personalmente con los horarios y lo que sigue (recuerda que hay cupo limitado).",
+    "emailCta": "Enviar mensaje",
     "waitlist": "Anotarme en la lista de espera"
   },
   "instagram": {
@@ -125,16 +125,22 @@
     "legalNotice": "© Copyright 2026 WAVE FRONT SOLUTIONS LLC | Todos los derechos reservados | Las imágenes son material protegido por derechos de autor de Infant Swimming Resource, LLC y/o Cynthia Vazquez | Creado por TuPagi"
   },
   "lessonsPage": {
+    "meta": {
+      "title": "Clases y precios | WaveFront",
+      "description": "Clases y precios de WaveFront: programas de Autorrescate ISR para bebés y niños pequeños."
+    },
     "hero": {
       "badge": "Al agua con seguridad",
       "titleLine1": "Olas pequeñas,",
       "titleLine2": "logros para toda la vida.",
       "lead": "Nuestros programas de Autorrescate ISR están pensados para que los niños le pierdan el miedo al agua en un entorno seguro y muy amoroso.",
+      "tagline": "La seguridad en el agua empieza ahora—no después.",
       "imgAlt": "Niño pequeño sonriendo feliz en la piscina"
     },
     "core": {
       "heading": "Nuestros programas principales",
       "lead": "Habilidades vitales para estar seguros en el agua que les darán confianza para toda la vida.",
+      "scheduleNote": "Las clases ISR son individuales y se adaptan al nivel y comodidad de tu peque. El programa dura de 6 a 7 semanas, 4 días por semana (lunes a jueves), 10 minutos al día.",
       "perWeek": "/ semana",
       "enroll": "Inscribir a mi peque",
       "viewPricing": "Ver precios",
@@ -144,6 +150,7 @@
         "ageRange": "DE 6 A 18 MESES DE EDAD",
         "duration": "Duración: 6 a 7 semanas",
         "description": "Los bebés aprenden la habilidad más importante: girar sobre su espalda para flotar, descansar y respirar. Les enseñamos a mantener la calma y quedarse en esa posición solitos hasta que llegue la ayuda, dándoles una capa de seguridad vital en el agua.",
+        "videoTitle": "Video del programa Autorrescate para bebés",
         "videoEmbed": "assets/images/baby%20wavefront.mp4",
         "price": "$125"
       },
@@ -152,6 +159,7 @@
         "ageRange": "DE 18 MESES A 8 AÑOS DE EDAD",
         "duration": "Duración: 6 a 7 semanas",
         "description": "Los niños aprenden la secuencia de nadar-flotar-nadar para poder ponerse a salvo.\nNadan metiendo la carita al agua y giran sobre su espalda para descansar y respirar.\nSiguen nadando de esta manera hasta que alcanzan la pared, las escaleras o la orilla.",
+        "videoTitle": "Video del programa Autorrescate ISR para niños",
         "videoEmbed": "assets/images/todler%20wavefront.mp4",
         "price": "$135"
       }
@@ -204,6 +212,10 @@
     }
   },
   "aboutPage": {
+    "meta": {
+      "title": "Conoce a Cynthia | WaveFront",
+      "description": "Conoce a Cynthia, instructora certificada ISR de WaveFront. Credenciales, certificaciones y verificación oficial."
+    },
     "hero": {
       "imgAlt": "Miss Cynthia sonriendo",
       "badge": "Conoce a tu instructora",
@@ -268,12 +280,16 @@
       "description": "Resolvemos tus dudas sobre Infant Swimming Resource (ISR), las clases en WaveFront, medidas de seguridad y qué puedes esperar del programa."
     },
     "hero": {
-      "heading": "Preguntas de otros papás",
+      "heading": "Preguntas Frecuentes",
       "lead": "Respuestas claras sobre qué es ISR, cómo son las clases, temas de seguridad y todo lo que puedes esperar de nosotros.",
       "imgAlt": "Instructora de ISR ayudando a un niño chiquito durante una clase personalizada en la alberca."
     }
   },
   "contactPage": {
+    "meta": {
+      "title": "Contacto | WaveFront",
+      "description": "Ponte en contacto con WaveFront para clases de Autorrescate ISR para bebés y agendar horarios."
+    },
     "hero": {
       "heading": "Contacto"
     },

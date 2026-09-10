@@ -83,6 +83,12 @@
   hyphens: auto;
 }
 
+.wavefront-root main p.text-center,
+.wavefront-root main h2.text-center {
+  text-align: center;
+  hyphens: none;
+}
+
 .wavefront-root footer p.text-xs {
   text-align: justify;
   hyphens: auto;

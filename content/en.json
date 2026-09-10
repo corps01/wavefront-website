@@ -144,7 +144,7 @@
         "ageRange": "CHILDREN 6 MONTHS TO 18 MONTHS OLD",
         "duration": "Duration: 6 – 7 weeks",
         "description": "Infants learn the essential self-rescue skill of rolling onto their back to float, rest, and breathe. They are taught to stay calm and maintain this position independently until help arrives—giving them a critical layer of safety in the water.",
-        "videoEmbed": "assets/images/3%20-%20ISRvideobankA.mp4",
+        "videoEmbed": "assets/images/baby%20wavefront.mp4",
         "price": "$125"
       },
       "toddler": {
@@ -152,7 +152,7 @@
         "ageRange": "CHILDREN 18 MONTHS TO 8 YEARS OLD",
         "duration": "Duration: 6 – 7 weeks",
         "description": "Children learn the swim-float-swim sequence, for reaching safety.\nThey swim with their face in the water, roll onto their back to rest and breathe.\nThey continue swimming until they reach the wall, steps, or edge.",
-        "videoEmbed": "assets/images/3%20-%20ISRvideobankC.mp4",
+        "videoEmbed": "assets/images/todler%20wavefront.mp4",
         "price": "$135"
       }
     },

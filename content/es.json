@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "WaveFront | Cultivando la confianza",
-    "description": "WaveFront — clases personalizadas de supervivencia acuática para bebés y desarrollo de confianza en el agua para niños pequeños, en un entorno tranquilo y acogedor."
+    "description": "WaveFront: natación de supervivencia para bebés y confianza en el agua para niños pequeños. Un ambiente tranquilo, seguro y lleno de cariño."
   },
   "brand": {
     "name": "WaveFront"
   },
   "a11y": {
-    "skipToContent": "Saltar al contenido",
-    "navPrimary": "Principal",
+    "skipToContent": "Saltar al contenido principal",
+    "navPrimary": "Menú principal",
     "openMenu": "Abrir menú",
     "footerNav": "Pie de página",
     "testimonialsSection": "Testimonios",
@@ -21,256 +21,256 @@
   },
   "nav": {
     "home": "Inicio",
-    "about": "Acerca de nosotros",
+    "about": "Conócenos",
     "lessons": "Clases",
-    "faq": "Preguntas frecuentes",
+    "faq": "Dudas frecuentes",
     "contact": "Contacto",
-    "bookNow": "Reservar ahora"
+    "bookNow": "Reserva ahora"
   },
   "hero": {
-    "titleLine1": "Creando olas",
+    "titleLine1": "Haciendo olas",
     "titleLine2": "juntos.",
-    "lead": "Habilidades de natación que pueden salvar vidas en esos momentos que no puedes controlar.",
-    "ctaLessons": "Explorar las clases",
-    "ctaStory": "Comienza hoy",
-    "imgAlt": "Bebé disfrutando de un momento tranquilo en una piscina iluminada",
-    "servingIntro": "Nos enorgullece atender a las familias de",
-    "servingRegion": "Mid Ohio"
+    "lead": "Habilidades en el agua que salvan vidas, para esos momentos que escapan de tu control.",
+    "ctaLessons": "Ver las clases",
+    "ctaStory": "Empieza hoy mismo",
+    "imgAlt": "Bebé disfrutando tranquilamente del agua en una piscina muy iluminada",
+    "servingIntro": "Orgullosos de ayudar a las familias de",
+    "servingRegion": "la zona centro de Ohio"
   },
   "mission": {
     "heading": "Nuestra misión",
     "card1": {
       "title": "La seguridad es lo primero",
-      "body": "Enseñamos primero habilidades de supervivencia para que cada pequeño se sienta seguro y capaz en el agua."
+      "body": "Enseñamos habilidades de supervivencia antes que nada, para que tu peque se sienta seguro y capaz en el agua."
     },
     "card2": {
-      "title": "Un enfoque acogedor",
-      "body": "Técnicas suaves adaptadas al ritmo de cada niño, para desarrollar una confianza que perdure."
+      "title": "Un enfoque con mucho cariño",
+      "body": "Usamos técnicas suaves y vamos al ritmo de cada niño, construyendo una confianza que se queda para siempre."
     },
     "card3": {
-      "title": "Enfoque centrado en la familia",
-      "body": "Un entorno íntimo y enfocado donde cada familia es realmente escuchada y atendida, sin pasar desapercibida entre el ajetreo de una piscina concurrida."
+      "title": "Pensado en las familias",
+      "body": "Un espacio íntimo y súper enfocado donde realmente escuchamos a tu familia, lejos del ruido y el caos de las piscinas públicas."
     }
   },
   "lessons": {
-    "heading": "Clases",
-    "body": "Sesiones de supervivencia acuática para bebés y de confianza en el agua para niños pequeños, programadas en bloques de entrenamiento. El calendario completo y los grupos por edad estarán disponibles próximamente; utiliza la sección de contacto para consultar la disponibilidad."
+    "heading": "Nuestras clases",
+    "body": "Ofrecemos sesiones de natación de supervivencia para bebés y de confianza en el agua para niños más grandes, organizadas en ciclos intensivos. Muy pronto publicaremos los horarios y grupos por edades; mientras tanto, escríbeme abajo para checar la disponibilidad."
   },
   "about": {
-    "imgAlt": "Cynthia sosteniendo a un bebé junto a la piscina",
-    "headingLine1": "La misión",
-    "headingLine2": "(Por qué importa)",
-    "p1": "El ahogamiento ocurre en silencio. Sucede más rápido de lo que imaginas. La mayoría de los accidentes no se parecen a lo que imaginas. No hay chapoteos. No hay gritos. Solo unos segundos. Y no ocurre únicamente en aguas profundas o en piscinas concurridas. También sucede donde los niños se sienten más seguros: en casa, en situaciones cotidianas, cuando las barreras fallan. Por eso, la supervisión por sí sola no es suficiente. Por eso, las cercas tampoco son suficientes.",
-    "p2": "Las habilidades de supervivencia no son opcionales: son esenciales.",
-    "cta": "Ponte en contacto"
+    "imgAlt": "Cynthia cargando a un bebé junto a la piscina",
+    "headingLine1": "El Propósito",
+    "headingLine2": "(Y por qué importa tanto)",
+    "p1": "El ahogamiento es silencioso. Ocurre mucho más rápido de lo que te imaginas. La mayoría de los accidentes no son como en las películas: no hay manoteos, no hay gritos. Son solo segundos. Y no pasa nada más en lo profundo o en piscinas llenas de gente; pasa donde los niños se sienten más seguros: en casa, en un día cualquiera, cuando las barreras fallan. Por eso la pura supervisión no basta. Por eso, una cerca no es suficiente.",
+    "p2": "Saber cómo sobrevivir en el agua no es opcional, es indispensable.",
+    "cta": "Escríbeme"
   },
   "faq": {
-    "heading": "Preguntas frecuentes",
-    "body": "Aquí encontrarás respuestas a las preguntas más comunes sobre las clases, qué llevar y cómo funciona la reserva."
+    "heading": "Dudas frecuentes",
+    "body": "Aquí vas a encontrar las respuestas a las preguntas más comunes sobre las clases, qué debes llevar y cómo funciona el proceso para reservar."
   },
   "testimonials": {
-    "heading": "Lo que dicen los padres",
+    "heading": "Lo que dicen otros papás",
     "sarah": {
-      "quote": "\"Mi hija tenía muchísimo miedo al agua. La paciencia de Cynthia lo cambió todo. ¡Ahora parece una pequeña sirena!\"",
+      "quote": "\"Mi hija le tenía muchísimo miedo al agua. La paciencia de Cynthia lo cambió todo. ¡Ahora parece una sirenita!\"",
       "name": "Sarah J.",
-      "role": "Mamá de Mia, 2 años"
+      "role": "Mamá de Mia, 2 añitos"
     },
     "marcus": {
-      "quote": "\"La atención individual fue lo que me convenció: atención profesional y enfocada, sin una piscina pública llena de gente.\"",
+      "quote": "\"La atención uno a uno fue lo que más me gustó: sientes el cuidado profesional en cada momento, sin tener que lidiar con una piscina pública llena de gente.\"",
       "name": "Marcus R.",
       "role": "Papá de Leo, 18 meses"
     },
     "emily": {
-      "quote": "\"Nunca pensé que el entrenamiento de supervivencia pudiera sentirse tan cálido. Cynthia tiene un don especial para trabajar con bebés.\"",
+      "quote": "\"Nunca me imaginé que unas clases de supervivencia pudieran ser tan tiernas. Cynthia tiene un don increíble con los bebés.\"",
       "name": "Emily C.",
       "role": "Mamá de Toby, 10 meses"
     },
     "laura": {
-      "quote": "\"Vale cada centavo. La tranquilidad que sentimos en nuestra piscina del patio no tiene precio.\"",
+      "quote": "\"Vale cada centavo. La tranquilidad que sentimos ahora que andan cerca de la alberca de la casa no tiene precio.\"",
       "name": "Laura W.",
       "role": "Mamá de Jack, 3 años"
     },
     "james": {
-      "quote": "\"Primero probamos clases grupales; el programa ISR aquí fue un cambio radical. Mi hijo realmente aprendió a flotar.\"",
+      "quote": "\"Primero intentamos con las clases grupales típicas... hacer ISR con Cynthia fue como el día y la noche. Mi hijo por fin aprendió a flotar.\"",
       "name": "James T.",
       "role": "Papá de Noah, 20 meses"
     },
     "priya": {
-      "quote": "\"Cynthia explicó cada paso con mucha claridad. Me sentí tranquila durante toda la sesión, y mi bebé también.\"",
+      "quote": "\"Cynthia nos explicó cada pasito con tanta claridad. Me sentí súper tranquila todo el tiempo, y mi bebé también.\"",
       "name": "Priya K.",
       "role": "Mamá de Aria, 12 meses"
     }
   },
   "contact": {
-    "heading": "Comienza el camino de tu hijo",
-    "lead": "¿Listos para dar el siguiente paso? Cuéntame sobre tu hijo y qué esperas que logre en el agua. Te responderé personalmente con la disponibilidad y los próximos pasos; los lugares son limitados en cada temporada.",
-    "emailCta": "Enviar un mensaje",
-    "waitlist": "Unirse a la lista de espera"
+    "heading": "Empieza esta aventura con tu hijo",
+    "lead": "¿Listos para dar el siguiente paso? Cuéntame un poco sobre tu peque y qué te gustaría que lograra en el agua. Te voy a responder personalmente con los horarios y lo que sigue (recuerda que los lugares vuelan cada temporada).",
+    "emailCta": "Enviar mensajito",
+    "waitlist": "Anotarme en la lista de espera"
   },
   "instagram": {
     "heading": "Síguenos en Instagram",
-    "lead": "Fotos y reels recientes desde la piscina.",
-    "followCta": "Abrir en Instagram",
-    "iframeTitle": "ISR Cynthia Vazquez en Instagram"
+    "lead": "Fotos y reels de nuestro día a día en la alberca.",
+    "followCta": "Ver perfil en Instagram",
+    "iframeTitle": "Instagram de Cynthia Vazquez, instructora de ISR"
   },
   "footer": {
     "privacy": "Privacidad",
-    "terms": "Términos",
+    "terms": "Términos y condiciones",
     "safety": "Seguridad",
-    "locationLine": "Ubicación: Mid Ohio",
-    "serviceTagline": "Clases de natación para bebés certificadas por ISR",
-    "areaLine": "Mid Ohio",
-    "sealAlt": "Logotipo del sello de certificación ISR",
-    "portraitAlt": "Cynthia Vazquez, instructora certificada por ISR",
-    "legalNotice": "© Copyright 2026 WAVE FRONT SOLUTIONS LLC | Todos los derechos reservados | Todas las imágenes son material protegido por derechos de autor de Infant Swimming Resource, LLC y/o Cynthia Vazquez | Creado por TuPagi"
+    "locationLine": "Ubicación: Zona centro de Ohio",
+    "serviceTagline": "Clases de natación para bebés con certificación ISR",
+    "areaLine": "Centro de Ohio",
+    "sealAlt": "Sello oficial de instructora certificada por ISR",
+    "portraitAlt": "Foto de Cynthia Vazquez, instructora de ISR",
+    "legalNotice": "© Copyright 2026 WAVE FRONT SOLUTIONS LLC | Todos los derechos reservados | Las imágenes son material protegido por derechos de autor de Infant Swimming Resource, LLC y/o Cynthia Vazquez | Creado por TuPagi"
   },
   "lessonsPage": {
     "hero": {
-      "badge": "Nada con confianza",
-      "titleLine1": "Olas suaves,",
-      "titleLine2": "habilidades para toda la vida.",
-      "lead": "Nuestros programas ISR Self-Rescue están diseñados para desarrollar la confianza en el agua en un entorno seguro y lleno de cariño.",
-      "imgAlt": "Niño pequeño sonriendo en una piscina iluminada"
+      "badge": "Al agua con seguridad",
+      "titleLine1": "Olas pequeñas,",
+      "titleLine2": "logros para toda la vida.",
+      "lead": "Nuestros programas de Autorrescate ISR están pensados para que los niños le pierdan el miedo al agua en un entorno seguro y muy amoroso.",
+      "imgAlt": "Niño pequeño sonriendo feliz en la piscina"
     },
     "core": {
-      "heading": "Programas principales",
-      "lead": "Habilidades esenciales de seguridad acuática diseñadas para desarrollar la confianza y acompañar a tu hijo durante toda la vida.",
+      "heading": "Nuestros programas principales",
+      "lead": "Habilidades vitales para estar seguros en el agua que les darán confianza para toda la vida.",
       "perWeek": "/ semana",
-      "enroll": "Inscribirse ahora",
+      "enroll": "Inscribir a mi peque",
       "viewPricing": "Ver precios",
-      "viewSchedule": "Ver calendario",
+      "viewSchedule": "Ver horarios",
       "infant": {
-        "title": "Self-Rescue® para bebés",
-        "ageRange": "NIÑOS DE 6 A 18 MESES",
-        "duration": "Duración: 6–7 semanas",
-        "description": "Los bebés aprenden la habilidad esencial de supervivencia de girarse boca arriba para flotar, descansar y respirar. Se les enseña a mantener la calma y conservar esta posición de forma independiente hasta que llegue la ayuda, proporcionándoles una capa adicional y fundamental de seguridad en el agua.",
-        "videoEmbed": "assets/images/3%20-%20ISRvideobankA.mp4",
+        "title": "Autorrescate® para Bebés",
+        "ageRange": "DE 6 A 18 MESES DE EDAD",
+        "duration": "Duración: 6 a 7 semanas",
+        "description": "Los bebés aprenden la habilidad más importante: girar sobre su espalda para flotar, descansar y respirar. Les enseñamos a mantener la calma y quedarse en esa posición solitos hasta que llegue la ayuda, dándoles una capa de seguridad vital en el agua.",
+        "videoEmbed": "assets/images/baby%20wavefront.mp4",
         "price": "$125"
       },
       "toddler": {
-        "title": "Self-Rescue® para niños pequeños",
-        "ageRange": "NIÑOS DE 18 MESES A 8 AÑOS",
-        "duration": "Duración: 6–7 semanas",
-        "description": "Los niños aprenden la secuencia nadar-flotar-nadar para ponerse a salvo.\nNadan con la cara dentro del agua y se giran boca arriba para descansar y respirar.\nDespués, continúan nadando hasta llegar a la pared, los escalones o el borde.",
-        "videoEmbed": "assets/images/3%20-%20ISRvideobankC.mp4",
+        "title": "Autorrescate® para Niños",
+        "ageRange": "DE 18 MESES A 8 AÑOS DE EDAD",
+        "duration": "Duración: 6 a 7 semanas",
+        "description": "Los niños aprenden la secuencia de nadar-flotar-nadar para poder ponerse a salvo.\nNadan metiendo la carita al agua y giran sobre su espalda para descansar y respirar.\nSiguen nadando de esta manera hasta que alcanzan la pared, las escaleras o la orilla.",
+        "videoEmbed": "assets/images/todler%20wavefront.mp4",
         "price": "$135"
       }
     },
     "continuing": {
-      "heading": "Formación continua",
-      "lead": "Perfeccionamos las habilidades y desarrollamos la resistencia mediante prácticas dinámicas y divertidas.",
-      "subtitle": "Para niños que ya han recibido formación",
+      "heading": "Para seguir aprendiendo",
+      "lead": "Perfeccionamos lo aprendido y ganamos resistencia mientras nos divertimos en el agua.",
+      "subtitle": "Para niños que ya tomaron el curso básico",
       "refresher": {
-        "title": "Repaso",
-        "body": "Curso de 2–3 semanas para reforzar las habilidades después de una pausa en el agua.",
-        "price": "$125/semana"
+        "title": "Clases de repaso",
+        "body": "Un cursito corto de 2 a 3 semanas para refrescar la memoria después de una pausa sin nadar.",
+        "price": "$125 por semana"
       },
       "maintenance": {
         "title": "Mantenimiento",
-        "body": "Clases semanales continuas para mantener fresca la memoria muscular y fortalecer la confianza.",
-        "price": "$25/clase"
+        "body": "Clasecitas semanales para que la memoria muscular y la confianza no se pierdan.",
+        "price": "$25 por clase"
       },
       "strokes": {
-        "title": "Estilos y técnica",
-        "body": "Introducción a los estilos formales de natación y a la eficiencia técnica.",
-        "price": "$150/semana"
+        "title": "Técnica y estilos",
+        "body": "Introducción a los estilos formales de natación para que aprendan a moverse mejor en el agua.",
+        "price": "$150 por semana"
       },
-      "comingSoon": "Próximamente"
+      "comingSoon": "Muy pronto"
     },
     "faq": {
-      "heading": "Preguntas frecuentes",
-      "lead": "Todo lo que necesitas saber antes de tu primer chapuzón.",
+      "heading": "Las preguntas de siempre",
+      "lead": "Todo lo que necesitas saber antes del primer chapuzón.",
       "q1": {
-        "q": "¿Por qué el programa es de 5 días a la semana?",
-        "a": "La constancia es clave para desarrollar la memoria muscular en los bebés. Las sesiones cortas y diarias ayudan a desarrollar las habilidades de forma más rápida y segura que las sesiones más largas una vez por semana."
+        "q": "¿Por qué tengo que llevarlo 5 días a la semana?",
+        "a": "La constancia es la clave para que los bebés desarrollen memoria muscular. Las clases cortitas de todos los días les ayudan a aprender mucho más rápido y seguro que si solo fueran una vez por semana."
       },
       "q2": {
-        "q": "¿Cuánto duran realmente las clases?",
-        "a": "Las clases duran 10 minutos. Este es el tiempo óptimo para mantener un aprendizaje enfocado en niños pequeños sin provocar fatiga física o mental."
+        "q": "¿Cuánto duran las clases ya en el agua?",
+        "a": "Duran 10 minutos exactos. Es el tiempo perfecto para que los niños chiquitos aprendan súper concentrados, sin llegar a cansarse de más ni aburrirse."
       },
       "q3": {
-        "q": "¿Qué pasa si mi hijo llora?",
-        "a": "Llorar es una forma natural de comunicación. Nuestra instructora está capacitada para brindar apoyo y generar confianza, transformando con el tiempo las lágrimas en sonrisas de satisfacción."
+        "q": "¿Y qué hago si mi hijo llora?",
+        "a": "El llanto es su forma natural de comunicarse. Como instructora, estoy capacitada para acompañarlos con paciencia y ganarme su confianza. Te prometo que, poco a poco, esas lágrimas se van a convertir en sonrisas de orgullo."
       }
     },
     "pricingDetails": {
-      "kicker": "Para planificar",
-      "heading": "Detalles de precios",
-      "imgAlt": "Instructora de ISR con camiseta amarilla de natación y un bebé junto a la piscina",
-      "p1": "La matrícula del programa ISR principal (normalmente de 6–7 semanas de clases cortas y diarias) es de $750 en total. Para reservar el bloque de clases se requiere un depósito no reembolsable del 50% ($375). El saldo restante debe pagarse un día antes del primer día de clases.",
-      "p2": "El programa de repaso cuesta $125 por semana. Al inscribirse se requiere un depósito no reembolsable de $125. El saldo restante debe pagarse un día antes del primer día de clases. Las clases de mantenimiento cuestan $25 por clase y deben pagarse en su totalidad al momento de la inscripción.",
-      "p3": "Registro nacional de ISR: se requiere una tarifa independiente y no reembolsable que se paga directamente a Infant Swimming Resource antes de comenzar las clases. Es de $105 por niño durante el primer año calendario y de $40 por cada año posterior. Esta tarifa cubre la revisión de salud y acuática requerida por ISR, así como la aprobación oficial de las clases.",
-      "p4": "Puede haber becas y planes de pago disponibles previa solicitud; nunca queremos que el costo, por sí solo, se interponga entre tu familia y la seguridad en el agua."
+      "kicker": "Para que lo tengas en cuenta",
+      "heading": "¿Cómo funcionan los pagos?",
+      "imgAlt": "Cynthia, instructora de ISR con su playera amarilla, cuidando a un bebé en el agua",
+      "p1": "El costo del programa completo de ISR (que normalmente dura de 6 a 7 semanas de clases diarias cortitas) es de $750 en total. Te pedimos un anticipo del 50% ($375, no reembolsable) para apartar tu lugar. El resto se liquida un día antes de que empiecen las clases.",
+      "p2": "Para las clases de repaso, el costo es de $125 a la semana. Se pide un anticipo de $125 (no reembolsable) al momento de inscribirse, y el resto se paga un día antes de arrancar. Las clases de mantenimiento cuestan $25 cada una y se pagan el mismo día que te registras.",
+      "p3": "Inscripción nacional a ISR: es una cuota independiente (no reembolsable) que se le paga directo a Infant Swimming Resource antes de la primera clase. Son $105 por niño el primer año, y si regresan los siguientes años, solo pagan $40. Esto cubre la revisión médica oficial y la autorización de las clases.",
+      "p4": "Sabemos que cada familia es diferente, así que pregunta por nuestras opciones de pago o becas. ¡No queremos que el tema económico sea un freno para la seguridad de tu peque!"
     }
   },
   "aboutPage": {
     "hero": {
-      "imgAlt": "Miss Cynthia, instructora principal",
+      "imgAlt": "Miss Cynthia sonriendo",
       "badge": "Conoce a tu instructora",
-      "heading": "Cynthia, certificada por ISR",
-      "introTitle": "Hola, soy Cynthia — instructora certificada por ISR",
-      "lead": "Soy originaria de México y, durante los últimos 8 años, he construido mi vida en Ohio junto a mi familia. Mi camino hacia la natación de supervivencia no comenzó como un negocio; comenzó como mamá.\n\nMi hijo, Sebastián, lo cambió todo para mí.\n\nComo madre de un niño con necesidades particulares, entiendo el miedo y la responsabilidad de mantener a tu hijo seguro. Cuando descubrí la natación de supervivencia y vi cómo empodera a los niños —con o sin necesidades especiales— supe que esto era mucho más que aprender a nadar.\n\nEra una forma de salvar vidas.\n\nPor eso me convertí en instructora.\n\nEn WaveFront, creo un entorno personalizado y respetuoso donde los niños aprenden habilidades que pueden ayudarles a ponerse a salvo por sí mismos, mientras los padres obtienen algo invaluable: tranquilidad.\n\nPorque el ahogamiento ocurre en silencio.\n\nY la prevención comienza con la preparación.",
-      "verifyCta": "Verificar las credenciales oficiales de ISR"
+      "heading": "Cynthia, certificada en ISR",
+      "introTitle": "Hola, soy Cynthia, tu instructora de ISR",
+      "lead": "Soy de México y llevo 8 años haciendo mi vida en Ohio con mi familia. Mi historia con la natación de supervivencia no empezó como un negocio, empezó simplemente como mamá.\n\nMi hijo, Sebastián, lo cambió todo para mí.\n\nComo mamá de un niño con necesidades únicas, entiendo perfecto el miedo y la enorme responsabilidad que se siente querer mantenerlos a salvo. Cuando conocí la natación de supervivencia y vi cómo empodera a los niños —con o sin necesidades especiales— supe que esto era mucho más que aprender a nadar.\n\nEra literalmente salvar vidas.\n\nPor eso decidí certificarme.\n\nEn WaveFront, busco crear un espacio personalizado y de mucho respeto donde tus hijos aprenden a salvarse solitos, y ustedes como papás se llevan algo invaluable: tranquilidad.\n\nPorque el ahogamiento es silencioso.\n\nY estar preparados es la mejor prevención.",
+      "verifyCta": "Verificar mi certificado de ISR"
     },
     "isrOrg": {
       "kicker": "Infant Swimming Resource",
       "heading": "¿Qué es ISR?",
-      "body": "ISR es líder mundial en la industria que ayudó a crear en 1966: las clases de natación de supervivencia para bebés y niños pequeños. Nuestro equipo de instructores ISR altamente capacitados ofrece algunas de las clases de natación de supervivencia más seguras y eficaces disponibles. Las clases ISR que reciben nuestros alumnos hoy son el resultado de casi 60 años de investigación y experiencia para lograr resultados excepcionales cada día en piscinas de todo el mundo.\n\nHoy, nuestra misión, \"Not One More Child Drowns\", es la base de todo lo que hacemos y la fuerza que impulsa a los empleados de ISR, a nuestros instructores ISR independientes y a nuestras principales alianzas corporativas. Creemos que prevenir con éxito la principal causa de muerte accidental en niños menores de 4 años en Estados Unidos requerirá un amplio grupo de profesionales comprometidos y capacitados, cuyo único objetivo sea salvar vidas.\n\nHasta la fecha, hemos impartido más de 19,000,000 de clases ISR Self-Rescue. ISR cree en múltiples capas de protección frente a los accidentes acuáticos, entre ellas las cercas para piscinas, las alarmas y la supervisión activa de un adulto. Sin embargo, las barreras de protección tradicionales pueden fallar, y las más de 4,000 muertes por ahogamiento que ocurren cada año son un triste testimonio de que los enfoques tradicionales dejan fuera un componente clave: el niño. La convicción fundamental de ISR es que el niño es la parte más importante de una estrategia de prevención de ahogamientos y que nuestros más de 450,000 graduados de ISR y cientos de casos documentados de supervivencia demuestran que los niños pueden salvarse a sí mismos y, de hecho, lo hacen. Los niños son curiosos y capaces, y tienen una extraordinaria capacidad para superar obstáculos como las cercas de las piscinas; en ISR aprovechamos esa capacidad y les enseñamos habilidades que pueden ayudarles a ponerse a salvo si alguna vez se encuentran solos en el agua.",
-      "learnMoreCta": "Conoce más sobre ISR",
-      "point1Title": "Preparación antes de la primera clase",
-      "point1Text": "Cada niño pasa por la revisión de salud y acuática requerida por ISR y recibe la aprobación formal de las clases antes de comenzar la instrucción, para que las habilidades se planifiquen de acuerdo con cada niño y no con un grupo genérico.",
-      "point2Title": "Formación rigurosa de instructores",
-      "point2Text": "Los instructores certificados completan una formación intensiva en el agua, exámenes y renovaciones periódicas para mantener activa su certificación.",
-      "point3Title": "Habilidades para emergencias reales",
-      "point3Text": "El enfoque es la supervivencia: flotar, controlar la respiración y recuperarse cuando un niño llega solo al agua.",
-      "footnote": "WaveFront es un proveedor independiente del programa oficial ISR Self-Rescue."
+      "body": "ISR es el pionero y líder mundial en clases de natación de supervivencia para bebés y niños desde 1966. Como instructores de ISR, pasamos por un entrenamiento súper riguroso para darles a los niños las lecciones más seguras y efectivas que existen. Todo lo que tu hijo aprende con nosotros está respaldado por casi 60 años de investigación y resultados reales en albercas de todo el mundo.\n\nNuestra misión es muy clara: \"Que ni un niño más se ahogue\". Eso es lo que nos mueve todos los días. Para frenar la principal causa de muerte accidental en niños menores de 4 años en EE. UU., sabemos que se necesita a gente profesional, comprometida y con mucho corazón, cuyo único objetivo sea salvar vidas.\n\nHemos dado más de 19 millones de clases de Autorrescate ISR. Y aunque creemos firmemente en tener muchas capas de protección en casa (como cercas, alarmas y estar siempre cuidándolos), la realidad es que a veces los accidentes pasan y esas defensas fallan. Las estadísticas son duras: un niño es la pieza más importante en la prevención. Con más de 450,000 niños graduados y cientos de historias de supervivencia reales, sabemos que los niños pueden salvarse a sí mismos. Son curiosos, muy listos y logran brincarse las cercas; en ISR tomamos esa misma habilidad natural y les enseñamos cómo reaccionar si algún día caen al agua sin un adulto cerca.",
+      "learnMoreCta": "Saber más sobre ISR",
+      "point1Title": "Listos desde el día uno",
+      "point1Text": "Antes de la primera clase, tu peque pasa por una revisión médica de ISR para asegurar que el plan esté hecho justo a su medida, y no como una clase genérica del montón.",
+      "point2Title": "Instructores súper preparados",
+      "point2Text": "Los instructores certificados pasamos por un entrenamiento práctico súper exigente en el agua, además de exámenes y renovaciones constantes para mantener la licencia.",
+      "point3Title": "Habilidades para la vida real",
+      "point3Text": "El objetivo principal es la supervivencia: saber flotar, controlar la respiración y reaccionar rápido si llegan a caer al agua solitos.",
+      "footnote": "WaveFront es un centro independiente que imparte el programa oficial de Autorrescate de ISR."
     },
     "certs": {
-      "heading": "Credenciales y certificaciones",
-      "lead": "ISR establece el estándar nacional para la enseñanza de habilidades de supervivencia acuática. Así es como Cynthia se mantiene alineada con la organización, junto con la formación en seguridad pediátrica que las familias esperan.",
-      "verified": "Verificado 2026",
+      "heading": "Certificaciones",
+      "lead": "ISR tiene los estándares más altos del país en enseñanza de autorrescate. Aquí puedes ver cómo me mantengo actualizada y avalada para cuidar de tu peque.",
+      "verified": "Verificado (2026)",
       "isr": {
-        "title": "Instructora certificada por ISR"
+        "title": "Instructora Certificada por ISR"
       },
       "cpr": {
-        "title": "RCP y primeros auxilios pediátricos",
-        "detail": "Certificada por American Red Cross"
+        "title": "RCP y Primeros Auxilios Pediátricos",
+        "detail": "Certificación oficial por la Cruz Roja Americana"
       }
     },
     "waterSafety": {
       "heading": "Seguridad en el agua",
-      "intro": "No importa si tu hijo sabe nadar: nadie es inmune al ahogamiento y nada reemplaza la supervisión activa de un adulto. El ahogamiento sigue siendo la principal causa de muerte accidental en niños de 1 a 4 años. Por eso son importantes múltiples capas de protección... porque incluso la supervisión más atenta puede fallar.",
+      "intro": "No importa si tu hijo ya sabe nadar: a cualquiera le puede pasar un accidente y nada reemplaza la supervisión de un adulto. El ahogamiento sigue siendo la causa #1 de accidentes fatales en niños de 1 a 4 años. Por eso necesitamos muchas capas de protección... porque a veces, hasta al papá más atento se le puede escapar un segundo.",
       "supervision": {
-        "title": "Supervisión eficaz",
-        "body": "Tu primera línea de defensa eres tú. Ninguna habilidad de natación reemplaza una supervisión activa y enfocada. Si alguna vez no encuentras a tu hijo, revisa primero el agua."
+        "title": "No quitarles el ojo de encima",
+        "body": "Tu mejor línea de defensa eres tú. Ninguna clase de natación sustituye tener los ojos puestos en ellos. Si alguna vez no encuentras a tu hijo, siempre revisa el agua primero."
       },
       "fences": {
-        "title": "Cercas para piscinas",
-        "body": "Instala una cerca permanente de cuatro lados con puertas que se cierren y bloqueen automáticamente. Mantén la cerca a unos pocos pies de distancia de la piscina (aproximadamente 3–5 pies) para aumentar la seguridad."
+        "title": "Cercas en la alberca",
+        "body": "Instala una cerca fija por los 4 lados de la alberca con una puerta de cierre automático. Trata de dejarla a un metrito (3-5 pies) de distancia del borde para que sea más segura."
       },
       "locks": {
-        "title": "Cerraduras y alarmas",
-        "body": "Asegura todos los puntos de acceso. Las puertas y ventanas que dan a la piscina deben permanecer cerradas con llave y contar con alarmas."
+        "title": "Seguros y alarmas",
+        "body": "Asegura todas las salidas. Las puertas y ventanas que den al patio o a la alberca siempre deben estar cerradas con seguro y, de preferencia, tener una alarma."
       },
       "cpr": {
-        "title": "RCP",
-        "body": "Prepárate para lo inesperado. Los padres y cuidadores deben saber realizar RCP en bebés, niños y adultos, y mantener sus conocimientos actualizados."
+        "title": "Saber RCP",
+        "body": "Prepárate para lo inesperado. Es súper importante que papás y cuidadores sepan dar RCP a bebés, niños y adultos, y no dejar que se les olvide."
       },
       "swim": {
-        "title": "Clases de natación de supervivencia",
-        "body": "Las habilidades de autosalvamento añaden otra capa de protección, dando a tu hijo la capacidad de responder en el agua cuando más importa."
+        "title": "Clases de supervivencia",
+        "body": "Saber autorrescatarse es esa última capa de protección que le da a tu hijo la oportunidad de reaccionar si llega a caer al agua solito."
       }
     }
   },
   "faqPage": {
     "meta": {
-      "title": "Preguntas frecuentes | WaveFront",
-      "description": "Respuestas sobre Infant Swimming Resource (ISR), las clases de WaveFront, seguridad, clases de mantenimiento y qué esperar."
+      "title": "Dudas Frecuentes | WaveFront",
+      "description": "Resolvemos tus dudas sobre Infant Swimming Resource (ISR), las clases en WaveFront, medidas de seguridad y qué puedes esperar del programa."
     },
     "hero": {
-      "heading": "Preguntas frecuentes",
-      "lead": "Respuestas claras sobre ISR, las clases, la seguridad y qué esperar del programa.",
-      "imgAlt": "Instructora certificada por ISR acompañando a un niño pequeño durante una clase individual en la piscina."
+      "heading": "Preguntas de otros papás",
+      "lead": "Respuestas claras sobre qué es ISR, cómo son las clases, temas de seguridad y todo lo que puedes esperar de nosotros.",
+      "imgAlt": "Instructora de ISR ayudando a un niño chiquito durante una clase personalizada en la alberca."
     }
   },
   "contactPage": {
@@ -278,44 +278,44 @@
       "heading": "Contacto"
     },
     "form": {
-      "badge": "¿Tienes alguna pregunta?",
-      "title": "Envíanos un mensaje",
-      "lead": "Elige el tema que mejor corresponda a tu pregunta para que podamos dirigirla a la persona adecuada. Los campos marcados con * son obligatorios.",
-      "successTitle": "¡Mensaje enviado!",
-      "successBody": "Gracias por ponerte en contacto. Cynthia te responderá en breve.",
+      "badge": "¿Tienes alguna duda?",
+      "title": "Escríbeme",
+      "lead": "Elige el tema de tu mensaje para que pueda contestarte mucho más rápido. Los espacios con * son obligatorios.",
+      "successTitle": "¡Listo, mensaje enviado!",
+      "successBody": "Mil gracias por escribirme. Te estaré contestando muy pronto.",
       "topicLabel": "Tema",
-      "topicPlaceholder": "Selecciona un tema...",
-      "topicScheduling": "Horarios y disponibilidad",
-      "topicPricing": "Precios e inscripción",
-      "topicProgram": "Preguntas sobre el programa",
-      "topicExisting": "Estudiante actual",
-      "topicOther": "Otro",
-      "nameLabel": "Tu nombre completo",
-      "namePlaceholder": "Tu nombre",
-      "emailLabel": "Tu correo electrónico",
-      "emailPlaceholder": "nombre@ejemplo.com",
-      "childLabel": "Nombre completo del niño",
-      "childPlaceholder": "Nombre completo del niño",
+      "topicPlaceholder": "Elige un tema...",
+      "topicScheduling": "Fechas y horarios disponibles",
+      "topicPricing": "Precios e inscripciones",
+      "topicProgram": "Dudas sobre las clases",
+      "topicExisting": "Ya somos alumnos",
+      "topicOther": "Otro tema",
+      "nameLabel": "Tu nombre",
+      "namePlaceholder": "Escribe tu nombre completo",
+      "emailLabel": "Tu correo",
+      "emailPlaceholder": "hola@ejemplo.com",
+      "childLabel": "Nombre de tu peque",
+      "childPlaceholder": "Escribe el nombre de tu hijo(a)",
       "childAgeLabel": "Edad",
-      "childAgePlaceholder": "p. ej., 18 meses",
-      "questionLabel": "Pregunta / Explica la situación",
-      "questionPlaceholder": "Comparte tu pregunta o situación...",
-      "clear": "Borrar",
+      "childAgePlaceholder": "Ej. 18 meses",
+      "questionLabel": "¿En qué te puedo ayudar?",
+      "questionPlaceholder": "Cuéntame qué tienes en mente...",
+      "clear": "Limpiar todo",
       "send": "Enviar mensaje"
     },
     "cards": {
       "call": {
-        "title": "Reservar en línea",
-        "value": "Programa tu sesión"
+        "title": "Reserva en línea",
+        "value": "Aparta tu lugar aquí"
       },
       "email": {
-        "title": "Envíame un correo",
+        "title": "Mándame un correo",
         "value": "Cynthia.vazquez@infantswim.com"
       }
     },
     "location": {
-      "body": "Las clases se realizan en residencias privadas de Mid Ohio.",
-      "cta": "Consulta el calendario para conocer la ubicación de cada sesión."
+      "body": "Las clases se dan en albercas de casas particulares en la zona centro de Ohio.",
+      "cta": "Checa los horarios para ver la ubicación de las próximas clases."
     }
   }
 }

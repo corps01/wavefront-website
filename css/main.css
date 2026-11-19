@@ -31,7 +31,7 @@ a[href^="mailto:"] {
   }
 }
 
-/* Gentle motion stays inside each mission card's icon circle. */
+/* Continuous pumping starts automatically, without hover. */
 @media (prefers-reduced-motion: no-preference) {
   .mission-icon {
     display: inline-block;
@@ -40,15 +40,13 @@ a[href^="mailto:"] {
 
   .mission-icon-heart,
   .mission-icon-pump {
-    animation: mission-heartbeat 2.8s ease-in-out infinite;
+    animation: mission-heartbeat 1.4s ease-in-out infinite;
   }
 }
 
 @keyframes mission-heartbeat {
-  0%, 34%, 100% { transform: scale(1); }
-  12% { transform: scale(1.1); }
-  22% { transform: scale(1.02); }
-  28% { transform: scale(1.06); }
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
 }
 
 /* ── Icon font ── */

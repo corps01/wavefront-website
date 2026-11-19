@@ -122,7 +122,7 @@
     "areaLine": "Centro de Ohio",
     "sealAlt": "Sello oficial de instructora certificada por ISR",
     "portraitAlt": "Foto de Cynthia Vazquez, instructora de ISR",
-    "legalNotice": "© Copyright 2026 WAVE FRONT SOLUTIONS LLC | Todos los derechos reservados | Las imágenes son material protegido por derechos de autor de Infant Swimming Resource, LLC y/o Cynthia Vazquez | Creado por TuPagi"
+    "legalNotice": "© Copyright 2026 WAVEFRONT SOLUTIONS LLC | Todos los derechos reservados | Las imágenes son material protegido por derechos de autor de Infant Swimming Resource, LLC y/o Cynthia Vazquez | Creado por TuPagi"
   },
   "lessonsPage": {
     "meta": {
@@ -333,5 +333,90 @@
       "body": "Las clases se dan en albercas de casas particulares en la zona centro de Ohio.",
       "cta": "Checa los horarios para ver la ubicación de las próximas clases."
     }
+  },
+  "termsPage": {
+    "meta": {
+      "title": "Términos de uso | WaveFront",
+      "description": "Términos que rigen el uso del sitio web, contenido, consultas y servicios externos de WaveFront."
+    },
+    "title": "Términos de uso",
+    "subtitle": "WaveFront · Términos del sitio web",
+    "sections": [
+      {
+        "heading": "Uso de este sitio web",
+        "body": "WaveFront es operado por WAVEFRONT SOLUTIONS LLC. El uso de este sitio implica la aceptación de estos términos. Los menores necesitan supervisión de un adulto."
+      },
+      {
+        "heading": "Uso permitido",
+        "body": "Utilice el sitio web de forma lícita; no interrumpa su funcionamiento, suplante a otras personas ni intente acceder sin autorización."
+      },
+      {
+        "heading": "Propiedad del contenido",
+        "body": "Los materiales pertenecen a WaveFront o a sus respectivos titulares. Su reproducción comercial requiere permiso."
+      },
+      {
+        "heading": "Información y comunicaciones",
+        "body": "Proporcione información precisa. Evite enviar datos médicos sensibles mediante los formularios de consultas generales."
+      },
+      {
+        "heading": "Clases y reservas",
+        "body": "Las clases se rigen por requisitos independientes de inscripción, autorización médica y pago. El contenido del sitio no sustituye la instrucción."
+      },
+      {
+        "heading": "Servicios externos",
+        "body": "Las plataformas de reservas y los sitios enlazados tienen sus propios términos y prácticas."
+      },
+      {
+        "heading": "Disponibilidad y responsabilidad",
+        "body": "No se garantizan la disponibilidad ni la exactitud. Cualquier limitación de responsabilidad está sujeta a la legislación aplicable y a las protecciones obligatorias del consumidor."
+      },
+      {
+        "heading": "Cambios y acceso",
+        "body": "WaveFront puede modificar estos términos o restringir el uso indebido. Deje de utilizar el sitio si no está de acuerdo."
+      },
+      {
+        "heading": "Contacto",
+        "body": "¿Tiene preguntas? Escriba a "
+      }
+    ]
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Política de privacidad | WaveFront",
+      "description": "Cómo WaveFront trata las consultas, preferencias de idioma y servicios de terceros del sitio web."
+    },
+    "title": "Política de privacidad",
+    "subtitle": "Última actualización: 19 de noviembre de 2026",
+    "sections": [
+      {
+        "heading": "Información que proporciona",
+        "body": "El formulario de contacto solicita un tema, su nombre, correo electrónico y mensaje. El nombre y la edad del menor son opcionales. La correspondencia por correo también comparte la información que usted decide enviar. Evite incluir expedientes médicos o datos sensibles en consultas generales."
+      },
+      {
+        "heading": "Servicios del sitio y almacenamiento",
+        "body": "Los mensajes de contacto se envían a través de Formspree. Los enlaces de reservas y lista de espera abren WebAccomplice. La página de inicio carga un módulo de Instagram de Elfsight; las páginas cargan Google Fonts y scripts externos. Las solicitudes a estos proveedores pueden revelar información técnica, como su dirección IP y datos del navegador. Sus políticas de privacidad rigen sus servicios."
+      },
+      {
+        "heading": "Analítica y preferencias",
+        "body": "El sitio incluye un script de Vercel Web Analytics; la recopilación depende de la configuración del alojamiento. Su idioma preferido se guarda en el almacenamiento local del navegador. Los módulos de terceros pueden utilizar cookies o tecnologías similares. Puede borrar el almacenamiento del sitio y gestionar las cookies desde su navegador, lo que podría afectar algunas funciones."
+      },
+      {
+        "heading": "Cómo se utiliza y comparte la información",
+        "body": "La información de las consultas se utiliza para responder y coordinar las clases. Los proveedores de servicios procesan la información necesaria para sus funciones. También puede ser necesario divulgar información para cumplir obligaciones legales. Esta política cubre el sitio web; los servicios externos de reservas e inscripción tienen prácticas independientes."
+      },
+      {
+        "heading": "Información de menores",
+        "body": "Este sitio está dirigido a padres, madres y tutores. Pueden proporcionar información sobre un menor al consultar sobre las clases. Contáctenos si un menor ha enviado información sin la participación adecuada de un adulto."
+      },
+      {
+        "heading": "Sus opciones, conservación y seguridad",
+        "body": "Escríbanos para solicitar acceso, corrección o eliminación, sujeto a los requisitos aplicables. Consúltenos sobre la conservación de sus registros. No se puede garantizar la seguridad de las transmisiones por Internet ni del procesamiento por terceros."
+      },
+      {
+        "heading": "Actualizaciones y contacto",
+        "body": "Los cambios de esta política se publicarán aquí. Para preguntas o solicitudes de privacidad, escriba a "
+      }
+    ],
+    "intro": "WaveFront, operado por WAVEFRONT SOLUTIONS LLC, explica a continuación cómo se trata la información a través de este sitio web."
   }
 }

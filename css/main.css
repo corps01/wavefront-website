@@ -38,7 +38,8 @@ a[href^="mailto:"] {
     transform-origin: center;
   }
 
-  .mission-icon-heart {
+  .mission-icon-heart,
+  .mission-icon-pump {
     animation: mission-heartbeat 2.8s ease-in-out infinite;
   }
 }

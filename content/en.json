@@ -122,7 +122,7 @@
     "areaLine": "Mid Ohio",
     "sealAlt": "ISR certified seal logo",
     "portraitAlt": "Cynthia Vazquez, ISR certified instructor",
-    "legalNotice": "© Copyright 2026 WAVE FRONT SOLUTIONS LLC | All Rights Reserved | All images are copyright material of Infant Swimming Resource, LLC and/or Cynthia Vazquez | Created by TuPagi"
+    "legalNotice": "© Copyright 2026 WAVEFRONT SOLUTIONS LLC | All Rights Reserved | All images are copyright material of Infant Swimming Resource, LLC and/or Cynthia Vazquez | Created by TuPagi"
   },
   "lessonsPage": {
     "meta": {
@@ -333,5 +333,90 @@
       "body": "Lessons are held at private residences in Mid Ohio.",
       "cta": "View schedule to learn the location for specific sessions."
     }
+  },
+  "termsPage": {
+    "meta": {
+      "title": "Terms of Use | WaveFront",
+      "description": "Terms governing use of the WaveFront website, content, inquiries, and external services."
+    },
+    "sections": [
+      {
+        "heading": "Using this website",
+        "body": "WaveFront is operated by WAVEFRONT SOLUTIONS LLC. Use signifies acceptance of these terms. Minors need adult supervision."
+      },
+      {
+        "heading": "Permitted use",
+        "body": "Use the website lawfully; do not disrupt it, impersonate others, or attempt unauthorized access."
+      },
+      {
+        "heading": "Content ownership",
+        "body": "Materials belong to WaveFront or their respective owners. Commercial reproduction requires permission."
+      },
+      {
+        "heading": "Information and submissions",
+        "body": "Provide accurate information. Avoid sending sensitive medical details through general inquiry forms."
+      },
+      {
+        "heading": "Lessons and bookings",
+        "body": "Separate enrollment, medical clearance, and payment requirements govern lessons. Website content does not replace instruction."
+      },
+      {
+        "heading": "External services",
+        "body": "Booking platforms and linked websites have independent terms and practices."
+      },
+      {
+        "heading": "Availability and liability",
+        "body": "Availability and accuracy are not guaranteed. Any liability limitation remains subject to applicable law and mandatory consumer protections."
+      },
+      {
+        "heading": "Changes and access",
+        "body": "WaveFront may revise these terms or restrict misuse. Discontinue use if you disagree."
+      },
+      {
+        "heading": "Contact",
+        "body": "Questions? Email "
+      }
+    ],
+    "title": "Terms of Use",
+    "subtitle": "WaveFront · Website terms"
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Privacy Policy | WaveFront",
+      "description": "How WaveFront handles website inquiries, language preferences, and third-party services."
+    },
+    "sections": [
+      {
+        "heading": "Information you provide",
+        "body": "The contact form requests a topic, your name, email, and message. A child’s name and age are optional. Email correspondence also shares information you choose to send. Avoid including medical records or sensitive details in general inquiries."
+      },
+      {
+        "heading": "Website services and storage",
+        "body": "Contact messages are sent through Formspree. Booking and waitlist links open WebAccomplice. The homepage loads an Elfsight Instagram widget; pages load Google Fonts and external scripts. Requests to these providers can disclose technical information such as your IP address and browser details. Their privacy policies govern their services."
+      },
+      {
+        "heading": "Analytics and preferences",
+        "body": "The site includes a Vercel Web Analytics script; collection depends on the hosting configuration. Your language choice is saved in browser local storage. Third-party widgets may use cookies or similar technologies. You can clear site storage and manage cookies through your browser, which may affect features."
+      },
+      {
+        "heading": "How information is used and shared",
+        "body": "Inquiry information supports replies and lesson coordination. Service providers process information needed for their functions. Disclosure may also be necessary to meet legal obligations. This policy covers the website; external booking and enrollment services have separate practices."
+      },
+      {
+        "heading": "Children’s information",
+        "body": "This website is intended for parents and guardians. They may submit information about a child when asking about lessons. Contact us if a child has submitted information without appropriate adult involvement."
+      },
+      {
+        "heading": "Your choices, retention, and security",
+        "body": "Email us to request access, correction, or deletion, subject to applicable requirements. Ask us about retention for your records. Internet transmission and third-party processing cannot be guaranteed secure."
+      },
+      {
+        "heading": "Updates and contact",
+        "body": "Policy changes will appear here. For privacy questions or requests, contact "
+      }
+    ],
+    "title": "Privacy Policy",
+    "subtitle": "Last updated: November 19, 2026",
+    "intro": "WaveFront, operated by WAVEFRONT SOLUTIONS LLC, explains below how information is handled through this website."
   }
 }

@@ -17,11 +17,11 @@ var WAVEFRONT_FAQ_I18N = {
       },
       {
         q: "How long are the lessons?",
-        a: "Lessons are short, typically around 10 minutes per day, Monday through Friday. This allows for effective learning without overwhelming the child physically or emotionally.",
+        a: "Lessons are short, typically around 10 minutes per day, Monday through Thursday (4 days per week). This allows for effective learning without overwhelming the child physically or emotionally.",
       },
       {
         q: "How long does the program take?",
-        a: "On average, the program takes 4 to 6 weeks, depending on the child's age, development, and progress. Every child learns at their own pace.",
+        a: "On average, the program takes 6 to 7 weeks, depending on the child's age, development, and progress. Every child learns at their own pace.",
       },
       {
         q: "What are maintenance lessons?",
@@ -97,11 +97,11 @@ var WAVEFRONT_FAQ_I18N = {
       },
       {
         q: "¿Cuánto duran las clases?",
-        a: "Las clases son breves, normalmente de unos 10 minutos al día, de lunes a viernes. Esto permite un aprendizaje eficaz sin sobrecargar física o emocionalmente al niño.",
+        a: "Las clases son breves, normalmente de unos 10 minutos al día, de lunes a jueves (4 días por semana). Esto permite un aprendizaje eficaz sin sobrecargar física o emocionalmente al niño.",
       },
       {
         q: "¿Cuánto dura el programa?",
-        a: "En promedio, el programa dura de 4 a 6 semanas, dependiendo de la edad, el desarrollo y el progreso del niño. Cada niño aprende a su propio ritmo.",
+        a: "En promedio, el programa dura de 6 a 7 semanas, dependiendo de la edad, el desarrollo y el progreso del niño. Cada niño aprende a su propio ritmo.",
       },
       {
         q: "¿Qué son las clases de mantenimiento?",

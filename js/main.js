@@ -16,6 +16,13 @@
     setOpen(!open);
   });
 
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !panel.hidden) {
+      setOpen(false);
+      btn.focus();
+    }
+  });
+
   panel.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       if (window.matchMedia("(max-width: 767px)").matches) setOpen(false);
@@ -29,12 +36,21 @@
 (function () {
   document.querySelectorAll("[data-faq-item]").forEach((item) => {
     const trigger = item.querySelector("[data-faq-trigger]");
-    if (!trigger) return;
+    const panel = item.querySelector("[data-faq-panel]");
+    if (!trigger || !panel) return;
+
+    function setOpen(open) {
+      item.classList.toggle("is-open", open);
+      trigger.setAttribute("aria-expanded", String(open));
+      panel.inert = !open;
+      panel.setAttribute("aria-hidden", String(!open));
+    }
+
+    setOpen(item.classList.contains("is-open"));
 
     trigger.addEventListener("click", () => {
       const open = !item.classList.contains("is-open");
-      item.classList.toggle("is-open", open);
-      trigger.setAttribute("aria-expanded", open ? "true" : "false");
+      setOpen(open);
     });
   });
 })();

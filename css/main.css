@@ -16,6 +16,59 @@
   --wave-3: rgba(14,  165, 233, 0.90);  /* sky-500 — rich front layer */
 }
 
+a[href^="mailto:"] {
+  overflow-wrap: anywhere;
+}
+
+.home-hero-background {
+  background-image: url('../assets/images/wf-08.webp');
+}
+
+@media (min-width: 768px) {
+  .home-hero-background {
+    background-image: url('../assets/images/wf-07.webp');
+    transform: scaleX(-1);
+  }
+}
+
+/* Gentle motion stays inside each mission card's icon circle. */
+@media (prefers-reduced-motion: no-preference) {
+  .mission-icon {
+    display: inline-block;
+    transform-origin: center;
+  }
+
+  .mission-icon-shield {
+    animation: mission-shield 5s ease-in-out infinite;
+  }
+
+  .mission-icon-heart {
+    animation: mission-heartbeat 2.8s ease-in-out infinite;
+  }
+
+  .mission-icon-family {
+    animation: mission-family 6s ease-in-out infinite;
+  }
+}
+
+@keyframes mission-shield {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+@keyframes mission-heartbeat {
+  0%, 34%, 100% { transform: scale(1); }
+  12% { transform: scale(1.1); }
+  22% { transform: scale(1.02); }
+  28% { transform: scale(1.06); }
+}
+
+@keyframes mission-family {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-4deg); }
+  75% { transform: rotate(4deg); }
+}
+
 /* ── Icon font ── */
 
 .material-symbols-outlined {
@@ -43,11 +96,13 @@
 [data-faq-panel] {
   display: grid;
   grid-template-rows: 0fr;
-  transition: grid-template-rows 0.35s ease;
+  visibility: hidden;
+  transition: grid-template-rows 0.35s ease, visibility 0.35s;
 }
 
 [data-faq-item].is-open [data-faq-panel] {
   grid-template-rows: 1fr;
+  visibility: visible;
 }
 
 [data-faq-item] [data-faq-chevron] {

@@ -11,6 +11,8 @@
     <link rel="icon" type="image/png" href="assets/images/wf-01.png" />
     <link rel="shortcut icon" type="image/png" href="assets/images/wf-01.png" />
     <link rel="apple-touch-icon" href="assets/images/wf-01.png" />
+    <link rel="preload" as="image" href="assets/images/wf-08.webp" media="(width < 768px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="assets/images/wf-07.webp" media="(width >= 768px)" fetchpriority="high" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -104,7 +106,7 @@
         >
           <a class="flex items-center gap-2 md:gap-3" href="#home" i18n="brand.name" attr="aria-label" label="WaveFront">
             <img
-              src="assets/images/wf-01.png"
+              src="assets/images/wf-01.webp"
               alt=""
               width="64"
               height="64"
@@ -112,7 +114,7 @@
               decoding="async"
             />
             <img
-              src="assets/images/wf-02.png"
+              src="assets/images/wf-02.webp"
               alt=""
               width="160"
               height="40"
@@ -205,13 +207,7 @@
           class="relative w-full min-h-screen overflow-hidden pb-24 pt-32"
         >
           <div
-            class="pointer-events-none absolute inset-0 -z-20 bg-cover bg-center bg-no-repeat md:hidden"
-            style="background-image: url('assets/images/wf-08.png');"
-            aria-hidden="true"
-          ></div>
-          <div
-            class="pointer-events-none absolute inset-0 -z-20 hidden bg-cover bg-center bg-no-repeat md:block"
-            style="background-image: url('assets/images/wf-07.png'); transform: scaleX(-1)"
+            class="home-hero-background pointer-events-none absolute inset-0 -z-20 bg-cover bg-center bg-no-repeat"
             aria-hidden="true"
           ></div>
 
@@ -293,7 +289,7 @@
                   class="mb-8 flex h-16 w-16 items-center justify-center rounded-full bg-blue-300 transition-transform group-hover:scale-110"
                 >
                   <span
-                    class="material-symbols-outlined text-3xl text-blue-900"
+                    class="mission-icon mission-icon-shield material-symbols-outlined text-3xl text-blue-900"
                     aria-hidden="true"
                     >security</span
                   >
@@ -319,7 +315,7 @@
                   class="mb-8 flex h-16 w-16 items-center justify-center rounded-full bg-warm transition-transform group-hover:scale-110"
                 >
                   <span
-                    class="material-symbols-outlined text-3xl text-warm-ink"
+                    class="mission-icon mission-icon-heart material-symbols-outlined text-3xl text-warm-ink"
                     aria-hidden="true"
                     >favorite</span
                   >
@@ -345,7 +341,7 @@
                   class="mb-8 flex h-16 w-16 items-center justify-center rounded-full bg-gold transition-transform group-hover:scale-110"
                 >
                   <span
-                    class="material-symbols-outlined text-3xl text-gold-ink"
+                    class="mission-icon mission-icon-family material-symbols-outlined text-3xl text-gold-ink"
                     aria-hidden="true"
                     >home_health</span
                   >
@@ -417,7 +413,7 @@
                   data-i18n-attr="alt"
                   alt="Cynthia holding a baby in the pool"
                   class="w-full rotate-2 object-cover object-top transition-transform duration-500 hover:rotate-0"
-                  src="assets/images/wf-05.png"
+                  src="assets/images/wf-05.webp"
                   width="400"
                   height="500"
                   loading="lazy"
@@ -437,13 +433,13 @@
             <div class="mb-10 text-center">
               <h2
                 id="instagram-heading"
-                class="mb-3 font-headline text-3xl font-bold text-blue-900 md:text-4xl"
+                class="mb-3 text-center font-headline text-3xl font-bold text-blue-900 md:text-4xl"
                 data-i18n="instagram.heading"
               >
                 Follow along on Instagram
               </h2>
               <p
-                class="mx-auto max-w-xl text-lg text-ink-light"
+                class="mx-auto max-w-xl text-center text-lg text-ink-light"
                 data-i18n="instagram.lead"
               >
                 Recent photos and reels from the pool.
@@ -529,7 +525,7 @@
           >
             <div class="flex justify-center md:justify-end">
               <img
-                src="assets/images/wf-04.jpg"
+                src="assets/images/wf-04.webp"
                 alt="ISR certified seal logo"
                 width="520"
                 height="416"
@@ -544,11 +540,12 @@
             <div class="flex flex-col items-center gap-4 text-center">
               <a class="inline-block transition-opacity hover:opacity-90" href="#home" i18n="brand.name" attr="aria-label" label="WaveFront">
                 <img
-                  src="assets/images/wf-03.png"
+                  src="assets/images/wf-03.webp"
                   alt=""
                   width="676"
                   height="203"
                   class="h-[11.5rem] w-auto object-contain brightness-0 invert md:h-[14.75rem] lg:h-[16.5rem]"
+                  loading="lazy"
                   decoding="async"
                 />
               </a>
@@ -591,17 +588,14 @@
                 <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="#" i18n="footer.privacy">Privacy</a
                 >
                 <span class="text-white/40" aria-hidden="true">|</span>
-                <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="#" i18n="footer.terms">Terms</a
-                >
-                <span class="text-white/40" aria-hidden="true">|</span>
-                <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="#" i18n="footer.safety">Safety</a
+                <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="terms-of-use.html" i18n="footer.terms">Terms</a
                 >
               </nav>
             </div>
 
             <div class="flex justify-center md:justify-start">
               <img
-                src="assets/images/wf-15.png"
+                src="assets/images/wf-15.webp"
                 alt="Cynthia Vazquez, ISR certified instructor"
                 width="520"
                 height="416"

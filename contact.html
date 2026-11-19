@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" href="assets/images/wf-01.png" />
     <link rel="shortcut icon" type="image/png" href="assets/images/wf-01.png" />
     <link rel="apple-touch-icon" href="assets/images/wf-01.png" />
+    <link rel="preload" as="image" href="assets/images/wf-06.webp" fetchpriority="high" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -99,7 +100,7 @@
         >
           <a class="flex items-center gap-2 md:gap-3" href="index.html#home" i18n="brand.name" attr="aria-label" label="WaveFront">
             <img
-              src="assets/images/wf-01.png"
+              src="assets/images/wf-01.webp"
               alt=""
               width="64"
               height="64"
@@ -107,7 +108,7 @@
               decoding="async"
             />
             <img
-              src="assets/images/wf-02.png"
+              src="assets/images/wf-02.webp"
               alt=""
               width="160"
               height="40"
@@ -198,7 +199,7 @@
         <section class="relative overflow-hidden">
           <div
             class="relative h-[360px] w-full bg-cover bg-center"
-            style="background-image: url('assets/images/wf-06.jpg')"
+            style="background-image: url('assets/images/wf-06.webp')"
           >
             <div
               class="absolute inset-0 bg-gradient-to-b from-blue-900/45 via-blue-800/30 to-blue-700/50"
@@ -290,6 +291,8 @@
             <!-- Success banner (hidden until submission) -->
             <div
               data-fs-success
+              role="status"
+              aria-live="polite"
               class="mb-6 hidden rounded-2xl bg-blue-50 border border-blue-200 px-6 py-5 text-center"
             >
               <p class="text-lg font-semibold text-blue-700" data-i18n="contactPage.form.successTitle">Message sent!</p>
@@ -299,6 +302,7 @@
             <!-- Error banner (hidden until error) -->
             <div
               data-fs-error
+              role="alert"
               class="mb-6 hidden rounded-2xl bg-warm/10 border border-warm-mid/30 px-6 py-5 text-center text-sm text-warm-mid"
             ></div>
 
@@ -346,6 +350,7 @@
                     type="text"
                     id="name"
                     name="name"
+                    autocomplete="name"
                     data-i18n="contactPage.form.namePlaceholder"
                     data-i18n-attr="placeholder"
                     placeholder="Your name"
@@ -368,6 +373,7 @@
                     type="email"
                     id="email"
                     name="email"
+                    autocomplete="email"
                     data-i18n="contactPage.form.emailPlaceholder"
                     data-i18n-attr="placeholder"
                     placeholder="name@example.com"
@@ -493,7 +499,7 @@
           >
             <div class="flex justify-center md:justify-end">
               <img
-                src="assets/images/wf-04.jpg"
+                src="assets/images/wf-04.webp"
                 alt="ISR certified seal logo"
                 width="520"
                 height="416"
@@ -508,11 +514,12 @@
             <div class="flex flex-col items-center gap-4 text-center">
               <a class="inline-block transition-opacity hover:opacity-90" href="index.html#home" i18n="brand.name" attr="aria-label" label="WaveFront">
                 <img
-                  src="assets/images/wf-03.png"
+                  src="assets/images/wf-03.webp"
                   alt=""
                   width="676"
                   height="203"
                   class="h-[11.5rem] w-auto object-contain brightness-0 invert md:h-[14.75rem] lg:h-[16.5rem]"
+                  loading="lazy"
                   decoding="async"
                 />
               </a>
@@ -555,17 +562,14 @@
                 <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="#" i18n="footer.privacy">Privacy</a
                 >
                 <span class="text-white/40" aria-hidden="true">|</span>
-                <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="#" i18n="footer.terms">Terms</a
-                >
-                <span class="text-white/40" aria-hidden="true">|</span>
-                <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="#" i18n="footer.safety">Safety</a
+                <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="terms-of-use.html" i18n="footer.terms">Terms</a
                 >
               </nav>
             </div>
 
             <div class="flex justify-center md:justify-start">
               <img
-                src="assets/images/wf-15.png"
+                src="assets/images/wf-15.webp"
                 alt="Cynthia Vazquez, ISR certified instructor"
                 width="520"
                 height="416"

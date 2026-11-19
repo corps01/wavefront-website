@@ -152,7 +152,7 @@
         "description": "Los bebés aprenden la habilidad más importante: girar sobre su espalda para flotar, descansar y respirar. Les enseñamos a mantener la calma y quedarse en esa posición solitos hasta que llegue la ayuda, dándoles una capa de seguridad vital en el agua.",
         "videoTitle": "Video del programa Autorrescate para bebés",
         "videoEmbed": "assets/images/baby%20wavefront.mp4",
-        "price": "$125"
+        "price": "$750 en total"
       },
       "toddler": {
         "title": "Autorrescate® para Niños",
@@ -161,7 +161,7 @@
         "description": "Los niños aprenden la secuencia de nadar-flotar-nadar para poder ponerse a salvo.\nNadan metiendo la carita al agua y giran sobre su espalda para descansar y respirar.\nSiguen nadando de esta manera hasta que alcanzan la pared, las escaleras o la orilla.",
         "videoTitle": "Video del programa Autorrescate ISR para niños",
         "videoEmbed": "assets/images/todler%20wavefront.mp4",
-        "price": "$135"
+        "price": "$750 en total"
       }
     },
     "continuing": {
@@ -189,7 +189,7 @@
       "heading": "Las preguntas de siempre",
       "lead": "Todo lo que necesitas saber antes del primer chapuzón.",
       "q1": {
-        "q": "¿Por qué tengo que llevarlo 5 días a la semana?",
+        "q": "¿Por qué tengo que llevarlo 4 días a la semana?",
         "a": "La constancia es la clave para que los bebés desarrollen memoria muscular. Las clases cortitas de todos los días les ayudan a aprender mucho más rápido y seguro que si solo fueran una vez por semana."
       },
       "q2": {
@@ -205,7 +205,7 @@
       "kicker": "Para que lo tengas en cuenta",
       "heading": "¿Cómo funcionan los pagos?",
       "imgAlt": "Cynthia, instructora de ISR con su playera amarilla, cuidando a un bebé en el agua",
-      "p1": "El costo del programa completo de ISR (que normalmente dura de 6 a 7 semanas de clases diarias cortitas) es de $750 en total. Te pedimos un anticipo del 50% ($375, no reembolsable) para apartar tu lugar. El resto se liquida un día antes de que empiecen las clases.",
+      "p1": "El costo del programa completo de ISR (que normalmente dura de 6 a 7 semanas de clases cortas, 4 días por semana) es de $750 en total. Te pedimos un anticipo del 50% ($375, no reembolsable) para apartar tu lugar. El resto se liquida un día antes de que empiecen las clases.",
       "p2": "Para las clases de repaso, el costo es de $125 a la semana. Se pide un anticipo de $125 (no reembolsable) al momento de inscribirse, y el resto se paga un día antes de arrancar. Las clases de mantenimiento cuestan $25 cada una y se pagan el mismo día que te registras.",
       "p3": "Inscripción nacional a ISR: es una cuota independiente (no reembolsable) que se le paga directo a Infant Swimming Resource antes de la primera clase. Son $105 por niño el primer año, y si regresan los siguientes años, solo pagan $40. Esto cubre la revisión médica oficial y la autorización de las clases.",
       "p4": "Sabemos que cada familia es diferente, así que pregunta por nuestras opciones de pago o becas. ¡No queremos que el tema económico sea un freno para la seguridad de tu peque!"

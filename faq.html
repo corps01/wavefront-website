@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" href="assets/images/wf-01.png" />
     <link rel="shortcut icon" type="image/png" href="assets/images/wf-01.png" />
     <link rel="apple-touch-icon" href="assets/images/wf-01.png" />
+    <link rel="preload" as="image" href="assets/images/wf-06.webp" fetchpriority="high" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -98,7 +99,7 @@
         >
           <a class="flex items-center gap-2 md:gap-3" href="index.html#home" data-i18n="brand.name" data-i18n-attr="aria-label">
             <img
-              src="assets/images/wf-01.png"
+              src="assets/images/wf-01.webp"
               alt=""
               width="64"
               height="64"
@@ -106,7 +107,7 @@
               decoding="async"
             />
             <img
-              src="assets/images/wf-02.png"
+              src="assets/images/wf-02.webp"
               alt=""
               width="160"
               height="40"
@@ -187,7 +188,7 @@
         <section class="relative overflow-hidden">
           <div
             class="relative h-[280px] w-full bg-cover bg-center md:h-[320px]"
-            style="background-image: url('assets/images/wf-06.jpg')"
+            style="background-image: url('assets/images/wf-06.webp')"
           >
             <div
               class="absolute inset-0 bg-gradient-to-b from-blue-900/45 via-blue-800/30 to-blue-700/50"
@@ -344,7 +345,7 @@
                     role="region"
                     aria-labelledby="faq-q-4"
                   >
-                    <p data-i18n="faqPage.items.3.a">Lessons are short, typically around 10 minutes per day, Monday through Friday. This allows for effective learning without overwhelming the child physically or emotionally.</p>
+                    <p data-i18n="faqPage.items.3.a">Lessons are short, typically around 10 minutes per day, Monday through Thursday (4 days per week). This allows for effective learning without overwhelming the child physically or emotionally.</p>
                     </div>
                 </div>
               </div>
@@ -377,7 +378,7 @@
                     role="region"
                     aria-labelledby="faq-q-5"
                   >
-                    <p data-i18n="faqPage.items.4.a">On average, the program takes 4 to 6 weeks, depending on the child's age, development, and progress. Every child learns at their own pace.</p>
+                    <p data-i18n="faqPage.items.4.a">On average, the program takes 6 to 7 weeks, depending on the child's age, development, and progress. Every child learns at their own pace.</p>
                     </div>
                 </div>
               </div>
@@ -850,7 +851,7 @@
                   class="sticky top-28 overflow-hidden rounded-2xl border border-surface-border bg-white shadow-[0_16px_45px_rgba(39,98,124,0.12)]"
                 >
                   <img
-                    src="assets/images/wf-13.jpg"
+                    src="assets/images/wf-13.webp"
                     alt="ISR-certified instructor supporting a young child during a one-on-one lesson in the pool."
                     width="800"
                     height="1200"
@@ -876,7 +877,7 @@
           >
             <div class="flex justify-center md:justify-end">
               <img
-                src="assets/images/wf-04.jpg"
+                src="assets/images/wf-04.webp"
                 alt="ISR certified seal logo"
                 width="520"
                 height="416"
@@ -891,11 +892,12 @@
             <div class="flex flex-col items-center gap-4 text-center">
               <a class="inline-block transition-opacity hover:opacity-90" href="index.html#home" data-i18n="brand.name" data-i18n-attr="aria-label">
                 <img
-                  src="assets/images/wf-03.png"
+                  src="assets/images/wf-03.webp"
                   alt=""
                   width="676"
                   height="203"
                   class="h-[11.5rem] w-auto object-contain brightness-0 invert md:h-[14.75rem] lg:h-[16.5rem]"
+                  loading="lazy"
                   decoding="async"
                 />
               </a>
@@ -936,15 +938,13 @@
               >
                 <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="#" data-i18n="footer.privacy">Privacy</a>
                 <span class="text-white/40" aria-hidden="true">|</span>
-                <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="#" data-i18n="footer.terms">Terms</a>
-                <span class="text-white/40" aria-hidden="true">|</span>
-                <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="#" data-i18n="footer.safety">Safety</a>
+                <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="terms-of-use.html" data-i18n="footer.terms">Terms</a>
               </nav>
             </div>
 
             <div class="flex justify-center md:justify-start">
               <img
-                src="assets/images/wf-15.png"
+                src="assets/images/wf-15.webp"
                 alt="Cynthia Vazquez, ISR certified instructor"
                 width="520"
                 height="416"

@@ -8,7 +8,7 @@
   var COLORS = [
     "rgba(186, 230, 253, 0.55)",
     "rgba(220, 240, 252, 0.70)",
-    "rgba(232, 246, 254, 0.90)",
+    "#dcf0fc", // Opaque surface.low matches the mission section below.
   ];
 
   var waves = [

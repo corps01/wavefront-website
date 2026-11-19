@@ -20,6 +20,14 @@
   };
   DICTIONARIES.es.termsPage = DICTIONARIES.en.termsPage;
 
+  DICTIONARIES.en.privacyPage = {
+    meta: {
+      title: "Privacy Policy | WaveFront",
+      description: "How WaveFront handles website inquiries, language preferences, and third-party services."
+    }
+  };
+  DICTIONARIES.es.privacyPage = DICTIONARIES.en.privacyPage;
+
   function getStoredLocale() {
     try {
       const v = localStorage.getItem(STORAGE_KEY);

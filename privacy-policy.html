@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en" data-meta-scope="privacyPage">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="How WaveFront handles website inquiries, language preferences, and third-party services."
+    />
+    <title>Privacy Policy | WaveFront</title>
+    <link rel="icon" type="image/png" href="assets/images/wf-01.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/wf-01.png" />
+    <link rel="apple-touch-icon" href="assets/images/wf-01.png" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              blue: {
+                50: "#e0f7ff",
+                100: "#bae6fd",
+                300: "#38bdf8",
+                400: "#0ea5e9",
+                700: "#0284c7",
+                800: "#0369a1",
+                900: "#0c4a6e",
+                950: "#082f49",
+              },
+              surface: {
+                DEFAULT: "#e8f6fe",
+                low: "#dcf0fc",
+                mid: "#cae6f7",
+                high: "#b8d9f0",
+                border: "#94c4e8",
+              },
+              ink: {
+                DEFAULT: "#15232f",
+                light: "#3d4f63",
+                faint: "#5c6e82",
+                muted: "#8a9bb0",
+              },
+              warm: {
+                DEFAULT: "#fb9aab",
+                dim: "#f4899d",
+                ink: "#7a1d35",
+                mid: "#8a2d45",
+              },
+              gold: {
+                DEFAULT: "#ffd84d",
+                dim: "#f5c82e",
+                ink: "#6b4e00",
+                mid: "#7a5e10",
+                dark: "#5a3f00",
+              },
+            },
+            borderRadius: {
+              DEFAULT: "1rem",
+              lg: "2rem",
+              xl: "3rem",
+              full: "9999px",
+            },
+            fontFamily: {
+              headline: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+              body: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-surface text-ink font-body selection:bg-blue-300 selection:text-blue-900"
+  >
+    <a class="skip-link" href="#main" i18n="a11y.skipToContent">Skip to content</a
+    >
+
+    <div class="wavefront-root">
+      <nav
+        class="fixed top-0 z-50 w-full rounded-b-[3rem] bg-white/80 shadow-[0_8px_32px_rgba(39,98,124,0.08)] backdrop-blur-md"
+        data-i18n="a11y.navPrimary"
+        data-i18n-attr="aria-label"
+        aria-label="Primary"
+      >
+        <div
+          class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-8"
+        >
+          <a class="flex items-center gap-2 md:gap-3" href="index.html#home" i18n="brand.name" attr="aria-label" label="WaveFront">
+            <img
+              src="assets/images/wf-01.webp"
+              alt=""
+              width="64"
+              height="64"
+              class="h-16 w-auto shrink-0 object-contain"
+              decoding="async"
+            />
+            <img
+              src="assets/images/wf-02.webp"
+              alt=""
+              width="160"
+              height="40"
+              class="h-8 w-auto max-h-10 object-contain sm:h-10"
+              decoding="async"
+            />
+          </a>
+
+          <div
+            class="hidden items-center gap-8 font-medium text-sm tracking-wide md:flex"
+          >
+            <a class="text-ink-light transition-colors hover:text-blue-700" href="lessons.html" i18n="nav.lessons">Lessons</a
+            >
+            <a class="text-ink-light transition-colors hover:text-blue-700" href="about.html" i18n="nav.about">About</a
+            >
+            <a class="text-ink-light transition-colors hover:text-blue-700" href="faq.html" i18n="nav.faq">FAQ</a
+            >
+            <a class="text-ink-light transition-colors hover:text-blue-700" href="contact.html" i18n="nav.contact">Contact</a
+            >
+          </div>
+
+          <div class="flex items-center gap-2 sm:gap-3">
+            <div
+              class="flex items-center gap-0.5 rounded-full border border-surface-border p-0.5 text-xs text-ink-light"
+              role="group"
+              data-i18n="a11y.languageToggle"
+              data-i18n-attr="aria-label"
+              aria-label="Language"
+            >
+              <button
+                type="button"
+                data-locale="en"
+                class="rounded-full px-2 py-1 transition-colors hover:bg-surface-low"
+                aria-pressed="true"
+              >
+                EN
+              </button>
+              <button
+                type="button"
+                data-locale="es"
+                class="rounded-full px-2 py-1 transition-colors hover:bg-surface-low"
+                aria-pressed="false"
+              >
+                ES
+              </button>
+            </div>
+            <a class="hidden rounded-full bg-blue-300 px-6 py-3 font-semibold text-blue-900 shadow-lg shadow-blue-700/20 transition-transform duration-200 hover:scale-105 active:scale-95 sm:inline-flex" href="https://www.webaccomplice.app/scheduler_app/lesson_types/cv833" target="_blank" rel="noopener noreferrer" i18n="nav.bookNow">
+              Book Now
+            </a>
+            <button
+              type="button"
+              class="inline-flex rounded-full border border-surface-border p-2 text-ink md:hidden"
+              aria-expanded="false"
+              aria-controls="mobile-nav"
+              data-nav-toggle
+            >
+              <span class="material-symbols-outlined" aria-hidden="true"
+                >menu</span
+              >
+              <span class="sr-only" data-i18n="a11y.openMenu">Open menu</span>
+            </button>
+          </div>
+        </div>
+
+        <div
+          id="mobile-nav"
+          class="nav-panel border-t border-surface-mid bg-white/95 px-6 py-4 md:hidden"
+          hidden
+          data-nav-panel
+        >
+          <div class="flex flex-col gap-4 text-base font-medium">
+            <a class="text-ink-light" href="lessons.html" i18n="nav.lessons">Lessons</a
+            >
+            <a class="text-ink-light" href="about.html" i18n="nav.about">About</a
+            >
+            <a class="text-ink-light" href="faq.html" i18n="nav.faq">FAQ</a
+            >
+            <a class="text-ink-light" href="contact.html" i18n="nav.contact">Contact</a
+            >
+            <a class="mt-2 inline-flex justify-center rounded-full bg-blue-300 px-8 py-3 font-semibold text-blue-900 shadow-lg shadow-blue-700/20" href="https://www.webaccomplice.app/scheduler_app/lesson_types/cv833" target="_blank" rel="noopener noreferrer" i18n="nav.bookNow">
+              Book Now
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <main id="main" class="bg-surface px-6 pb-24 pt-36 md:px-8">
+        <article lang="en" aria-labelledby="privacy-title" class="mx-auto max-w-4xl rounded-xl bg-white px-6 py-10 shadow-sm md:p-12">
+          <h1 id="privacy-title" class="font-headline text-4xl font-bold text-blue-900 md:text-5xl">Privacy Policy</h1>
+          <p class="mt-4 text-ink-light">Last updated: November 19, 2026</p>
+          <p class="mt-6 leading-relaxed text-ink-light">WaveFront, operated by WAVE FRONT SOLUTIONS LLC, explains below how information is handled through this website.</p>
+          <div class="mt-10 space-y-8">
+            <section>
+              <h2 class="text-xl font-bold text-blue-900">Information you provide</h2>
+              <p class="mt-3 leading-relaxed text-ink-light">The contact form requests a topic, your name, email, and message. A child’s name and age are optional. Email correspondence also shares information you choose to send. Avoid including medical records or sensitive details in general inquiries.</p>
+            </section>
+            <section>
+              <h2 class="text-xl font-bold text-blue-900">Website services and storage</h2>
+              <p class="mt-3 leading-relaxed text-ink-light">Contact messages are sent through Formspree. Booking and waitlist links open WebAccomplice. The homepage loads an Elfsight Instagram widget; pages load Google Fonts and external scripts. Requests to these providers can disclose technical information such as your IP address and browser details. Their privacy policies govern their services.</p>
+            </section>
+            <section>
+              <h2 class="text-xl font-bold text-blue-900">Analytics and preferences</h2>
+              <p class="mt-3 leading-relaxed text-ink-light">The site includes a Vercel Web Analytics script; collection depends on the hosting configuration. Your language choice is saved in browser local storage. Third-party widgets may use cookies or similar technologies. You can clear site storage and manage cookies through your browser, which may affect features.</p>
+            </section>
+            <section>
+              <h2 class="text-xl font-bold text-blue-900">How information is used and shared</h2>
+              <p class="mt-3 leading-relaxed text-ink-light">Inquiry information supports replies and lesson coordination. Service providers process information needed for their functions. Disclosure may also be necessary to meet legal obligations. This policy covers the website; external booking and enrollment services have separate practices.</p>
+            </section>
+            <section>
+              <h2 class="text-xl font-bold text-blue-900">Children’s information</h2>
+              <p class="mt-3 leading-relaxed text-ink-light">This website is intended for parents and guardians. They may submit information about a child when asking about lessons. Contact us if a child has submitted information without appropriate adult involvement.</p>
+            </section>
+            <section>
+              <h2 class="text-xl font-bold text-blue-900">Your choices, retention, and security</h2>
+              <p class="mt-3 leading-relaxed text-ink-light">Email us to request access, correction, or deletion, subject to applicable requirements. Ask us about retention for your records. Internet transmission and third-party processing cannot be guaranteed secure.</p>
+            </section>
+            <section>
+              <h2 class="text-xl font-bold text-blue-900">Updates and contact</h2>
+              <p class="mt-3 leading-relaxed text-ink-light">Policy changes will appear here. For privacy questions or requests, contact <a class="text-blue-800 underline underline-offset-4" href="mailto:cynthia.vazquez@infantswim.com">cynthia.vazquez@infantswim.com</a>.</p>
+            </section>
+          </div>
+        </article>
+      </main>
+      <canvas id="wave-canvas" aria-hidden="true"></canvas>
+      <footer class="w-full">
+        <div style="background-color: #15a9ea">
+          <div
+            class="mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-6 py-10 md:grid-cols-3 md:gap-8"
+          >
+            <div class="flex justify-center md:justify-end">
+              <img
+                src="assets/images/wf-04.webp"
+                alt="ISR certified seal logo"
+                width="520"
+                height="416"
+                class="h-[15.6rem] w-[19.5rem] rounded-lg object-cover object-center shadow-md md:h-[18.2rem] md:w-[22.75rem]"
+                loading="lazy"
+                decoding="async"
+                data-i18n="footer.sealAlt"
+                data-i18n-attr="alt"
+              />
+            </div>
+
+            <div class="flex flex-col items-center gap-4 text-center">
+              <a class="inline-block transition-opacity hover:opacity-90" href="index.html#home" i18n="brand.name" attr="aria-label" label="WaveFront">
+                <img
+                  src="assets/images/wf-03.webp"
+                  alt=""
+                  width="676"
+                  height="203"
+                  class="h-[11.5rem] w-auto object-contain brightness-0 invert md:h-[14.75rem] lg:h-[16.5rem]"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+
+              <div class="space-y-1 text-white">
+                <p class="text-lg font-semibold tracking-wide">
+                  Cynthia Vazquez
+                </p>
+                <p class="text-sm text-white/90" data-i18n="footer.serviceTagline">
+                  ISR Certified Infant Swim Lessons
+                </p>
+                <p class="text-sm text-white/90" data-i18n="footer.areaLine">Mid Ohio</p>
+                <p class="pt-2">
+                  <a class="text-sm font-medium text-white underline-offset-4 hover:underline" href="mailto:cynthia.vazquez@infantswim.com" target="_blank" rel="noopener noreferrer">cynthia.vazquez@infantswim.com</a
+                  >
+                </p>
+              </div>
+
+              <div class="flex gap-3">
+                <a class="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white transition-transform hover:scale-110 hover:bg-white/25" href="https://www.facebook.com/isr.cynthia.vazquez/" target="_blank" rel="noopener noreferrer" data-i18n="a11y.facebook" data-i18n-attr="aria-label" aria-label="Facebook">
+                  <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4" aria-hidden="true">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                  </svg>
+                </a>
+                <a class="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white transition-transform hover:scale-110 hover:bg-white/25" href="https://www.instagram.com/isr_cynthia_vazquez/" target="_blank" rel="noopener noreferrer" data-i18n="a11y.instagram" data-i18n-attr="aria-label" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" aria-hidden="true">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                  </svg>
+                </a>
+              </div>
+
+              <nav
+                class="mt-1 flex flex-wrap justify-center gap-4 text-sm"
+                data-i18n="a11y.footerNav"
+                data-i18n-attr="aria-label"
+                aria-label="Footer"
+              >
+                <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="privacy-policy.html" i18n="footer.privacy">Privacy</a
+                >
+                <span class="text-white/40" aria-hidden="true">|</span>
+                <a class="text-white/80 underline-offset-4 transition-opacity hover:underline hover:decoration-white/60" href="terms-of-use.html" i18n="footer.terms">Terms</a
+                >
+              </nav>
+            </div>
+
+            <div class="flex justify-center md:justify-start">
+              <img
+                src="assets/images/wf-15.webp"
+                alt="Cynthia Vazquez, ISR certified instructor"
+                width="520"
+                height="416"
+                class="h-[15.6rem] w-[19.5rem] rounded-lg object-cover object-center shadow-md md:h-[18.2rem] md:w-[22.75rem]"
+                loading="lazy"
+                decoding="async"
+                data-i18n="footer.portraitAlt"
+                data-i18n-attr="alt"
+              />
+            </div>
+          </div>
+
+          <div class="border-t border-white/20">
+            <div class="mx-auto max-w-7xl px-6 py-4 text-center">
+              <p
+                class="text-xs leading-relaxed text-white/70"
+                data-i18n="footer.legalNotice"
+              >
+                © Copyright 2026 WAVE FRONT SOLUTIONS LLC | All Rights Reserved |
+                All images are copyright material of Infant Swimming Resource,
+                LLC and/or Cynthia Vazquez | Created by TuPagi
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/waves.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+    <script src="js/vercel-analytics.js" defer></script>
+  </body>
+</html>

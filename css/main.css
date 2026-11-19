@@ -38,22 +38,9 @@ a[href^="mailto:"] {
     transform-origin: center;
   }
 
-  .mission-icon-shield {
-    animation: mission-shield 5s ease-in-out infinite;
-  }
-
   .mission-icon-heart {
     animation: mission-heartbeat 2.8s ease-in-out infinite;
   }
-
-  .mission-icon-family {
-    animation: mission-family 6s ease-in-out infinite;
-  }
-}
-
-@keyframes mission-shield {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-3px); }
 }
 
 @keyframes mission-heartbeat {
@@ -61,12 +48,6 @@ a[href^="mailto:"] {
   12% { transform: scale(1.1); }
   22% { transform: scale(1.02); }
   28% { transform: scale(1.06); }
-}
-
-@keyframes mission-family {
-  0%, 100% { transform: rotate(0deg); }
-  25% { transform: rotate(-4deg); }
-  75% { transform: rotate(4deg); }
 }
 
 /* ── Icon font ── */

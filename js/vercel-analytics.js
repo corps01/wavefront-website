@@ -1,7 +1,14 @@
 /**
- * Vercel Web Analytics for static HTML.
- * Enable Web Analytics in the Vercel project dashboard, then redeploy.
- * @see https://vercel.com/docs/analytics/quickstart?framework=html
+ * Vercel Web Analytics - Alternative implementation for static HTML.
+ * 
+ * NOTE: This file is no longer used in the project. The recommended approach
+ * (inline script in <head>) is already implemented in all HTML files.
+ * 
+ * This file is kept for reference as an alternative programmatic approach.
+ * To use this method instead, remove the inline scripts from HTML <head> sections
+ * and add <script src="js/vercel-analytics.js" defer></script> before </body>.
+ * 
+ * @see https://vercel.com/docs/analytics/quickstart
  */
 (function () {
   window.va =
